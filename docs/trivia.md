@@ -1,9 +1,12 @@
-#Chandra Sivaraman
-[Home](./home.html) [Projects](./projects.html) [**Trivia**](./trivia.html) [Resume](./chandra sivaraman.pdf)
+---
+layout: default
+---
+# Chandra Sivaraman
+[Home](./index.html) [Projects](./projects.html) [**Trivia**](./trivia.html) [Resume](./chandra sivaraman.pdf)
 
 I'm a hobbyist [photographer](https://www.instagram.com/cs31415). I find photographic walks to be meditative and a great way to engage the intuitive side of the brain.
 	
-####Books I've read/am reading:
+#### Books I've read/am reading:
 [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_4?dchild=1&keywords=algorithms&qid=1591395518&sr=8-4)
 
 [Structure and Interpretation of Computer Programs](https://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871/ref=sr_1_1?crid=LMZZR2WABYZH&dchild=1&keywords=structure+and+interpretation+of+computer+programs&qid=1591395553&sprefix=structure+and+%2Caps%2C209&sr=8-1)
@@ -18,7 +21,7 @@ I'm a hobbyist [photographer](https://www.instagram.com/cs31415). I find photogr
 
 [The Adventures of Sherlock Holmes](https://www.amazon.com/Adventures-Sherlock-Holmes-AmazonClassics-ebook/dp/B07NTTQVM3/ref=sr_1_5?crid=XC9B3JUG42OU&dchild=1&keywords=adventures+of+sherlock+holmes+book&qid=1591395667&sprefix=adventures+of+sher%2Caps%2C214&sr=8-5)			
 	
-####Podcasts I listen to:
+#### Podcasts I listen to:
 [Hanselminutes](https://hanselminutes.simplecast.com/)
 
 [Corecursive](https://corecursive.com/)

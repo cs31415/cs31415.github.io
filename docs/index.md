@@ -1,5 +1,8 @@
-#Chandra Sivaraman
-[**Home**](./home.html) [Projects](./projects.html) [Trivia](./trivia.html) [Resume](./chandra sivaraman.pdf)
+---
+layout: default
+---
+# Chandra Sivaraman
+[**Home**](./index.html) [Projects](./projects.html) [Trivia](./trivia.html) [Resume](./chandra sivaraman.pdf)
 
 Hi! I'm **Chandra**.  
 
