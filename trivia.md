@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Trivia
 ---
 I'm a hobbyist [photographer](https://www.instagram.com/cs31415). I find photographic walks to be meditative and a great way to engage the intuitive side of the brain.
 	

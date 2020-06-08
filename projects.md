@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Projects
 ---
 ### Regex Tester
 A tool that applies a regular expression to a	 given text and displays the match output in a
