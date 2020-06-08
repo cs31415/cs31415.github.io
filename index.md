@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 # Chandra Sivaraman
 [**Home**](./index.html) [Projects](./projects.html) [Trivia](./trivia.html) [Resume](./chandra sivaraman.pdf)
 
