@@ -1,1 +1,29 @@
-{{ content }}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/trivia">Trivia</a></li>
+				<li><a href="/chandra%20sivaraman.pdf">Resume</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+		
+		{{ content }}
+		
+		</div><!-- /.container -->
+		<footer>
+			<ul>
+				<li><a href="mailto:chandra.sivaraman@loscode.com">email</a></li>
+				<li><a href="https://github.com/cs31415">github.com/cs31415</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

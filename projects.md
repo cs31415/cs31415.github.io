@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-
-# Chandra Sivaraman
-[Home](./index.html) [**Projects**](./projects.html) [Trivia](./trivia.html) [Resume](./chandra sivaraman.pdf)
-
-
 ### Regex Tester
 A tool that applies a regular expression to a	 given text and displays the match output in a
 structured format, including named captures, etc. and also highlighting them in the source text.

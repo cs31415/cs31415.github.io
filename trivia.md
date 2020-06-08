@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-# Chandra Sivaraman
-[Home](./index.html) [Projects](./projects.html) [**Trivia**](./trivia.html) [Resume](./chandra sivaraman.pdf)
-
 I'm a hobbyist [photographer](https://www.instagram.com/cs31415). I find photographic walks to be meditative and a great way to engage the intuitive side of the brain.
 	
 #### Books I've read/am reading:
