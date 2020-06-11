@@ -1,0 +1,65 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #999; 
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a.active {
+    color: dimgray;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-family:'Serif';
+}
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #333;
+    font-family:'Baskerville', 'Serif'';
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    p, nav ul, h4 {
+      font-size: 1em;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    p, nav ul, h4 {
+      font-size: 1.2em;
+    }
+  }
+
