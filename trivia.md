@@ -36,6 +36,6 @@ one a dreamer, the other a doer, living in the musty, nondescript town of Shivaj
 hinterland. 
 	
 
-I am a keen aficionado of that most timeless, microcosm-of-life, dripping-with-drama, yet ultimately anachronistic of sports in the modern age - the character-forging-foundry called [Test cricket](https://en.wikipedia.org/wiki/Test_cricket), which is played over 5 long days oscillating between appalling boredom and feral excitement, at the energy and neuron-sapping conclusion of which no ultimate winner is guaranteed.
+I am a keen aficionado of that most timeless, microcosm-of-life, dripping-with-drama, yet ultimately anachronistic of sports in the modern age - the character-forging-foundry called [Test cricket](https://en.wikipedia.org/wiki/Test_cricket), which is played over 5 long days oscillating between mind-numbing boredom and feral excitement, at the energy and neuron-sapping conclusion of which no ultimate winner is guaranteed.
 
 

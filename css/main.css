@@ -2,6 +2,18 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+.container {
+	margin-right: 80px; /* enforce text wrapping before it reaches the very right of the screen during resize */
+	margin-top:   30px;
+    margin-bottom: 30px;
+    width: 700px;
+}
+
+nav {
+	margin-top:   20px;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -22,18 +34,18 @@ a:hover {
 }
 
 a.active {
-    color: dimgray;
+    color: crimson;
 }
 
 h1 {
     font-size: 1.5em;
-    font-family:'Serif';
+    font-family: 'Arial';
 }
 p {
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
-    font-family:'Baskerville', 'Serif'';
+    font-family:'Serif';
 }
 footer {
     border-top: 1px solid #d5d5d5;
