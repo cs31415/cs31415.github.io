@@ -78,6 +78,9 @@ ul.posts li {
     body {
         width: 70%;
     }
+    footer {
+        font-size: 0.8em
+    }
     .container, footer {
         width: 700px;
     }
@@ -88,18 +91,22 @@ ul.posts li {
     }
     body {
         width: 80%;
+        margin: 30px auto;
+    }
+    footer {
+        font-size: 0.8em
     }
     .container, footer {
-        width: 500px;
+        width: 450px;
     }
 }  
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 550px) {
     p, nav ul, h4 {
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
     h1 {
-      font-size: 1.3em; 
+      font-size: 1.2em; 
     }
     body {
         width: 90%;
