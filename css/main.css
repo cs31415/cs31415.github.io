@@ -11,11 +11,11 @@ body {
 }
 
 nav {
-	margin-top:   20px;
+	/*margin-top:   20px;*/
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Courier New','Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -23,11 +23,11 @@ nav ul, footer ul {
 
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .nav-item {
-    padding-right:10px;
+    padding-right:20px;
     border-right: 2px solid #d5d5d5;
 }
 
@@ -46,7 +46,7 @@ a.active {
 
 h1 {
     font-size: 1.5em;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Courier New','Helvetica', 'Arial', 'Sans-Serif';
 }
 h3 {
     font-size: 0.9em;
