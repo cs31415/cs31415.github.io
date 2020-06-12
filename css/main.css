@@ -72,12 +72,6 @@ ul.posts li {
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 801px) {
-/*    p, nav ul, h4 {
-      font-size: 1em;
-    }
-    footer {
-        font-size: 0.8em
-    }*/
     body {
         width: 70%;
     }
@@ -86,32 +80,15 @@ ul.posts li {
     }
 }
 @media screen and (min-width: 501px) and (max-width: 800px) {
-/*    p, nav ul, h4 {
-      font-size: 0.8em;
-    }
-    footer {
-        font-size: 0.7em
-    }*/
     body {
         width: 80%;
         margin: 30px auto;
     }
     .container, footer {
-        width: 450px;
+        max-width: 450px;
     }
 }  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 500px) {
-    /*p, nav ul, h4 {
-      font-size: 1.1em;
-    }
-    h1 {
-      font-size: 1.2em; 
-    }
-        footer {
-        font-size: 0.9em
-    }
-    */
     body {
         width: 90%;
         margin: 30px auto;
