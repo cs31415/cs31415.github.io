@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 ---
-### Regex Tester
+### [Regex Tester](https://github.com/cs31415/RegexTester)
 A tool that applies a regular expression to a	 given text and displays the match output in a
 structured format, including named captures, etc. and also highlighting them in the source text.
 	
