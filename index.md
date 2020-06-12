@@ -8,7 +8,8 @@ My professional experience is in **C#** and **.NET** with a sprinkling of **Java
 
 I have significant experience building solutions for **finance** and **entertainment** domains. I get excited when learning a new language, designing a system or encountering a new problem to solve.
 
-I can contribute to building **microservice** stacks for web apps, refactoring and modernizing existing stacks, championing process, clean design, coding & testing, automating repetitive/pattern-oriented tasks, and fixing thorny problems. 
+I have contributed to building **microservice** stacks for web apps, refactored and modernized existing stacks, championed process, clean design, coding & testing, automated repetitive/pattern-oriented tasks, and fixed thorny problems like 
+web server memory leaks. 
 
 I relish building **tools** to automate manual work. I recently wrote a couple of tools to parse C# and SQL code and list out referenced SQL objects. DBAs needed this for a cloud migration project and doing this manually would have been too time-consuming and error prone. 
 
