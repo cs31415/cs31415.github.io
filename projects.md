@@ -22,7 +22,7 @@ Given two tables with the same or equivalent data models, apply a mapping functi
 to convert one model into the other and perform a compare operation,
 identifying differences in matched records, and orphan records. 
 	
-### [Data structures & algorithms quick reference](https://github.com/cs31415/Ruby)
+### [Data structures & algorithms](https://github.com/cs31415/Ruby)
 Implementations in Ruby of standard data structures and algorithms such as linked lists, binary search, hash tables, BFS, DFS, etc.
 	
 ### [Structure and Interpretation of Computer Programs](http://cdfrag.cs31415.com/?s=sicp&submit=Search)
