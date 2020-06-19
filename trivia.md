@@ -2,7 +2,7 @@
 layout: default
 title: Trivia
 ---
-I'm a hobbyist [photographer](https://www.instagram.com/cs31415). I find photographic walks to be meditative and a great way to engage the intuitive side of the brain.
+I'm a hobbyist [photographer](https://www.instagram.com/cs31415). Photography, for me, is a type of walking meditation that engages the intuitive side of the brain, the wellspring of ideas.
 	
 ### Books I've read/am reading:
 [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_4?dchild=1&keywords=algorithms&qid=1591395518&sr=8-4)
@@ -31,11 +31,11 @@ I'm a hobbyist [photographer](https://www.instagram.com/cs31415). I find photogr
 [Zero To Travel](https://zerototravel.com/travel-podcast/)
 		
 
-I wrote a series of 16 short stories about a pair of maverick, prank-loving kids named Ramu and Somu,
+I wrote a series of 16 short stories about a pair of maverick, prank-loving kids named Ramu and Somu, a kind of Indian Tom Sawyer-Huck Finn, 
 one a dreamer, the other a doer, living in the musty, nondescript town of Shivajinagar in the Indian 
 hinterland. 
 	
 
-I am a keen aficionado of that most timeless, microcosm-of-life, dripping-with-drama, yet ultimately anachronistic of sports in the modern age - the character-forging-foundry called [Test cricket](https://en.wikipedia.org/wiki/Test_cricket), which is played over 5 long days oscillating between mind-numbing boredom and feral excitement, at the energy and neuron-sapping conclusion of which no ultimate winner is guaranteed.
+I am a keen armchair aficionado of that most timeless, inexhaustible-fount-of-drama, life-in-microcosm, modern day anachronism - the character-forging-foundry called [Test cricket](https://en.wikipedia.org/wiki/Test_cricket), played over a whole work week  oscillating between mind-numbing boredom and feral excitement, whose frequently energy and nerve-sapping conclusion guarantees no ultimate winner.
 
 
