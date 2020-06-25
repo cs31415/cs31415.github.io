@@ -14,8 +14,8 @@ A tool that takes a directory containing C# files and parses them to extract SQL
 ### [2ndBrain](https://github.com/cs31415/2ndbrainalpha)	
 Efficiently search a body of text for synonyms (or antonyms) of a word or a set of unrelated words.
 	
-### Expression engine
-Provide the ability to define and evaluate an expression in C# at runtime given a set of key-value pairs corresponding to variables used in the expression and their values 
+### [Evaluator](https://github.com/cs31415/Evaluator)
+Dynamically evaluate C# expressions. 
 	
 ### Table comparer
 Given two tables with the same or equivalent data models, apply a mapping function
