@@ -17,7 +17,7 @@ Efficiently search a body of text for synonyms (or antonyms) of a word or a set 
 ### [Evaluator](https://github.com/cs31415/Evaluator)
 Dynamically evaluate C# expressions. 
 	
-### [Data structures & algorithms](https://github.com/cs31415/Ruby)
+### [Data structures & algorithms](https://github.com/cs31415/data-structures-algorithms)
 Implementations in Ruby of standard data structures and algorithms such as linked lists, binary search, hash tables, BFS, DFS, etc.
 	
 ### [Structure and Interpretation of Computer Programs](https://github.com/cs31415/SICP)
