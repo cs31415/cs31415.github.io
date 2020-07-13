@@ -20,4 +20,4 @@ I have tried my hand at writing fiction. I wrote a series of 16 short stories ab
 I am an armchair aficionado of [Test cricket](https://en.wikipedia.org/wiki/Test_cricket), a timeless, modern day anachronism. Played over a whole work week, it frequently oscillates between mind-numbing boredom and feral excitement. It demands technical excellence and deep reservoirs of character and stamina, and is like a Shakespearean play in four acts where every raw human emotion is on display.    
 
 ### Contact Info:
-[chandra.sivaraman@loscode.com](mailto:chandra.sivaraman@loscode.com).
+[chandra.sivaraman@loscode.com](mailto:chandra.sivaraman@loscode.com)
