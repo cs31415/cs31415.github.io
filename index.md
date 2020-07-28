@@ -2,22 +2,20 @@
 layout: default
 title: Home
 ---
-I'm a **Software Engineer** and **Application Architect**. I was trained as an Electronics Engineer but fell in love with programming instead.
+I'm a **Software Engineer** and **Application Architect**. I was trained as an Electronics Engineer but got mesmerized by programming pretty quickly.
 
-My experience is primarily in **C#** and **.NET**, with a couple of years in **nodeJS** and **AWS**. I like dabbling in programming languages and try to use functional programming principles learned from languages like **LISP** and **Ruby** in **C#** & **nodeJS** projects.
+I have 15+ years of OO experience with **C#** and **.NET**, and 3 years in **nodeJS**, **.NET Core** and **AWS**. In recent years, I have been captivated by functional programming techniques in LISP and have been using them in C# and JavaScript ever since. 
 
-I have many years of experience designing and building solutions for **finance** and **entertainment** domains. I get excited when learning a new language or framework, designing a system or being flummoxed by a problem.
+I have experience architecting and constructing a diversity of solutions in the **finance** and **entertainment** domains. I've led construction of **microservice** architectures for high traffic sites as well as high volume backoffice automation jobs. I enjoy refactoring and modernizing brownfield systems. I have championed SOLID principles, design patterns, consistent naming standards and test driven development in teams I have worked with. 
 
-I've led design and implementation of **microservice** architectures, enhanced and refactored brownfield systems, evangelized automated testing, SOLID principles, consistent naming standards, and automated repetitive tasks among other things. 
-
-I advocate building **tools** whenever feasible to automate manual work. I have automated P&L report generation, business rule extraction from code using regular expressions, extraction of SQL object references from code, searching text for multiple terms, synonyms/antonyms, etc. 
+I advocate building **tools** whenever feasible to automate manual work. I have automated MBS pricing models for a mortgage banker, P&L generation for a hedge fund, code parsing to extract business rules for a mortgage banker, code parsing to extract SQL object references for AWS migration for a movie ticket retailer, among other projects. 
 
 ### Trivia:
-[Photography](https://www.instagram.com/cs31415) is a side hobby. It is a walking meditation that often manifests ideas and solutions that elude focused effort.
+[Photography](https://www.instagram.com/cs31415) is a hobby and a way to relax and unwind. 
 
-I have tried my hand at writing fiction. I wrote a series of 16 short stories about a pair of maverick, prank-loving kids named Ramu and Somu. A kind of Indian Tom Sawyer-Huck Finn. One a dreamer, the other a doer; living in the musty, nondescript town of Shivajinagar in the Indian hinterland. They have a cheerful, optimistic outlook on life and strive to improve the world in their own small, charming ways.  
+I wrote a series of 16 short stories about a pair of maverick, prank-loving kids - a kind of Indian Tom Sawyer-Huck Finn. One a dreamer, the other a doer. They have a cheerful, optimistic outlook on life and strive to understand and improve the world in their own small, charming ways.  
 
-I am an armchair aficionado of [Test cricket](https://en.wikipedia.org/wiki/Test_cricket), a timeless, modern day anachronism. Played over a whole work week, it frequently oscillates between mind-numbing boredom and feral excitement. It demands technical excellence and deep reservoirs of character and stamina, and is like a Shakespearean play in four acts where every raw human emotion is on display.    
+I am an armchair aficionado of [Test cricket](https://en.wikipedia.org/wiki/Test_cricket), a timeless, modern day anachronism. Played over a whole work week, it frequently oscillates between mind-numbing boredom and feral excitement. It demands grit, technical excellence, ability to analyze and adapt to different situations and deep reservoirs of character and stamina - attributes also useful for a career in programming.
 
 ### Contact Info:
 [chandra.sivaraman@loscode.com](mailto:chandra.sivaraman@loscode.com)
