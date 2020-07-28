@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-I'm a **Software Engineer** and **Application Architect**. I was trained as an Electronics Engineer but got mesmerized by programming pretty quickly.
+I'm a **Software Engineer** and **Application Architect**. I was trained as an Electronics Engineer but got mesmerized by programming.
 
 I have 15+ years of OO experience with **C#** and **.NET**, and 3 years in **nodeJS**, **.NET Core** and **AWS**. In recent years, I have been captivated by functional programming techniques in LISP and have been using them in C# and JavaScript ever since. 
 
