@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 ---
-**Personal projects I have worked on in my spare time:**
+**Personal projects and experiments:**
 
 ### [Regex Tester](https://github.com/cs31415/RegexTester)
 Regular expression test tool with navigable, grid view of results
