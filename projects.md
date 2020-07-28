@@ -35,5 +35,6 @@ Solutions to problems in the MIT computer science text using LISP dialect Scheme
 ### [Puzzles](https://github.com/cs31415/puzzles)
 Solutions to assorted programming and logic puzzles
 <br/>
-<br/>[Front end stuff](https://codepen.io/cs31415/)
+<br/>
+### [Front end stuff](https://codepen.io/cs31415/)
 Front end experiments
