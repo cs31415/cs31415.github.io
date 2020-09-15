@@ -1,0 +1,34 @@
+---
+layout: default
+title: Ramu Somu and the Shivratri Celebrations
+---
+
+### Ramu Somu and the Shivratri Celebrations
+
+Ramu Somu - the very names conjure up imagery of rebellion, revolution, resistance, refusal to conform to societal norms, dismal academic performance, browbeating of weaker kids, uncommon intelligence harnessed for juvenile pranks, and steadfast friendship and loyalty as unshakeable as one of the many geriatric banyan trees that proliferated in rustic, small-town Shivajinagar.  
+
+Shivajinagar - that medieval relic from a bygone era, remote in geography as well as development as measured by such indicators as buildings, automobiles, factories, stress, dearth of time-civility-empathy, air-sound-light pollution, apathetic callousness towards nature and animals, plethora's of gadgets to simplify our lives made complicated by the need to pay for said gadgets, leading to a vicious cycle of self-deception from which escape was as chimerical as fresh air in New Delhi-Beijing-Los Angeles. Shivajinagar was named after the remarkable Maratha king Chattrapati Shivaji who terrorized the Mughals with guerrilla warfare. He in turn was named after Shiva. 
+
+The Great Lord Shiva, whose very name conjures images of terrifying austerities in forbidding frigid locales where no human thought dare venture. He is portrayed sitting rapt in a stillness beyond all comprehension, beyond all being, in his foreboding Himalayan habitat, atop perennially snow-capped peaks streaked golden by the first rays of the eternal, primal dawn, as birds of varied hues, free souls, soar in unison toward distant silver-lined clouds. 
+
+Shivratri (Night of Shiva), as per tradition, is an annual occasion when mortals receive the chance to attain Lord Shiva's grace through a full day and night of fasting accompanied by satsang (group chanting) celebrating Shiva. Shivratri was a huge occasion in Shivajinagar, as indeed most festivals were, for dearth of other activities to occupy the quite considerable spare time available to work-challenged denizens of this moribund town. 
+
+Ramu and Somu, smarting from their thwarted escapade to Bollywood to join the film industry, were busy as Dalal street traders, contemplating their next joint venture, which was an euphemism for unabashed glee derived from wreaking misery on some hapless soul or souls through an act of calculated cunning. Ramu, actually, was doing the contemplating, as was the norm, under the leafy shade of an ancient banyan in the school compound. Somu meanwhile, occupied his restless hands with activities ranging from throwing pebbles at stray dogs to picking his nose to smooth-talking a younger kid into sharing part of a samosa. 
+
+The scapegoat on this particular occasion was the new Civics teacher, a brazen fellow by name Mistry. Mistry,   newly graduated from Dongri College, was endowed with an uncivil and arrogant disposition. He had tried to find employment in the private sector, but having been summarily rejected everywhere, turned to teaching as the last refuge of the unemployed. His interest in teaching as a profession was minimal at best. It merely provided a convenient outlet for his frustrations, and filled him with a feeling of power that was quite intoxicating. He was a blend of  Saddam and Hitler, with a dash of Zia-ul-Haq. Students lived in a state of mortal dread. 
+
+Somu was frequently tasked with running down to the nearby store to buy samosas that were consumed right there during class. Ramu was given the responsibility of reading aloud from a textbook, which was Mistry's primary modus operandi of teaching. Questions, which were rarer than snow in a Mumbai summer, were gunned down with the savagery and speed of a hungry cheetah hunting down its prey on the Serengeti. Chatting in class was a  crime deserving of a heinous beating that would have made Stalin wet his pants. Mussolini himself, were he alive today, would have been slightly unnerved by Mistry's appallingly fascist methods.
+
+Ramu's reservoir of patience, more shallow rain puddle than Mariana Trench, was evaporating quickly. He had homed in like a heat-seeking missile upon Mistry as the target of his next mission. Somu nodded sagely in assent, never mind that his opinion was never sought. Somu did have talents, which were geared toward following instructions, rather than generating them. They complemented each other quite well in this regard.
+
+Mistry had announced with a swagger that he was hosting Shivratri celebrations at his house. Volunteers were needed.  Some unlucky scapegoats were duly rounded up and tasked with various chores that were below Mistry's dignity to undertake. Somu found himself among the involuntary conscripts despite his best efforts to hide detection. Ramu cleverly managed to escape by lying low. He literally slid under the bench when heads were being collected. This was  fortuitous, since Ramu now had an insider who could carry out his master plan.
+
+Bhang, a beverage containing cannabis and milk is typically a feature of Shivratri celebrations. It was an important feature as far as Misty was concerned. Unbeknownst to him, however, the glass that Somu was about to hand him had additional ingredients. A secret powder. A laxative bottle lay emptied in a trash can somewhere. Empty gas relief tablet bottle  beside it. 
+
+Mistry greedily guzzled down the glass and barked at Somu to go and fetch him half a dozen hot samosas from the shop down the street. Somu tried valiantly to conceal a smirk but failed and pretended to cough instead. Guests were arriving steadily lured by the Bhang. A singer was lost down some deep melodic maze in praise of Shiva. 
+
+Then all hell broke loose. The powder was taking effect. Unmentionable sounds and odors that had no place in civilized society, let alone a sat sang (group chanting), were emanating from somewhere. Mistry was receiving horrified stares. His face bore a mixture of incomprehension and terror. He made a desperate run for the restroom. Lots of flushing followed. Expletives vitiated the sacred-turned-foul atmosphere. When he returned after twenty horrible minutes, the place was as empty as a Microsoft store across from an Apple Store. 
+
+Shivajinagar being a small town, the news spread faster than a viral Youtube video. Much mirth was generated at Mistry's expense. Mistry analyzed his limited options. And ran like a dog with its tail on fire. A letter wound its way to the principal's office. Personal reasons were cited for the sudden departure. 
+
+Ramu Somu floated blissfully on cloud nine as Mehta's dreary history class ended. Next class was Civics. With Mistry MIA, visions of playing cricket in the nearby maidan shimmered on their mental screens. A giant walked into class and bellowed for silence. Thapad, a former wrestler, was their new Civics teacher. 
