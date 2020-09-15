@@ -3,6 +3,8 @@ layout: default
 title: Ramu Somu and the Great Cricket match
 ---
 
+### Ramu Somu and the Great Cricket match
+
 It was a picture perfect summer morning, in conditions as close to English weather as could be possible in dusty little Shivajinagar. A day tailormade for cricket, cricketer and photographer's dream simultaneously come true. Fluffy cotton white clouds against deep azure blue skies and a sea of lush dew-soaked bright green carpeting the earth within the dilapidated ramshackle confines of Nehru Stadium. 
 
 Ramu and Somu were looking forward to this great day with as much anticipation as a bride looking forward to her wedding day. It was the big final of the inter-school cricket tournament. Their school, Veermata Jijabai High School (formerly the pompous sounding Victoria Jubilee High School, popularly known as VJHS, brazenly renamed by political elements more concerned with distracting the populace from issues of a more pressing nature, to the eternal chagrin of alumnus who felt suddenly relegated to provincial status) against their fiercest cutthroat rivals, those abominable show-offs from Morarji High School (popularly known as "morons"). Duffers. Good for nothing but cricket. Had just happened to thump VJHS to a pulp on every occasion in living memory. The mortification of these lopsided encounters had grown too much to bear for Ramu Somu, devoted and loyal fans of VJHS as they were, yet it kept growing year after year, with not a glimmer of hope or redemption on the horizon.

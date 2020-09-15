@@ -3,6 +3,8 @@ layout: default
 title: Ramu Somu and the Maths Teacher
 ---
 
+### Ramu Somu and the Maths Teacher
+
 Ramu and Somu were two fast friends always found tethered together by bonds of friendship stronger than a sumo wrestler's grip. They lived in adjacent houses and were found together so often that they had long forsaken their individual identities in favor of a shared RamuSomu appellation that people of the community used to refer to the pair. They studied in the same school in the same class and did everything from homework to school projects to kite flying to chasing neighborhood dogs with stones as a team of two. Ramu was the more aggressive of the two and often the initiator of their more nefarious projects, while Somu found himself in the position of accomplice by default with little say in the choice or locale of their crimes.
 
 Their Math teacher, Ghorpade, was a brute of a man who used to habitually inflict great and reckless violence upon hapless students who had the misfortune of forgetting homework or getting a problem wrong in class, or who chanced to commit the grievous sin of talking while he was explaining a delicate algebraic nuance. Indeed, it seemed he derived gleeful pleasure from rapping the skins off the knuckles of boys he didn't take a liking to and twisting the blood out of the ears of little rascals who dared subvert his absolute authority by the seemingly innocuous act of asking a question.

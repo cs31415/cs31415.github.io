@@ -3,6 +3,8 @@ layout: default
 title: Ramu Somu and the Library
 ---
 
+### Ramu Somu and the Library 
+
 Ah, how I love the smell of books in the morning, evening, afternoon and night. Such an ingeniously simple yet profound invention that irrevocably changed the tenor and tempo of civilization. Sacred temples they are where culture is transmitted from one generation to the next. Civilization itself resides within these hallowed portals, echoing through the halls of the generations. 
  
 Can modern electronic gadgetry with all its distracting tomfoolery ever hope to rival the beloved reverence I feel for ancient old papyrus? Can bits and bytes ever replicate the magic in the texture of pages, their thickness, color, fonts, the fascinating variety of binding styles, some books held together only with glue, some with pages stitched into little bundles glued to each other. The publisher’s page with all it’s little tidbits of interesting information, ISBN numbers, classification codes, country of printing, which is the first thing one looks for when opening a book. Faraway places like Singapore, USA, UK, Belgium, whose scent wafts through the paper. The publisher’s offices which all seem to be in New York, London, Paris, Toronto, Melbourne and Singapore. Are they all in the same buildings? 

@@ -3,6 +3,8 @@ layout: default
 title: Ramu Somu and the Diwali blast
 ---
 
+### Ramu Somu and the Diwali blast
+
 Diwali, the Hindu festival of lights (of late more the festival of smoke and noise), is a time of much fanfare and revelry, family reunions, a smorgasbord of mouthwatering delicacies followed by their inevitably unpleasant aftermath. Not to mention those inexhaustibly endless eardrum-shattering, nerve-jangling, asthma-inducing, blood-pressure-skyrocketing brazenly callous private firework extravaganzas, followed by their inevitably unpleasant aftermath of plumes of asphyxiating smoke.
 
 The principal protagonists of our tale, wolves in sheep's clothing, miscreants guised as heroes, Ramu and Somu, those puerile perpetrators of petty pranks, were having a blast, both figuratively and literally. They had coaxed, cajoled, cried and tantrum’d their way through to a small mountain of firecrackers. To add to the bonanza, they had managed to procure through clandestine channels, the holy grail of Diwali fireworks, "Fat Man" and "Little Boy" (rather insensitively named after the H-bombs that ended WWII). The so-called "Atom Bombs,” talked about in hushed tones of awe and reverence in boyish circles. Pre-pubescent boys ultimate claim to valor, glory and masculinity. With a quaintly worded but disturbing disclaimer: “To be use at your own ricks. Children to not alone using without adults be with them.”
