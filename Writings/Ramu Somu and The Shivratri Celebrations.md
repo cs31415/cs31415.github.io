@@ -1,3 +1,8 @@
+---
+layout: default
+title: Ramu Somu and the Shivratri Celebrations
+---
+
 Ramu Somu - the very names conjure up imagery of rebellion, revolution, resistance, refusal to conform to societal norms, dismal academic performance, browbeating of weaker kids, uncommon intelligence harnessed for juvenile pranks, and steadfast friendship and loyalty as unshakeable as one of the many geriatric banyan trees that proliferated in rustic, small-town Shivajinagar.  
 
 Shivajinagar - that medieval relic from a bygone era, remote in geography as well as development as measured by such indicators as buildings, automobiles, factories, stress, dearth of time-civility-empathy, air-sound-light pollution, apathetic callousness towards nature and animals, plethora's of gadgets to simplify our lives made complicated by the need to pay for said gadgets, leading to a vicious cycle of self-deception from which escape was as chimerical as fresh air in New Delhi-Beijing-Los Angeles. Shivajinagar was named after the remarkable Maratha king Chattrapati Shivaji who terrorized the Mughals with guerrilla warfare. He in turn was named after Shiva. 

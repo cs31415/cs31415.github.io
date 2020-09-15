@@ -1,5 +1,7 @@
-Ramu Somu and the Race
-
+---
+layout: default
+title: Ramu Somu and the Race
+---
 
 Life is a race and we are all constantly running it. A race against time, a race against competition, a race against nature, a race against bad times and hard luck, mostly a race against ourselves. An attempt to outrun our haggard personas that we perceive daily in a thousand looking glasses that modern civilization erects to shine the unkind light of self-examination on our weary selves, that we may seek to hide behind the macabre masks of makeup, gaudy garments and plastic smiles, as manufactured more or less as that shiny new convertible that bears the promise of ferrying us away from this mundane merry-go-round. And all this to earn a few guineas, a few accolades, only to squander the true joys of life, which doubtless are to be found in the accumulation of treasures of experience and memories, not fickle paper fortunes, subject to the vicissitudes of the stock market and the follies and foibles of human nature.
 

@@ -1,4 +1,7 @@
-Ramu Somu and the Exam
+---
+layout: default
+title: Ramu Somu and the Exam
+---
 
 When fate gives you lemons, make lemonade. By this remarkably upbeat maxim did our principal protagonists, Ramu Somu, juvenilely vile, deviously clever, inseparable in their pursuit of dubious aims, aspire to live by. For the cunningly canny duo, best friends from kindergarten, who had shared many an exciting adventure (and occasional misadventure) were no mopers. Outstanding thinkers they may not have been, but despair was an emotion that seldom had opportunity to cross their feverishly active little minds, humming as busily as the newfangled electric toothbrushes which the communists swore was part of a capitalist plot to debilitate the nation by making it dependent on foreign capital for basic oral hygiene, opining that the masses should instead make the switch, en masse, to neem twigs to foil their evil designs. Those clowns, relics from a bygone era, political coelacanths. Where would we go to for comic respite in these grave times were it not for these entertainers exemplaire in political garb as white as their deeds were dark?
 

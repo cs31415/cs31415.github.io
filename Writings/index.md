@@ -1,3 +1,8 @@
+---
+layout: default
+title: Writings
+---
+
 [A Visitor From the Past](\A%20Visitor%20From%20the%20Past.md)
 [After the challenge, what](\After%20the%20challenge,%20what.md)
 [Ramu Somu and Non-Violence](\Ramu%20Somu%20and%20Non-Violence.md)

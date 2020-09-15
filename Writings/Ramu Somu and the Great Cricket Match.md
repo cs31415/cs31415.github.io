@@ -1,4 +1,7 @@
-Ramu Somu and the Great Cricket match
+---
+layout: default
+title: Ramu Somu and the Great Cricket match
+---
 
 It was a picture perfect summer morning, in conditions as close to English weather as could be possible in dusty little Shivajinagar. A day tailormade for cricket, cricketer and photographer's dream simultaneously come true. Fluffy cotton white clouds against deep azure blue skies and a sea of lush dew-soaked bright green carpeting the earth within the dilapidated ramshackle confines of Nehru Stadium. 
 

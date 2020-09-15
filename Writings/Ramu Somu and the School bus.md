@@ -1,4 +1,7 @@
-Ramu Somu and the School bus
+---
+layout: default
+title: Ramu Somu and the School Bus
+---
 
 Ramu and Somu, the inseparable twosome, the double trouble, the terrible twins, the sultans of shenanigans, were one sweat drenched summer day, pondering about their next malicious prank to be inflicted on some poor hapless unsuspecting soul.  As they sat in contemplation, their busy minds filled with all kinds of heinous thoughts and vile and obnoxious schemes, Ramu jumped up like someone who had perchance, happened to sit upon a frying pan. He had hit upon an idea, as was usually the case, Somu being the more placid character of the two, and usually, also the dimmer lightbulb. Ramu had hit upon the masterstroke of deflating the school bus tires at night, so that they would get respite if only for a day, from that juvenile prison, that Alcatraz clothed in the cloak of respectability that the term "school" bestowed upon it, where countless tender souls
 had suffered a fate worse than hardened criminals incarcerated on “The Rock” in the cold shark-infested waters of San Francisco bay. Their revulsion of school was absolute, unqualified and unanimous.
