@@ -8,11 +8,11 @@ I have written software to sell movie tickets, automate home loan processing, pr
 
 I like [photographing](https://www.instagram.com/cs31415) nature, urban scenery as an outlet for visual creativity, as a form of walking meditation, as an idea generator, sifter and sorter.  
 
-I wrote a series of 16 short stories about a pair of maverick, prank-loving kids - a kind of Indian Tom Sawyer-Huck Finn. One a dreamer, the other a doer. They have a cheerful, optimistic outlook on life and strive to understand and improve the world in their own small, charming ways.  
+I wrote a series of 16 short [stories](/writings) about a pair of maverick, prank-loving kids - a kind of Indian Tom Sawyer-Huck Finn. One a dreamer, the other a doer. They have a cheerful, optimistic outlook on life and strive to understand and improve the world in their own small, charming ways.  
 
 I'm a fan of [Test cricket](https://en.wikipedia.org/wiki/Test_cricket), an increasingly unpopular, modern day anachronism. Played over a whole work week, it frequently oscillates between mind-numbing boredom and feral excitement. It demands grit, technical excellence, ability to analyze and adapt to different situations and deep reservoirs of character and stamina - qualities that translate well to real life. 
 
 [Old-school resume](/chandra%20sivaraman.pdf)
-
+ 
 ### Contact Info:
 [chandra.sivaraman@loscode.com](mailto:chandra.sivaraman@loscode.com)
