@@ -68,6 +68,17 @@ Ramu and Somu run away to Bollywood
 Ramu and Somu plot to help tortured animals in a circus
 <br/>
 <br/>
+### [Ramu Somu and the Pandemic](\writings\Ramu%20Somu%20and%20the%20Pandemic)
+Ramu and Somu tackle unreason in the face of a pandemic
+<br/>
+<br/>
+### [Ramu Somu and the Bigots](\writings\Ramu%20Somu%20and%20the%20Bigots)
+Ramu and Somu confront a rising wave of bigotry in Shivajinagar
+<br/>
+<br/>
+
+
+
 ### [Somu](\writings\somu)
 A character sketch of Somu, the action half of the celebrated Ramu Somu duo
 <br/>
