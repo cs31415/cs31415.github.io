@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Big Island: Commoditizing Paradise
+title: Big Island - Commoditizing Paradise
 ---
 
 ### Big Island: Commoditizing Paradise
