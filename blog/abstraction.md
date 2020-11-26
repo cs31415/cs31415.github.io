@@ -33,7 +33,7 @@ accomplished by a separate procedure. The entire sqrt program can be viewed as a
 
 - "Indeed, as far as the good-enough? procedure is concerned, `square` **is not quite a procedure but rather an abstraction of a procedure, a so-called procedural abstraction. At this level of abstraction, any procedure that computes the square is equally good.**"
 
-Abstraction is a simple yet profound concept that is overlooked by even senior engineers. It is not uncommon to come across code running into several pages that looks somewhat like this:
+Abstraction is a simple yet profound concept that is overlooked by even senior engineers including yours truly. It is not uncommon to come across code running into several pages that looks somewhat like this:
 
 ```javascript
 function purchase(order) {
