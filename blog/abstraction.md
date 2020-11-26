@@ -11,8 +11,7 @@ An abstraction is a label given to a subsystem that hides internal details unnec
 
 A computer program or computational process is likewise composed of a ladder of abstractions. Each rung of the ladder builds on the rungs below it. 
 
-A function or a procedure is a powerful abstraction that lets us refer to a complex sequence of operations by giving it a name.  
-Abstractions let us think in terms of what rather than how, which is internal implementation detail. They also let us identify patterns that could be reused, thereby simplifying a system's design. 
+A function or a procedure is a powerful abstraction that lets us refer to a complex sequence of operations by giving it a name. Abstractions let us think in terms of what rather than how, which is internal implementation detail. They also let us identify patterns that could be reused, thereby simplifying a system's design. 
 
 For example, the function `sqrt-iter` below is used to calculate the square root of a number using [Newton's method](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7):
 
