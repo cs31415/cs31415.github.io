@@ -84,6 +84,7 @@ Most architectural patterns and principles have abstraction at their core.
 #### Takeaways
 - Think about systems and processes in terms of abstractions
 - Abstractions help us think in terms of what (breadth) instead of how (depth)
+- Abstractions help us understand interconnections between parts of a system
 - Abstractions help us identify reusable patterns
 - Spend time on naming things
 - Use consistent naming across the organization
