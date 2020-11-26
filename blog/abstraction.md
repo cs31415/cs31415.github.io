@@ -12,6 +12,7 @@ An abstraction is a label given to a subsystem that hides internal details unnec
 A computer program or computational process is likewise composed of a ladder of abstractions. Each rung of the ladder builds on the rungs below it. 
 
 A function or a procedure is a powerful abstraction that lets us refer to a complex sequence of operations by giving it a name.  
+Abstractions let us think in terms of what rather than how, which is internal implementation detail. They also let us identify patterns that could be reused, thereby simplifying a system's design. 
 
 For example, the function `sqrt-iter` below is used to calculate the square root of a number using [Newton's method](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7):
 
@@ -76,5 +77,14 @@ In the former, it is easy to get lost in the weeds of the details of each step a
 
 Another example of this is an application where there is no clear separation of presentation, business and data access logic, making it hard to independently test and swap out layers (e.g. replace database calls with mock calls for unit tests).
 
+To understand and precisely communicate abstractions cross-functionally and across organizations, a consistent vocabulary is required. This is referred to as an [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html) (or just a plain glossary to keep it simple). 
+This makes it easy to understand different interconnected systems without having to mentally translate between different terms that refer to the same thing. 
+
 Most architectural patterns and principles have abstraction at their core.
 
+#### Takeaways
+- Think about systems and processes in terms of abstractions
+- Abstractions help us think in terms of what (breadth) instead of how (depth)
+- Abstractions help us identify reusable patterns
+- Spend time on naming things
+- Use consistent naming across the organization
