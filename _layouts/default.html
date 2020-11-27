@@ -6,9 +6,36 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">		
 		<title>{{ page.title }}</title>
+		<meta content="{{ site.title }}" property="og:site_name">
+		{% if page.title %}
+		<meta content="{{ page.title }}" property="og:title">
+		{% else %}
+		<meta content="{{ site.title }}" property="og:title">
+		{% endif %}
+		{% if page.title %}
+		<meta content="article" property="og:type">
+		{% else %}
+		<meta content="website" property="og:type">
+		{% endif %}
+		{% if page.description %}
+		<meta content="{{ page.description }}" property="og:description">
+		{% else %}
+		<meta content="{{ site.description }}" property="og:description">
+		{% endif %}
+		{% if page.url %}
+		<meta content="{{ site.url }}{{ page.url }}" property="og:url">
+		{% endif %}
+		{% if page.date %}
+		<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+		<meta content="{{ site.url }}/about/" property="article:author">
+		{% endif %}
+		{% if page.image %}
+		<meta content="/img/{{ page.image }}" property="og:image">
+		{% endif %}
 	</head>
 	<body>
-		<h1>Chandra Sivaraman</h1>
+		<h1>{{ site.title }}</h1>		
+	
 		<nav class="my-nav">
 			<ul>
 				<li class="nav-item"><a href="/">Projects</a></li>
@@ -35,8 +62,11 @@
 		<script type="text/javascript">
 			$(document).ready(function () {
 				const title = $("title").text();
+				const url = window.location.pathname;
+				const dir = url.split('/')[1];
 				$( ".nav-item a" ).each(function( index ) {
-					if (title.toLowerCase() === $(this).text().toLowerCase())
+					if (title.toLowerCase() === $(this).text().toLowerCase() || 
+						dir == $(this).text().toLowerCase())
 					{
 						$(this).addClass("active");	
 					}

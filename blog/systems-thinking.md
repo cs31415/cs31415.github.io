@@ -1,13 +1,15 @@
 ---
 layout: default
 title: Systems Thinking
+description: Systems thinking in software design 
 ---
 
 ### Systems Thinking
 
-![Circuit board](../../../images/systems-thinking-alexander-schimmeck.jpg)
+![Circuit board](../../../img/systems-thinking-alexander-schimmeck.jpg)
 
 <span class="credit">Photo by <a href="https://unsplash.com/@alschim?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexander Schimmeck</a> on <a href="https://unsplash.com/s/photos/printed-circuit-board?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 
 A system is a network of __interconnected__ components/actors that accomplishes a purpose.
 For example, an e-commerce site, the market, government, a company, a printed circuit board, a microprocessor are all systems. Systems can exist at different levels of abstraction (e.g hardware, software, business process, etc.)

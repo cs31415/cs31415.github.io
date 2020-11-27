@@ -1,3 +1,4 @@
 theme: jekyll-theme-architect
 title: Chandra Sivaraman
+description: Programming and System Design Notes
 permalink: /:categories/:title/

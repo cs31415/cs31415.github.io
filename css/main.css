@@ -53,6 +53,7 @@ a.active {
 h1 {
     font-size: 1.5em;
     font-family: 'Courier New','Helvetica', 'Arial', 'Sans-Serif';
+    color: gray;
 }
 h3 {
     font-size: 0.9em;
