@@ -5,16 +5,20 @@ title: Systems Thinking
 
 ### Systems Thinking
 
+![Circuit board](../../../images/systems-thinking-alexander-schimmeck.jpg)
+
+<span class="credit">Photo by <a href="https://unsplash.com/@alschim?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexander Schimmeck</a> on <a href="https://unsplash.com/s/photos/printed-circuit-board?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 A system is a network of __interconnected__ components/actors that accomplishes a purpose.
 For example, an e-commerce site, the market, government, a company, a printed circuit board, a microprocessor are all systems. Systems can exist at different levels of abstraction (e.g hardware, software, business process, etc.)
 
 Systems thinking refers to thinking in terms of the system as an interconnected whole rather than as a collection of disconnected parts.
-This is what lets us understand how the system is affected by **feedback**, for example or how to clear bottlenecks, or how to improve global rather than local throughput 
+This is what lets us understand how the system is affected by **feedback**, for example or how to clear bottlenecks, or how to improve global rather than local throughput. 
 
 #### Why learn systems thinking?
 - Understand how a part being worked on relates to the system as a whole
 - Answer the question why a part is doing what it is doing (before understanding how)
-- Avoid solving the wrong problem. The real problem might not be with a component's logic but with upstream data and fixing the problem upstream might be a better solution since it fixes it for all consumers of that data 
+- Avoid solving the wrong problem. The real problem might not be with a component's logic but with upstream data and fixing the problem upstream might be a better solution since it fixes it for all consumers of that data. 
 - Optimize globally rather than locally. For example, if there is a QA bottleneck due to resource constraints, developers cranking out more work isn't going to increase overall system throughput. Temporarily reassigning devs to clear the bottleneck will help increase system throughput.
 
 #### Takeaways

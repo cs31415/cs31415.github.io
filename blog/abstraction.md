@@ -5,6 +5,10 @@ title: Abstraction
 
 ### Abstraction
 
+![Abstraction](../../../images/abstraction-ricardo-gomez.jpg)
+
+<span class="credit">Photo by <a href="https://unsplash.com/@ripato?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ricardo Gomez Angel</a> on <a href="https://unsplash.com/s/photos/abstract?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 Complex systems (natural or man-made) can be understood as a set of concentric abstractions.
 
 An abstraction is a label given to a subsystem that hides internal details unnecessary to understanding its external interactions. For example, to understand the motion of a projectile under gravity, it is not necessary to know about its chemical composition or molecular structure. To understand the motion of a car, one does not need to know how an internal combustion engine works. A pilot does not need to know about the physics of flight in order to fly a plane.
