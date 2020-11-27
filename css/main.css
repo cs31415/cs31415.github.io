@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-	/*margin-top:   20px;*/
+    /*margin-top:   20px;*/
 }
 
 nav ul, footer ul {
@@ -28,7 +28,7 @@ nav ul li, footer ul li {
 
 .nav-item {
     padding-right:20px;
-    border-right: 2px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
 }
 
 a {
@@ -51,7 +51,7 @@ a.active {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: 'Courier New','Helvetica', 'Arial', 'Sans-Serif';
     color: gray;
 }

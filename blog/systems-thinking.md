@@ -3,8 +3,7 @@ layout: default
 title: Systems Thinking
 description: Systems thinking in software design 
 ---
-
-### Systems Thinking
+### {{ page.title }}
 
 ![Circuit board](../../../img/systems-thinking-alexander-schimmeck.jpg)
 

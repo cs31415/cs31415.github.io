@@ -3,8 +3,7 @@ layout: default
 title: Abstraction
 description: Concept of abstraction in software design
 ---
-
-### Abstraction
+### {{ page.title }}
 
 ![Abstraction](../../../img/abstraction-ricardo-gomez.jpg)
 <span class="credit">Photo by <a href="https://unsplash.com/@ripato?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ricardo Gomez Angel</a> on <a href="https://unsplash.com/s/photos/abstract?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
