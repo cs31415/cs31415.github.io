@@ -4,3 +4,4 @@ title: Blog
 ---
 ### [Abstraction](\blog\abstraction)
 ### [Systems Thinking](\blog\systems-thinking)
+### [The Goal](\blog\the-goal)
