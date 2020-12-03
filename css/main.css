@@ -9,6 +9,25 @@ body {
     margin-bottom: 30px;
     width: 700px;
 }
+span.header {
+    font-family:'Courier New','Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 130%;
+    font-weight: bold;
+    color: grey;
+}
+span.header b { 
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 60%; 
+    font-weight: normal;
+    color: #c1c1c1;
+}
+
+span.copyright { 
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 80%; 
+    font-weight: normal;
+    color: #c1c1c1;
+}
 
 nav {
     /*margin-top:   20px;*/
@@ -33,15 +52,17 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
+    font-weight: bold;
     color: #999; 
 }
 
 a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 a.active {
     color: crimson;
+    font-weight: bolder;
 }
 
 .credit {

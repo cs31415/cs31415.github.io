@@ -1,4 +1,5 @@
 theme: jekyll-theme-architect
 title: Chandra Sivaraman
 description: Programming and System Design Notes
+copyright: Copyright © 2020 Chandra Sivaraman
 permalink: /:categories/:title/

@@ -84,6 +84,8 @@ This makes it easy to understand different interconnected systems without having
 
 Most architectural patterns and principles have abstraction at their core.
 
+Abstraction itself shouldn't remain an abstract concept to just be read about but never applied. The following takeaways can help us concretize abstraction to help us build better systems.  
+
 #### Takeaways
 - Think about systems and processes in terms of abstractions
 - Abstractions help us think in terms of what (breadth) instead of how (depth)

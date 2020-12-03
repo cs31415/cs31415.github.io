@@ -34,8 +34,8 @@
 		{% endif %}
 	</head>
 	<body>
-		<h1>{{ site.title }}</h1>		
-	
+		<span class="header">{{ site.title }}  <b>{{ site.description }}</b></span>
+		
 		<nav class="my-nav">
 			<ul>
 				<li class="nav-item"><a href="/">Projects</a></li>
@@ -51,6 +51,7 @@
 			<ul>
 				<li><a href="mailto:chandra.sivaraman@loscode.com">email</a></li>
 				<li><a href="https://github.com/cs31415">github</a></li>
+				<span class="copyright">{{ site.copyright }}</span>
 			</ul>
 		</footer>
 
@@ -63,6 +64,7 @@
 				const title = $("title").text();
 				const url = window.location.pathname;
 				const dir = url.split('/')[1];
+				console.log(`title = ${title}, dir = ${dir}`);
 				$( ".nav-item a" ).each(function( index ) {
 					if (title.toLowerCase() === $(this).text().toLowerCase() || 
 						dir == $(this).text().toLowerCase())
