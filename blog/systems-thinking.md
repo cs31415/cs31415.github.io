@@ -11,7 +11,7 @@ description: Systems thinking in software design
 
 
 A system is a network of __interconnected__ components/actors that accomplishes a purpose.
-For example, an e-commerce site, the market, government, a company, a printed circuit board, a microprocessor are all systems. Systems can exist at different levels of abstraction (e.g hardware, software, business process, etc.)
+For example, an e-commerce site, the market, government, a company, a printed circuit board, a microprocessor are all systems. Systems can exist at different levels of [abstraction](../abstraction) (e.g hardware, software, business process, etc.)
 
 Systems thinking refers to thinking in terms of the system as an interconnected whole rather than as a collection of disconnected parts.
 This is what lets us understand how the system is affected by **feedback**, for example or how to clear bottlenecks, or how to improve global rather than local throughput. 
