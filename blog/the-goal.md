@@ -21,6 +21,6 @@ Finished reading [The Goal](https://www.amazon.com/Goal-Process-Ongoing-Improvem
 - Let flow be driven by demand to avoid increasing inventory and carrying costs/operational expenses.
 - Have **reserve capacity** to meet demand surges and account for statistical fluctuations without overwhelming the system and creating cascading backlogs.
 - **Optimize globally** rather than locally. For example, 
-    - If the goal of a software team is to deliver a certain feature set to the user in a given time period, and the team is short on QA resources, the team's overall throughput would benefit more from developers pitching in to clear the QA backlog or writing automated tests rather than continuing to write code and increase the size of the backlog.  
+    - In a multi-team project, bottlenecks can arise in critical paths. Rather than optimizing each team's throughput individually, resources can be redirected to clear the bottlenecks and thereby improve global throughput. 
     - If your personal financial goal is to increase net worth, then paying off a mortgage quicker when you could get a higher rate of return elsewhere on that extra payment might locally optimize your debt burden, but at the expense of reducing your net worth.
 - Have a system for **continuous improvement** (Japanese [*kaizen*](https://en.wikipedia.org/wiki/Kaizen)).
