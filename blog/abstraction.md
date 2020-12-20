@@ -19,6 +19,11 @@ A function or a procedure is a powerful abstraction that lets us refer to a comp
 For example, the function `sqrt-iter` below is used to calculate the square root of a number using [Newton's method](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7):
 
 ```clojure
+(define (square x) (* x x))
+
+(define (good-enough? guess x)
+  (< (abs (- (square guess) x)) 0.001))
+
 (define (sqrt-iter guess x)
   (if (good-enough? guess x)
       guess
