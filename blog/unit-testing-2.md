@@ -36,9 +36,9 @@ namespace UnitTestSamples.Tests
 }
 ```
 
-The method `Add_KeyDoesNotExist_AddsValueToNewListForKey` on class `MultiMapTests` here is the unit test. We're using an (excellent) unit test library called [xUnit](https://xunit.net/) to run the test. The `Fact` attribute indicates a test for invariant conditions. 
+The method `Add_KeyDoesNotExist_AddsValueToNewListForKey` on class `MultiMapTests` here is the unit test. We're using an (excellent) unit test library called [xUnit](https://xunit.net/) to run the test. The `Fact` attribute on the method indicates a test for invariant conditions. 
 
-We use a standard pattern here to structure the unit test called [Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert). _Arrange_ is where we do any setup for the test. _Act_ is where we exercise the SUT (System Under Test), which in this case is the `Add` method on the `MultiMap` class. _Assert_ is where we examine the aftermath to determine whether the test succeeded or failed.
+We use a standard pattern here to structure the unit test called [Arrange-Act-Assert](http://wiki.c2.com/?ArrangeActAssert). _Arrange_ is where we do any setup of initial conditions required for the test. _Act_ is where we exercise the SUT (System Under Test), which in this case is the `Add` method on the `MultiMap` class. _Assert_ is where we examine the aftermath to determine whether the test succeeded or failed.
 
 There is also another pattern used here to name the test. It is called _Action-Scenario-Result_. `Add` is the _action_ under test. `KeyDoesNotExist` describes the _scenario_ being tested and `AddsValueToNewListForKey` is the expected _result_. In short, we're testing whether calling the `Add` method with a non-existent key creates a new list with the value and adds it to the multimap.
 
