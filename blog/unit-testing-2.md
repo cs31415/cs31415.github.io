@@ -42,7 +42,7 @@ We use a standard pattern here to structure the unit test called [Arrange-Act-As
 
 There is also another pattern used here to name the test. It is called _Action-Scenario-Result_. The `Add` in the test name is the _action_ under test. `KeyDoesNotExist` describes the _scenario_ being tested and `AddsValueToNewListForKey` is the expected _result_. In short, we're testing whether calling the `Add` method with a non-existent key creates a new list with the value and adds it to the multimap.
 
-Another type of test called a _Theory_ is a parameterized test that can be used for varying conditions. The same test can be used for multiple input conditions (the `InlineData` attribute whose values correspond to the parameters of the test method).
+Another type of test called a _Theory_ is a parameterized test that can be used for varying conditions. The same test can be used for multiple input conditions (the `InlineData` attribute on the test method whose values correspond to the parameters of the method).
 Since we add only the `"yellow"` key to the map, that condition returns true while the non-existent `"red"` key returns false.
 
 ```C#
