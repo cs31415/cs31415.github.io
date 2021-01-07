@@ -94,6 +94,11 @@ p, .container li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+.language-plaintext {
+    font-size: 1.2em;
+    background-color: whitesmoke;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
