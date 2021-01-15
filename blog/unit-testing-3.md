@@ -2,6 +2,7 @@
 layout: default
 title: Unit Testing Part 3 
 description: Mocking dependencies in Unit Tests
+image: mockingbird.jpg
 ---
 ### {{ page.title }}
 

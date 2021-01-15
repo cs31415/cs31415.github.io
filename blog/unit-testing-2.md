@@ -2,6 +2,7 @@
 layout: default
 title: Unit Testing Part 2 
 description: What does a Unit Test look like?
+image: unit-test.jpg
 ---
 ### {{ page.title }}
 

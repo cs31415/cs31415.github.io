@@ -2,6 +2,7 @@
 layout: default
 title: Abstraction
 description: Concept of abstraction in software design
+image: abstraction-ricardo-gomez.jpg
 ---
 ### {{ page.title }}
 

@@ -2,6 +2,7 @@
 layout: default
 title: The Goal
 description: Applications of theory of constraints to software
+image: the-goal-estee-janssens.jpg
 ---
 ### {{ page.title }}
 

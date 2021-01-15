@@ -2,6 +2,7 @@
 layout: default
 title: Unit Testing Part 1
 description: What is unit testing and why do we need it?
+image: unit-testing-testbytes.jpg
 ---
 ### {{ page.title }}
 
