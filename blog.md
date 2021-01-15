@@ -7,3 +7,4 @@ title: Blog
 ### [The Goal](\blog\the-goal)
 ### [Unit Testing Part 1](\blog\unit-testing-1)
 ### [Unit Testing Part 2](\blog\unit-testing-2)
+### [Unit Testing Part 3](\blog\unit-testing-3)
