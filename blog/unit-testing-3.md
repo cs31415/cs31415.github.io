@@ -266,7 +266,7 @@ What if we wanted to test that we handle a 500 error from the API gracefully? We
 This is just a small flavor of how mocking frameworks can make our lives easier when it comes to writing unit tests. 
 
 #### Code
-https://github.com/cs31415/unit-test-samples
+[https://github.com/cs31415/unit-test-samples](https://github.com/cs31415/unit-test-samples)
 
 #### Takeaways
 - [_Moq_](https://github.com/Moq/moq4/wiki/Quickstart) is a mocking framework for C# and the .NET framework

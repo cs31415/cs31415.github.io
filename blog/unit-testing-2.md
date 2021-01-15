@@ -65,7 +65,7 @@ Since we add only the `"yellow"` key to the map, that condition returns true whi
 As you can see, there is nothing terribly complex about writing unit tests. We'll get into more involved tests that use mock objects in a future post, but even there, the idea is to keep the test as simple as possible. If our tests turn out to be overly complicated to setup, that's a sign that the System Under Test (SUT) could use some refactoring.
 
 #### Code
-https://github.com/cs31415/unit-test-samples
+[https://github.com/cs31415/unit-test-samples](https://github.com/cs31415/unit-test-samples)
 
 #### Takeaways
 - [_xUnit_](https://xunit.net/) is a unit testing library for C# and the .NET framework
