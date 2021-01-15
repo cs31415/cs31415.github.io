@@ -31,7 +31,9 @@
 		{% endif %}
 		{% if page.image %}
 		<meta content="{{ site.url }}/img/{{ page.image }}" property="og:image">
+		<meta name="twitter:image" content="{{ site.url }}/img/{{ page.image }}">
 		{% endif %}
+		<meta name="twitter:card" content="summary_large_image">
 	</head>
 	<body>
 		<span class="header">{{ site.title }}  <b>{{ site.description }}</b></span>
