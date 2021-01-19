@@ -15,4 +15,4 @@ I'm a fan of [Test cricket](https://en.wikipedia.org/wiki/Test_cricket), an incr
 [Résumé](/chandra%20sivaraman.pdf)
  
 ### Contact Info:
-[chandra.sivaraman@loscode.com](mailto:cs31415@gmail.com)
+[cs31415@gmail.com](mailto:cs31415@gmail.com)
