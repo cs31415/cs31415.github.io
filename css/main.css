@@ -26,11 +26,11 @@ body {
 .right{
     direction: right;
 }
-.highlighter-rouge {
+/*.highlighter-rouge {
     background-color:whitesmoke;
     width: 670px;
     border: 1px solid #e7e7e7; 
-}
+}*/
 
 span.header {
     font-family:'Courier New','Helvetica', 'Arial', 'Sans-Serif';
@@ -73,9 +73,10 @@ footer ul li {
 }
 
 .nav-item {
-    padding-right:40px;
-    padding-left:40px;
-    border-left: 1px solid gainsboro;
+    padding-right:20px;
+    padding-left:0px;
+    margin-left:5px;
+    border-right: 1px solid gainsboro;
     /*background-color:whitesmoke;
     border-right: 1px solid gainsboro;
     border-bottom: 1px solid gainsboro;*/

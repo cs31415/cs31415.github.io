@@ -2,7 +2,6 @@
 layout: default
 title: Projects
 ---
-#### Tools and miscellaneous resources I've created:
 
 ### [Regex Tester](https://github.com/cs31415/RegexTester)
 Regular expression test tool with navigable, grid view of results
