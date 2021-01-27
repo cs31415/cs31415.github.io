@@ -10,6 +10,9 @@ body {
     margin-bottom: 30px;
     width: 700px;
 }
+image {
+    width:80%;
+}
 
 /*.top {
     width: 700px;
@@ -26,11 +29,11 @@ body {
 .right{
     direction: right;
 }
-/*.highlighter-rouge {
+pre.highlight {
     background-color:whitesmoke;
-    width: 670px;
-    border: 1px solid #e7e7e7; 
-}*/
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
 
 span.header {
     font-family:'Courier New','Helvetica', 'Arial', 'Sans-Serif';
