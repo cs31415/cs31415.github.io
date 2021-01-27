@@ -15,7 +15,7 @@ So, in [part 3](/blog/unit-testing-3), we saw how to mock dependencies. Until no
 Here's a data access class that saves an activity (see [part 3](/blog/unit-testing-3)) to a SQL database. It takes in a SQL client and a config object.
 The `Save` method validates the activity and connection string before executing the SQL update or insert.
 
-```C#
+```csharp
 public class ActivityData
 {
     private readonly ISqlClient _sqlClient;
@@ -38,8 +38,8 @@ public class ActivityData
             throw new Exception("Invalid connection string passed");
         }
 
-        // This is just for illustration purposes. This should be a parameterized query to prevent
-        // SQL injection attacks.
+        // This is just for illustration purposes. This should be a parameterized 
+        // query to prevent SQL injection attacks.
         var cmdText = $"exec sp_SaveActivity '{activity}'";
         _sqlClient.ExecuteNonQuery(_config.ActivityDbConnectionString, cmdText);
     }
@@ -51,7 +51,7 @@ Here's a test that passes in an invalid activity value (note that we are using a
 This is a parameterized test that runs for activity values `null` and `""` (empty string) specified in the `InlineData` attribute.
 It validates that the SUT raises an exception when an invalid activity is passed.
 
-```C#
+```csharp
 public class ActivityDataTests
 {
     [Theory]
@@ -71,7 +71,7 @@ public class ActivityDataTests
 ```
 
 In the same vein, we can also verify that an invalid connection string results in an exception:
-```C#
+```csharp
 [Fact]
 public void Save_InvalidConnectionString_RaisesException()
 {
@@ -92,7 +92,7 @@ public void Save_InvalidConnectionString_RaisesException()
 
 Now, if a valid activity value is passed, we would expect that the SQL client `ExecuteNonQuery` method is called exactly once. We use the `Mock.Verify` method to set this up. This method takes in an expression (`m => m.ExecuteNonQuery(It.IsAny<string>(), It.IsAny<string>())`) and a `Times` parameter specifying how many times the method was invoked:
 
-```C#
+```csharp
 [Fact]
 public void Save_ValidActivity_UpdatesDatabase()
 {
@@ -116,7 +116,8 @@ public void Save_ValidActivity_UpdatesDatabase()
 
     // Here we verify that the ExecuteNonQuery method was called exactly once
     Mock.Get(sqlClient)
-        .Verify(m => m.ExecuteNonQuery(It.IsAny<string>(), It.IsAny<string>()), Times.Once);
+        .Verify(m => m.ExecuteNonQuery(
+            It.IsAny<string>(), It.IsAny<string>()), Times.Once);
 }
 ``` 
 
@@ -127,3 +128,5 @@ public void Save_ValidActivity_UpdatesDatabase()
 - [_Moq_](https://github.com/Moq/moq4/wiki/Quickstart) can be used for behavior verification in addition to state verification.
 - Behavior verification lets us setup and verify expectations on mock objects as opposed to verifying SUT state.
 - This is helpful when it is tedious to setup mock responses or when the SUT method doesn't return any value to inspect.
+
+Continue to [part 5](/blog/unit-testing-5).

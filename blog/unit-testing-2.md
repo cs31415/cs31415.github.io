@@ -1,18 +1,16 @@
 ---
 layout: default
-title: Unit Testing Part 2 
+title: Unit Testing Part 2
 description: What does a Unit Test look like?
 image: unit-test.jpg
 ---
 ### {{ page.title }}
-
 ![Unit Testing](../../../img/unit-test.jpg)
 
 ### What does a unit test look like?
-
 So, in [part 1](/blog/unit-testing-1), we had an overview of what unit tests are and why they matter. [Abstraction](/blog/abstraction) is a wonderful thing, but meaningless without something concrete to give it context. Without further ado, here's what a unit test looks like (using C# and .NET Core):
 
-```C#
+```csharp
 using Xunit;
 
 namespace UnitTestSamples.Tests
@@ -46,21 +44,21 @@ There is also another pattern used here to name the test. It is called [Action-S
 Another type of test called a _Theory_ is a parameterized test that can be used for varying conditions. The same test can be used for multiple input conditions (the `InlineData` attribute on the test method whose values correspond to the parameters of the method).
 Since we add only the `"yellow"` key to the map, that condition returns true while the non-existent `"red"` key returns false.
 
-```C#
+```csharp
 [Theory]
-    [InlineData("yellow", true)]
-    [InlineData("red", false)]
-    public void ContainsKey_VariousKeys_ReturnsStatus(string key, bool expectedStatus)
-    {
-        // Arrange
-        var multiMap = new MultiMap<string, string>();
+[InlineData("yellow", true)]
+[InlineData("red", false)]
+public void ContainsKey_VariousKeys_ReturnsStatus(string key, bool expectedStatus)
+{
+    // Arrange
+    var multiMap = new MultiMap<string, string>();
 
-        // Act
-        multiMap.Add("yellow", "Sun");
+    // Act
+    multiMap.Add("yellow", "Sun");
 
-        // Assert
-        Assert.True(multiMap.ContainsKey(key) == expectedStatus);
-    }
+    // Assert
+    Assert.True(multiMap.ContainsKey(key) == expectedStatus);
+}
 ```
 
 As you can see, there is nothing terribly complex about writing unit tests. We'll get into more involved tests that use mock objects in a future post, but even there, the idea is to keep the test as simple as possible. If our tests turn out to be overly complicated to setup, that's a sign that the System Under Test (SUT) could use some refactoring.
@@ -74,3 +72,5 @@ As you can see, there is nothing terribly complex about writing unit tests. We'l
 - _Theory_ is a type of parameterized xUnit test for varying conditions
 - _Action-Scenario-Response (ASR)_ is a useful naming standard for unit tests
 - _Arrange-Act-Assert (AAA)_ is a way to structure the code for a unit test
+
+Continue to [part 3](/blog/unit-testing-3).

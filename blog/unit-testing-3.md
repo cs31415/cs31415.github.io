@@ -13,7 +13,7 @@ image: mockingbird.jpg
 
 So, in [part 1](/blog/unit-testing-1), we had an overview of unit tests and mocking and in [part 2](/blog/unit-testing-2), we saw a couple of simple tests. In this post, we'll look at some examples of mocking dependencies. Consider the C# code below:
 
-```C#
+```csharp
 using System.Net.Http;
 using Newtonsoft.Json.Linq;
 
@@ -42,7 +42,7 @@ namespace UnitTestSamples
 ```
 
 The class `ActivityGenerator` has a single public method `GetActivity` that calls an external API to get a random activity ("Pull a harmless prank on one of your friends", "Create a compost pile" etc.) to add to our already overflowing todo lists. The JSON response looks like:
-```
+```json
 {
     "activity": "Make a new friend",
     "type": "social",
@@ -57,7 +57,7 @@ The class `ActivityGenerator` has a single public method `GetActivity` that call
 The `GetActivity` method returns the `activity` property from this JSON.
 
 To write a unit test for this method, we would create a test project, add a test class and add a test method, like this:
-```C#
+```csharp
 using Xunit;
 
 namespace UnitTestSamples.Tests
@@ -87,7 +87,7 @@ If you run this test, it will return success. However, it would have made a live
 We can do better by using mocks (See [part 1](/blog/unit-testing-1)). We'll need to add a Nuget reference to [Moq](https://www.nuget.org/packages/moq/), a popular mocking framework. To mock or simulate the web API call, we'll need to "inject" the `HttpClient` instance into the `ActivityGenerator` instead of having it created inside the class. **Moq** works by creating alternative implementations of interfaces. The built-in `HttpClient` class doesn't have an interface we can mock. So, we'll wrap it in an `ApiClient` class and pass its interface into `ActivityGenerator`.
 
 ActivityGenerator.cs:
-```C#
+```csharp
 using Newtonsoft.Json.Linq;
 
 namespace UnitTestSamples
@@ -120,7 +120,7 @@ namespace UnitTestSamples
 ```
 
 ApiClient.cs:
-```C#
+```csharp
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -144,7 +144,7 @@ namespace UnitTestSamples
 ```
 
 IApiClient.cs:
-```C#
+```csharp
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -158,7 +158,7 @@ namespace UnitTestSamples
 ```
 
 Now, we can rewrite the test to inject the mock:
-```C#
+```csharp
 using System.Net;
 using System.Net.Http;
 using Moq;
@@ -212,56 +212,57 @@ namespace UnitTestSamples.Tests
 The `Mock` static class exposes helper methods to create a mock object (`Mock.Of<InterfaceToMock>`), get a reference to the mock setup class (`Mock.Get`), setup a method on the interface to mock (`Mock.Setup`) to return a canned object (`Mock.ReturnsAsync`). The `It` static class lets us specify expectations on input parameters. `It.IsAny<string>()` means any string value is OK.
 
 Now, what if we want to test a scenario where the API call throws an exception? We setup the API to throw a `WebException`, and test the type of the return to be `AggregateException` (since this is [async](https://docs.microsoft.com/en-us/archive/msdn-magazine/2014/october/async-programming-introduction-to-async-await-on-asp-net) code, the underlying exception would be wrapped in an `AggregateException`), and the type of the base exception to be `WebException`:
-```C#
-        [Fact]
-        public void GetActivity_APIThrowsException_RaisesException()
-        {
-            // Arrange
-            // Here, we setup a mock ApiClient instance and program it to 
-            // throw a WebException.
-            var apiClient = Mock.Of<IApiClient>();
-            Mock.Get(apiClient)
-                .Setup(m => m.GetAsync(It.IsAny<string>()))
-                .ThrowsAsync(new WebException("network error", WebExceptionStatus.ConnectFailure));
+```csharp
+[Fact]
+public void GetActivity_APIThrowsException_RaisesException()
+{
+    // Arrange
+    // Here, we setup a mock ApiClient instance and program it to 
+    // throw a WebException.
+    var apiClient = Mock.Of<IApiClient>();
+    Mock.Get(apiClient)
+        .Setup(m => m.GetAsync(It.IsAny<string>()))
+        .ThrowsAsync(
+            new WebException("network error", WebExceptionStatus.ConnectFailure));
 
-            // We instantiate the SUT and pass in the mock dependency
-            var activityGenerator = new ActivityGenerator(apiClient);
+    // We instantiate the SUT and pass in the mock dependency
+    var activityGenerator = new ActivityGenerator(apiClient);
 
-            // Act
-            var ex = Assert.Throws<AggregateException>(()=> activityGenerator.GetActivity());
+    // Act
+    var ex = Assert.Throws<AggregateException>(()=> activityGenerator.GetActivity());
 
-            // Assert
-            Assert.IsType<WebException>(ex.GetBaseException());
-        }
+    // Assert
+    Assert.IsType<WebException>(ex.GetBaseException());
+}
 ```
 
 What if we wanted to test that we handle a 500 error from the API gracefully? We could do it like this:
-```C#
+```csharp
 [Fact]
-        public void GetActivity_500Response_ReturnsNull()
-        {
-            // Arrange
+public void GetActivity_500Response_ReturnsNull()
+{
+    // Arrange
 
-            // This is the HTTP response message class we want the API to
-            // return
-            var httpResponseMessage = new HttpResponseMessage(HttpStatusCode.InternalServerError);
+    // This is the HTTP response message class we want the API to
+    // return
+    var response = new HttpResponseMessage(HttpStatusCode.InternalServerError);
 
-            // Here, we setup a mock ApiClient instance and program it to 
-            // return our canned HTTP response above.
-            var apiClient = Mock.Of<IApiClient>();
-            Mock.Get(apiClient)
-                .Setup(m => m.GetAsync(It.IsAny<string>()))
-                .ReturnsAsync(httpResponseMessage);
+    // Here, we setup a mock ApiClient instance and program it to 
+    // return our canned HTTP response above.
+    var apiClient = Mock.Of<IApiClient>();
+    Mock.Get(apiClient)
+        .Setup(m => m.GetAsync(It.IsAny<string>()))
+        .ReturnsAsync(response);
 
-            // We instantiate the SUT and pass in the mock dependency
-            var activityGenerator = new ActivityGenerator(apiClient);
+    // We instantiate the SUT and pass in the mock dependency
+    var activityGenerator = new ActivityGenerator(apiClient);
 
-            // Act
-            var activity = activityGenerator.GetActivity();
+    // Act
+    var activity = activityGenerator.GetActivity();
 
-            // Assert
-            Assert.True(string.IsNullOrEmpty(activity));
-        }
+    // Assert
+    Assert.True(string.IsNullOrEmpty(activity));
+}
 ```
 
 This is just a small flavor of how mocking frameworks can make our lives easier when it comes to writing unit tests. 
@@ -275,3 +276,5 @@ This is just a small flavor of how mocking frameworks can make our lives easier 
 - Mocking helps us write tests that run faster by not making network calls
 - Mocking forces us to write well-designed code where dependencies are decoupled from the SUT (System Under Test)
 - Injecting dependencies into the SUT makes it easy to mock their behavior
+
+Continue to [part 4](/blog/unit-testing-4).

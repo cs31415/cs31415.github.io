@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color:#FdfdFd;
 }
 
 .container {
@@ -9,6 +10,28 @@ body {
     margin-bottom: 30px;
     width: 700px;
 }
+
+/*.top {
+    width: 700px;
+    padding: 10px 5px 5px 5px;
+}
+.bottom {
+    background-color: whitesmoke;    
+    width: 700px;
+    padding: 2px 5px 2px 5px;
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+}*/
+.right{
+    direction: right;
+}
+.highlighter-rouge {
+    background-color:whitesmoke;
+    width: 670px;
+    border: 1px solid #e7e7e7; 
+}
+
 span.header {
     font-family:'Courier New','Helvetica', 'Arial', 'Sans-Serif';
     font-size: 130%;
@@ -19,14 +42,14 @@ span.header b {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 60%; 
     font-weight: normal;
-    color: #c1c1c1;
+    color: #a1a1a1;
 }
 
 span.copyright { 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 80%; 
     font-weight: normal;
-    color: #c1c1c1;
+    color: #a1a1a1;
 }
 
 nav {
@@ -40,24 +63,32 @@ nav ul, footer ul {
     font-weight: bold;
 }
 
-nav ul li, footer ul li {
+nav ul li {
+    display: inline;
+}
+
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
 
 .nav-item {
-    padding-right:20px;
-    border-right: 1px solid #d5d5d5;
+    padding-right:40px;
+    padding-left:40px;
+    border-left: 1px solid gainsboro;
+    /*background-color:whitesmoke;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;*/
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #999; 
+    color: darkgray; 
 }
 
 a:hover {
-    /*text-decoration: underline;*/
+    color: crimson;
 }
 
 a.active {
@@ -100,8 +131,8 @@ p, .container li {
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    border-top: 1px solid #d5d5d5;
 }
 
 ul.posts { 

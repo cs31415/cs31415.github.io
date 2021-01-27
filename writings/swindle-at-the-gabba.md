@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Swindle at the Gabba: A Victory for the Ages
+title: Swindle at the Gabba- A Victory for the Ages
 ---
 
 ### Swindle at the Gabba: A Victory for the Ages

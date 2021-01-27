@@ -49,3 +49,6 @@ Unit tests provide automated low-level regression testing, freeing QA time and c
 - **A fake** provides a simplified real implementation intended for testing. e.g. using a file instead of database for storage, returning different outputs based on inputs passed etc. This is what I was using before I knew about mocking frameworks. Typically it involves implementing a fake class that implements the same interface as the real class.
 - **A mock** is the most sophisticated type of test double. It allows for behavior verification in addition to state verification. For example, we can verify that a certain method was called a certain number of times with certain input values, or that certain input values triggered a certain type of exception. With mocking frameworks such as Moq, we can setup complex expectations with a single line of code, without the need to create fake classes and implementations.
 According to [Fowler](https://martinfowler.com/articles/mocksArentStubs.html#TheDifferenceBetweenMocksAndStubs), mocks are "objects pre-programmed with expectations which form a specification of the calls they are expected to receive".
+
+Continue to [part 2](/blog/unit-testing-2).
+
