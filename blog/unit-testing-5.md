@@ -145,7 +145,7 @@ public class RefactoredActivityDataTests
 
 #### Setting up expectations on mock objects:
 
-Setting up expectations on mock objects is also repetitive code that can get messy and hinder readability, especially when we have multiple dependencies and long parameter lists. In this case, we could extract out this code into a mock wrapper class:
+Setting up expectations on mock objects is also repetitive code that can get messy and hinder readability, especially when we have multiple dependencies and long parameter lists. In this case, we could extract out this code into mock wrapper classes:
 
 ```csharp
 public class MockSqlClient : Mock<ISqlClient>
@@ -161,71 +161,18 @@ public class MockSqlClient : Mock<ISqlClient>
             It.IsAny<string>(), It.IsAny<string>()), times);
     }
 }
-```
 
-We could use it like this (note that we have to reference the `.Object` property on the mock object to get the type being mocked):
-
-```csharp
-public class RefactoredActivityDataTests
+public class MockConfig : Mock<IConfig>
 {
-    private readonly MockSqlClient _mockSqlClient;
-    private readonly IConfig _config;
-  
-    public RefactoredActivityDataTests()
+    public void SetupGet_ActivityDbConnectionString(string connectionString)
     {
-        _mockSqlClient = new MockSqlClient();
-        _config = Mock.Of<IConfig>();
-    }
-
-    [Theory]
-    [InlineData(null)]
-    [InlineData("")]
-    public void Save_InvalidActivity_RaisesException(string activity)
-    {
-        // Arrange
-        var activityData = new ActivityData(_mockSqlClient.Object, _config);
-
-        // Act, Assert
-        Assert.Throws<Exception>(() => activityData.Save(activity));
-    }
-
-    [Fact]
-    public void Save_ValidActivity_UpdatesDatabase()
-    {
-        // Arrange
-        _mockSqlClient.Setup_ExecuteNonQuery(); // <<==
-
-        Mock.Get(_config)
-            .SetupGet(p => p.ActivityDbConnectionString)
-            .Returns("valid-connection-string");
-
-        var activityData = new ActivityData(_mockSqlClient.Object, _config);
-
-        // Act
-        activityData.Save("Create a compost pile");
-
-        // Assert
-        _mockSqlClient.Verify_ExecuteNonQuery_Called(Times.Once); // <<==
-    }
-
-    [Fact]
-    public void Save_InvalidConnectionString_RaisesException()
-    {
-        // Arrange
-        string invalidConnectionString = string.Empty;
-        Mock.Get(_config)
-            .SetupGet(p => p.ActivityDbConnectionString)
-            .Returns(invalidConnectionString);
-
-        var activityData = new ActivityData(_mockSqlClient.Object, _config);
-
-        // Act, Assert
-        Assert.Throws<Exception>(() => activityData.Save("Create a compost pile"));
+        this.SetupGet(p => p.ActivityDbConnectionString)
+            .Returns(connectionString);
     }
 }
 ```
 
-Doing the same for the config object yields this more concise and readable version of the test class:
+We could use it like this (note that we have to reference the `.Object` property on the mock object to get the type being mocked). This yields a more concise and readable version of the test class:
 ```csharp
 public class RefactoredActivityDataTests
 {
@@ -288,4 +235,4 @@ public class RefactoredActivityDataTests
 
 ### Takeaways:
 - Unit tests can be refactored to make them more readable and maintainable
-- Consolidating common setup code in a constructor and setting up a mock wrapper are two techniques for refactoring unit tests
+- Consolidating common setup code in a constructor and setting up a mock wrapper are two strategies for refactoring unit tests
