@@ -1,38 +1,44 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color:#FdfdFd;
 }
 
 .container {
 	margin-right: 80px; /* enforce text wrapping before it reaches the very right of the screen during resize */
 	margin-top:   30px;
     margin-bottom: 30px;
-    width: 700px;
-}
-image {
-    width:80%;
 }
 
-/*.top {
-    width: 700px;
-    padding: 10px 5px 5px 5px;
+img {
+    width: 100%;
 }
-.bottom {
+
+.top {
     background-color: whitesmoke;    
-    width: 700px;
-    padding: 2px 5px 2px 5px;
     border-top: 1px solid #d5d5d5;
     border-left: 1px solid #d5d5d5;
     border-right: 1px solid #d5d5d5;
-}*/
+    /*padding-left: 30%;
+    padding-right: 30%;*/
+}
+
+footer {
+    background-color: whitesmoke;    
+    border-top: 1px solid #d5d5d5;
+    border-left: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+}
+
 .right{
     direction: right;
 }
-pre.highlight {
+
+.highlighter-rouge {
     background-color:whitesmoke;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    border-left: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
 }
 
 span.header {
@@ -41,6 +47,11 @@ span.header {
     font-weight: bold;
     color: grey;
 }
+
+span.header a {
+    color: #818181;
+}
+
 span.header b { 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 60%; 
@@ -57,13 +68,15 @@ span.copyright {
 
 nav {
     /*margin-top:   20px;*/
+    /*padding-left: 30%;
+    padding-right: 30%;*/
 }
 
 nav ul, footer ul {
     font-family:'Courier New','Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: normal;
+    padding:0px;
 }
 
 nav ul li {
@@ -76,19 +89,15 @@ footer ul li {
 }
 
 .nav-item {
-    padding-right:20px;
     padding-left:0px;
-    margin-left:5px;
+    padding-right:20px;
     border-right: 1px solid gainsboro;
-    /*background-color:whitesmoke;
-    border-right: 1px solid gainsboro;
-    border-bottom: 1px solid gainsboro;*/
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    color: darkgray; 
+    color: #919191; 
 }
 
 a:hover {
@@ -113,19 +122,20 @@ h1 {
 }
 h3 {
     font-size: 0.9em;
+    color: #616161;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 h4 {
     font-size: 0.9em;
     line-height: 1.4em;
-    color: #333;
+    color: #616161;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
 }
 p, .container li {
     font-size: 0.9em;
     line-height: 1.4em;
-    color: #333;
+    color: #616161;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
@@ -148,13 +158,22 @@ ul.posts li {
     list-style: none;
 }
 
+pre.highlight {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size:0.9em;
+}
+
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 801px) {
     body {
         width: 70%;
     }
-    .container, footer {
+    .container, footer, .top {
         max-width: 650px;
+    }
+    pre.highlight {
+        font-size:1em;
     }
 }
 @media screen and (min-width: 501px) and (max-width: 800px) {
@@ -162,8 +181,11 @@ ul.posts li {
         width: 80%;
         margin: 30px auto;
     }
-    .container, footer {
+    .container, footer, .top {
         max-width: 450px;
+    }
+    pre.highlight {
+        font-size:0.9em;
     }
 }  
 @media screen and (max-width: 500px) {
@@ -171,7 +193,10 @@ ul.posts li {
         width: 90%;
         margin: 30px auto;
     }
-    .container, footer {
+    .container, footer, .top {
         width: 100%;
+    }
+    pre.highlight {
+        font-size:0.9em;
     }
 }
