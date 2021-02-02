@@ -9,6 +9,11 @@ body {
     margin-bottom: 30px;
 }
 
+img.biophoto {
+    width: 90%;
+    margin-bottom: 5px;
+}
+
 img {
     width: 100%;
 }
