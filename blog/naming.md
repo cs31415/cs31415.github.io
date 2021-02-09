@@ -43,7 +43,7 @@ Conventions I usually follow in C# code are:
 - local variables & method arguments (camel case starting with lower case)
 <br>e.g. `orderManager`
 
-Looking at .NET framework code and following the same conventions shouldn't be a bad idea. Neither is formalizing these kind of conventions in a coding guidelines document for a project, and even better, automatically enforce them using linters. Future maintainers, which might include your future self, will be eternally grateful.
+Looking at .NET framework code and following the same conventions shouldn't be a bad idea. Neither is formalizing these kind of conventions in a coding guidelines document for a project, and even better, automatically enforcing them using linters. Future maintainers, which might include your future self, will be ever so grateful.
 
 Finally, it is OK to take a little time upfront naming things. It might seem that this time is better spent writing code. But given that language shapes our thought, writing code using the wrong abstractions is a recipe for problems down the line that will be harder to fix without requiring significant design changes. Naming doesn't come easily to even someone as accomplished as [DHH](https://dhh.dk/). His [inner dialogue](https://m.signalvnoise.com/hunting-for-great-names-in-programming/), as he obsesses over a method name is both fascinating and insightful to observe.    
 
