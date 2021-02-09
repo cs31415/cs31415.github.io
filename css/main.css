@@ -94,7 +94,7 @@ footer ul li {
 
 .nav-item {
     padding-left:2px;
-    padding-right:20px;
+    padding-right:10px;
     border-right: 1px solid gainsboro;
 }
 
@@ -165,6 +165,14 @@ ul.posts li {
 pre.highlight {
     white-space: pre-wrap;
     word-wrap: break-word;
+}
+
+blockquote {
+    padding: 5px 15px;
+    background-color:#F5F8FA;
+    border-left:5px solid #30404D;
+    margin:0 0 5px;
+    word-wrap:break-word
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */

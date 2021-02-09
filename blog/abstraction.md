@@ -33,14 +33,14 @@ For example, the [Scheme](https://www.scheme.com/tspl4/) function `sqrt-iter` be
 ``` 
 
 From [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.8):
-- "Observe that the problem of computing square roots breaks up naturally into a number of **subproblems**:
+> "Observe that the problem of computing square roots breaks up naturally into a number of **subproblems**:
 how to tell whether a guess is good enough, how to improve a guess, and so on. Each of these tasks is
 accomplished by a separate procedure. The entire sqrt program can be viewed as a **cluster of procedures
 (shown in figure [1.2](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/ch1-Z-G-6.gif)) that mirrors the decomposition of the problem into subproblems.**
 
-- "The importance of this decomposition strategy is not simply that one is dividing the program into parts. After all, we could take any large program and divide it into parts -- the first ten lines, the next ten lines, the next ten lines, and so on. Rather, it is crucial that **each procedure accomplishes an identifiable task that can be used as a module in defining other procedures**. For example, when we define the `good-enough?` procedure in terms of `square`, we are able to regard the `square` procedure as a '**black box**'. We are not at that moment concerned with how the procedure computes its result, only with the fact that it computes the square. **The details of how the square is computed can be suppressed, to be considered at a later time.**"
+> "The importance of this decomposition strategy is not simply that one is dividing the program into parts. After all, we could take any large program and divide it into parts -- the first ten lines, the next ten lines, the next ten lines, and so on. Rather, it is crucial that **each procedure accomplishes an identifiable task that can be used as a module in defining other procedures**. For example, when we define the `good-enough?` procedure in terms of `square`, we are able to regard the `square` procedure as a '**black box**'. We are not at that moment concerned with how the procedure computes its result, only with the fact that it computes the square. **The details of how the square is computed can be suppressed, to be considered at a later time.**"
 
-- "Indeed, as far as the good-enough? procedure is concerned, `square` **is not quite a procedure but rather an abstraction of a procedure, a so-called procedural abstraction. At this level of abstraction, any procedure that computes the square is equally good.**"
+> "Indeed, as far as the good-enough? procedure is concerned, `square` **is not quite a procedure but rather an abstraction of a procedure, a so-called procedural abstraction. At this level of abstraction, any procedure that computes the square is equally good.**"
 
 Abstraction is a simple yet profound concept that is overlooked by even senior engineers including yours truly. It is not uncommon to come across code running into several pages that looks somewhat like this:
 
