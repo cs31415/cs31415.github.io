@@ -46,7 +46,8 @@ SOLID itself is one of those manufactured acronyms that the programming landscap
 - Principle of least privilege - clients don't need to know about functionality they don't use, so that they don't need to adapt to changes in that functionality    
 
 **D**ependency Inversion Principle        
-- Classes should depend only on abstract interfaces, not concrete classes  
+- Classes should depend only on other abstract interfaces, not other concrete classes  
+- A class' dependencies should be injected into the class (say, via constructor arguments) vs being instantiated within the class
 - Liskov Substitution makes Dependency Inversion possible   
 
 In future posts, we will examine each principle in more detail with examples.  
