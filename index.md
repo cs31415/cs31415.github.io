@@ -11,3 +11,4 @@ title: Blog
 ### [Unit Testing Part 4](\blog\unit-testing-4)
 ### [Unit Testing Part 5](\blog\unit-testing-5)
 ### [Naming](\blog\naming)
+### [SOLID Principles](\blog\solid-principles)
