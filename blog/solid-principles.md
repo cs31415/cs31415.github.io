@@ -55,5 +55,5 @@ In future posts, we will examine each principle in more detail with examples.
 ### Takeaways:
 - SOLID principles are a set of Object Oriented design principles proposed by Bob Martin.
 - They are a guide to building loosely coupled software architectures that are [antifragile](https://en.wikipedia.org/wiki/Antifragile).
-- The principles can be applied to eliminate many design smells that a system accumulates over time.
+- The principles can be applied to minimize or eliminate many design smells that a system accumulates over time.
 - SOLID is an acronym that stands for Single Responsibility Principle, Open Closed Principle, Liskov Substitution Principle, Interface Segregation Principle and Dependency Inversion Principle.
