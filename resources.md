@@ -19,8 +19,6 @@ Books I have read or am reading that I wish I had known about when I started out
 
 ### [Programming Collective Intelligence](https://www.amazon.com/Programming-Collective-Intelligence-Building-Applications/dp/0596529325/ref=sr_1_2?crid=2YG3KSSJ5AOBJ&dchild=1&keywords=collective+intelligence&qid=1612221378&s=books&sprefix=collective+inte%2Cstripbooks%2C210&sr=1-2)
 
-### [Skeptics Guide to the Universe](https://www.amazon.com/Skeptics-Guide-Universe-Really-Increasingly-ebook/dp/B079L5FDBJ/ref=sr_1_1?crid=3P8QWLJYZUW1E&dchild=1&keywords=skeptics+guide+to+the+universe+book&qid=1591395597&sprefix=skeptics+%2Caps%2C218&sr=8-1)
-
 ### Podcasts:
 ### [Hanselminutes](https://www.hanselminutes.com/)
 Great breadth of coverage on software engineering. Scott underplays himself but he asks the most penetrating questions.
