@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: post
+category: blog
 title: Unit Testing Part 4 
 description: Mocking - Behavior Verification
 image: behavior-verification.jpg
 ---
-### {{ page.title }}
 
 ![Unit Testing](../../../img/behavior-verification.jpg)
 

@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: post
+category: blog
 title: Unit Testing Part 5
 description: Refactoring Unit Tests
 image: refactoring.jpg
 ---
-### {{ page.title }}
 
 ![Unit Testing](../../../img/refactoring.jpg)
 <span class="credit">Photo by <a href="https://unsplash.com/@uniqueton?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Anton</a> on <a href="https://unsplash.com/s/photos/cleaning?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>

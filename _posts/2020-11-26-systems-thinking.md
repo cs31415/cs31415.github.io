@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: post
+category: blog
 title: Systems Thinking
 description: Systems thinking in software design 
 image: systems-thinking-alexander-schimmeck.jpg
 ---
-### {{ page.title }}
 
 ![Circuit board](../../../img/systems-thinking-alexander-schimmeck.jpg)
 

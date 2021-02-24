@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: post
+category: blog
 title: Unit Testing Part 1
 description: What is unit testing and why do we need it?
 image: unit-testing-testbytes.jpg
 ---
-### {{ page.title }}
 
 ![Unit Testing](../../../img/unit-testing-testbytes.jpg)
 <span class="credit">Image by <a href="https://pixabay.com/users/testbytes-1013799/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=762486">testbytes</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=762486">Pixabay</a></span>
