@@ -3,6 +3,8 @@ layout: default
 title: Resources
 ---
 ### Books:
+Books I have read or am reading that I wish I had known about when I started out.
+
 ### [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_4?dchild=1&keywords=algorithms&qid=1591395518&sr=8-4)
 
 ### [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)
@@ -20,8 +22,11 @@ title: Resources
 ### [Skeptics Guide to the Universe](https://www.amazon.com/Skeptics-Guide-Universe-Really-Increasingly-ebook/dp/B079L5FDBJ/ref=sr_1_1?crid=3P8QWLJYZUW1E&dchild=1&keywords=skeptics+guide+to+the+universe+book&qid=1591395597&sprefix=skeptics+%2Caps%2C218&sr=8-1)
 
 ### Podcasts:
-### [Hanselminutes](https://hanselminutes.simplecast.com/)
+### [Hanselminutes](https://www.hanselminutes.com/)
+Great breadth of coverage on software engineering. Scott underplays himself but he asks the most penetrating questions.
 
 ### [Corecursive](https://corecursive.com/)
+Podcast skewed more towards Computer Science topics. 
 
 ### [Programming Throwdown](https://www.programmingthrowdown.com/)
+Diverse programming topics explored in a fun conversational style.
