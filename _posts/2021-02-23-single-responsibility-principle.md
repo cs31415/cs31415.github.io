@@ -12,7 +12,7 @@ image: srp.jpg
 > When you write a software module, you want to make sure that when changes are requested, those changes can only **originate from a single person**, or rather, a single tightly coupled group of people representing a single narrowly defined business function. You want to **isolate your modules from the complexities of the organization as a whole**, and design your systems such that each module is responsible (responds to) the needs of just that one business function.
 <br>- Bob Martin
 
-The Single Responsibility Principle states that a class (or module) must have only **one reason to change**.  As Bob Martin clarifies, the **responsibility/reason to change** implied here is not related to a business object, but rather **a person**. A user for whom the code is written. 
+The Single Responsibility Principle (SRP) states that a class (or module) must have only **one reason to change**.  As Bob Martin clarifies, the **responsibility/reason to change** implied here is not related to a business object, but rather **a person**. A user for whom the code is written. 
 
 For example, given a banking application with an `Account` class that represents a bank account, consider the following use cases:
 - Finance wants a formatting change to the monthly account summary report
