@@ -53,7 +53,7 @@ This has the added benefit of making the code easier to write, since all the cha
 [James Ellis-Jones](https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137) makes a great point about SRP not implying that code should always be separated into classes or modules based on a flowchart, but rather based on what things change together. Thus, there might be times where code that is usually kept separate belongs in the same class - he cites the example of the [Active Record pattern](https://www.martinfowler.com/eaaCatalog/activeRecord.html) where the model and data access are combined into a single class. This pattern might make sense if there is no DBA and the developers are responsible for code and database.     
 
 To sum up, in the words of Bob Martin:
-> as you think about this principle, remember that the reasons for change are **people**. It is **people** who request changes. And you don’t want to confuse those people, or yourself, by mixing together the code that many different people care about for different reasons.
+> As you think about this principle, remember that the reasons for change are **people**. It is **people** who request changes. And you don’t want to confuse those people, or yourself, by mixing together the code that many different people care about for different reasons.
 
 
 ### Takeaways
