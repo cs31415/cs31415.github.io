@@ -74,7 +74,6 @@ class CreditCardProcessor
 class Cart
 {
 	public Product[] Products { get; set; }
-	
 	public PaymentMethod PaymentMethod { get; set; }
 }
 
@@ -94,23 +93,30 @@ In this example, the payment processor dependency is abstracted away through the
 ```javascript
 class OrderProcessor
 {
+	private readonly IPaymentProcessorFactory _paymentProcessorFactory;
+
+	public OrderProcessor(IPaymentProcessorFactory paymentProcessorFactory)
+	{
+		_paymentProcessorFactory = paymentProcessorFactory;
+	}
 	public void Purchase(Cart cart)
 	{
-		switch (cart.PaymentMethod)
-		{
-			case PaymentMethod.CreditCard:
-				var creditCardProcessor = new CreditCardProcessor();
-				creditCardProcessor.ProcessPayment(cart);
-				break;
-			case PaymentMethod.Paypal:
-				var venmoProcessor = new PaypalProcessor();
-				venmoProcessor.ProcessPayment(cart);
-				break;
-		}
+		var paymentProcessor = _paymentProcessorFactory.GetPaymentProcessor(cart.PaymentMethod);
+		paymentProcessor.ProcessPayment(cart);
 	}
 }
 
-class PaypalProcessor
+internal interface IPaymentProcessorFactory
+{
+	IPaymentProcessor GetPaymentProcessor(PaymentMethod paymentMethod);
+}
+
+internal interface IPaymentProcessor
+{
+	void ProcessPayment(Cart cart);
+}
+
+internal class PaypalProcessor : IPaymentProcessor
 {
 	public void ProcessPayment(Cart cart)
 	{
@@ -118,7 +124,7 @@ class PaypalProcessor
 	}
 }
 
-class CreditCardProcessor
+internal class CreditCardProcessor : IPaymentProcessor
 {
 	public void ProcessPayment(Cart cart)
 	{
@@ -126,21 +132,20 @@ class CreditCardProcessor
 	}
 }
 
-class Cart
+internal class Cart
 {
 	public Product[] Products { get; set; }
-	
 	public PaymentMethod PaymentMethod { get; set; }
 }
 
-class Product
+internal class Product
 {
 	public string ProductId { get; set; }
 	public string Description { get; set; }
 	public double Price { get; set; }
 }
 
-enum PaymentMethod { CreditCard, Paypal }
+public enum PaymentMethod { CreditCard, Paypal }
 ```
 
 ### Takeaways
