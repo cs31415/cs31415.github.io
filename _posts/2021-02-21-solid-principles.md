@@ -26,11 +26,11 @@ This is where knowledge of SOLID principles, refactoring and [unit testing](/blo
 
 SOLID itself is one of those manufactured acronyms that the programming landscape is littered with. Baffling to the uninitiated, yet valuable as mnemonic devices. The principles enumerated are:  
 
-**S**ingle Responsibility Principle  
+**S**[ingle Responsibility Principle](/blog/single-responsibility-principle)  
 - A class should only have a single responsibility  
 - e.g. a class that processes a credit card payment should not also update the database   
 
-**O**pen-Closed Principle  
+**O**[pen-Closed Principle](/blog/open-closed-principle)
 - Classes should be open to extension but closed for modification  
 - proposed by [Bertrand Meyer](https://en.wikipedia.org/wiki/Bertrand_Meyer), it originally referred to OO inheritance
 - During the 1990s, this principle was repurposed to refer to polymorphism, where interfaces can be extended by multiple implementations, but the interface specification itself is closed for modification.  
