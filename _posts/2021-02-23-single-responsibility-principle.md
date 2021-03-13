@@ -6,7 +6,7 @@ description: Single Responsibility Principle (SOLID Principles)
 image: srp.jpg
 ---
 
-![Naming](../../../img/srp.jpg)
+![Single-Responsibility Principle](../../../img/srp.jpg)
 <span class="credit">Photo by <a href="https://unsplash.com/@rossf?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ross Findon</a> on <a href="https://unsplash.com/s/photos/change?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 > When you write a software module, you want to make sure that when changes are requested, those changes can only **originate from a single person**, or rather, a single tightly coupled group of people representing a single narrowly defined business function. You want to **isolate your modules from the complexities of the organization as a whole**, and design your systems such that each module is responsible (responds to) the needs of just that one business function.
