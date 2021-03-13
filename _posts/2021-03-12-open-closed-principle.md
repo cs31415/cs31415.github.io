@@ -4,7 +4,7 @@ category: blog
 title: Open-Closed Principle
 permalink: /blog/open-closed-principle
 description: Organized Hacking Using the Open-Closed Principle (SOLID Principles)
-image: srp.jpg
+image: ocp.jpg
 ---
 
 ![Open-Closed Principle](../../../img/ocp.jpg)
