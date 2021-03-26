@@ -21,7 +21,7 @@ In other words, it should be possible to drop in a subtype wherever a supertype 
 
 This is a subtle principle that might seem trivial at first sight. Isn't this just how polymorphism is supposed to work? Well, compilers can only validate polymorphism syntactically. They have no way of doing a semantic (meaning) check. It is this gap that the LSP seeks to redress. Subtypes can't just override supertype methods willy nilly. They have to ensure that clients aren't confused when a subtype instance is passed in where a supertype is expected.
 
-Compilers cannot flag violations of the Liskov principle. The only way we can identify a violation is by validating the subtype's behavior against the expected behavior of the supertype. The expected behavior of supertypes then, must be documented in the code, and implementors of subtypes must adhere to it, otherwise unexpected and hard-to-detect runtime errors might result. LSP violations usually indicate a problem with the inheritance hierarchy. Perhaps the subtypes don't truly satisfy the "is a" relation.  
+Compilers cannot flag violations of the Liskov principle. The only way we can identify a violation is by validating the subtype's behavior against the expected behavior of the supertype. The expected behavior of supertypes then, must be documented in the code, and implementors of subtypes must adhere to it, otherwise unexpected and hard-to-detect runtime errors might result. LSP violations usually indicate a problem with the type hierarchy. Perhaps the subtypes don't truly satisfy the "is a" relation.  
 
 LSP implies the following corollaries<sup>[4]</sup>:
 -   [Preconditions](https://en.wikipedia.org/wiki/Precondition) (conditions true prior to method execution) cannot be strengthened in the subtype.
