@@ -35,7 +35,7 @@ SOLID itself is one of those manufactured acronyms that the programming landscap
 - proposed by [Bertrand Meyer](https://en.wikipedia.org/wiki/Bertrand_Meyer), it originally referred to OO inheritance
 - During the 1990s, this principle was repurposed to refer to polymorphism, where interfaces can be extended by multiple implementations, but the interface specification itself is closed for modification.  
 
-**L**iskov Substitution Principle  
+**L**[iskov Substitution Principle](/blog/liskov-substitution-principle)
 - proposed by [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov)
 - It should be possible to substitute objects with instances of their subtypes (polymorphism)  
 - This is key to not tying classes to concrete dependencies, but rather to abstractions  
