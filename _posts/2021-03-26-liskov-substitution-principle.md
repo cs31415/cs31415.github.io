@@ -13,17 +13,17 @@ image: lsp.jpg
 The Liskov Substitution Principle(LSP), also known as *behavioral subtyping*, was formulated by [Turing Award](https://en.wikipedia.org/wiki/Turing_Award) winner [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov), an accomplished computer scientist who also proposed the notion of [Abstract Data Types](https://en.wikipedia.org/wiki/Abstract_data_type) among other things.
 
 In the words of Liskov herself:
-> Objects of a subtype ought to behave the same as those of the supertype as far as anyone or any program using supertype objects can tell.<sup>[3]</sup>
+> Objects of a subtype ought to behave the same as those of the supertype as far as anyone or any program using supertype objects can tell.<sup id="cite3">[3](http://web.cse.ohio-state.edu/~soundarajan.1/courses/788/lwb.pdf)</sup>
 
 In other words, it should be possible to drop in a subtype wherever a supertype is expected and the code should not just compile, but also function as expected at runtime. 
 
-> I think I can safely say that of the SOLID principles, the Liskov principle is by far the least understood and applied.<sup>[1]</sup> - Dino Esposito
+> I think I can safely say that of the SOLID principles, the Liskov principle is by far the least understood and applied.<sup id="cite1">[1](https://docs.microsoft.com/en-us/archive/msdn-magazine/2011/july/msdn-magazine-cutting-edge-code-contracts-inheritance-and-the-liskov-principle)</sup> - Dino Esposito
 
 This is a subtle principle that might seem trivial at first sight. Isn't this just how polymorphism is supposed to work? Well, compilers can only validate polymorphism syntactically. They have no way of doing a semantic (meaning) check. It is this gap that the LSP seeks to redress. Subtypes can't just override supertype methods willy nilly. They have to ensure that clients aren't confused when a subtype instance is passed in where a supertype is expected.
 
 Compilers cannot flag violations of the Liskov principle. The only way we can identify a violation is by validating the subtype's behavior against the expected behavior of the supertype. The expected behavior of supertypes then, must be documented in the code, and implementors of subtypes must adhere to it, otherwise unexpected and hard-to-detect runtime errors might result. LSP violations usually indicate a problem with the type hierarchy. Perhaps the subtypes don't truly satisfy the "is a" relation.  
 
-LSP implies the following corollaries<sup>[4]</sup>:
+LSP implies the following corollaries<sup id="cite4">[4](https://en.wikipedia.org/wiki/Liskov_substitution_principle)</sup>:
 -   [Preconditions](https://en.wikipedia.org/wiki/Precondition) (conditions true prior to method execution) cannot be strengthened in the subtype.
 In other words, the subtype method’s domain (set of possible inputs) must be a **superset** of supertype method. 
 -   [Postconditions](https://en.wikipedia.org/wiki/Postcondition) (conditions true post method execution) cannot be weakened in the subtype.
@@ -68,7 +68,7 @@ FrodosTicketingAgent : ITicketingAgent
 
 #### Pre-conditions violation:
 
-> The key point is that a derived class can’t just add preconditions. In doing so, it will restrict the range of possible values being accepted for a method, possibly creating runtime failures. - Dino Esposito <sup>[1]</sup>
+> The key point is that a derived class can’t just add preconditions. In doing so, it will restrict the range of possible values being accepted for a method, possibly creating runtime failures. - Dino Esposito <sup id="cite1">[1](https://docs.microsoft.com/en-us/archive/msdn-magazine/2011/july/msdn-magazine-cutting-edge-code-contracts-inheritance-and-the-liskov-principle)</sup>
 
 In this example, we have `SimpleZip` and `AdvancedZip` classes that compress a given string. They are both subtypes of the `IZip` interface. `AdvancedZip` adds the precondition that input should not be null, where the base interface specifies no such expectation. This is a violation of the LSP precondition rule. The thing to note here is that LSP depends on what expected behavior is specified in the base class. If the interface in this example had specified that null input would raise exception, then `SimpleZip`, not `AdvancedZip` would violate LSP.
 
@@ -142,7 +142,7 @@ class Square : Rectangle
 }
 ```
 
-All this is well and good, but who nowadays is using inheritance for code reuse? Is the LSP even relevant anymore? It very much is<sup>[14]</sup>, asserts Bob Martin, since the LSP was never about inheritance and all about subtyping. Implementing an interface is subtyping. Even in dynamic languages such as JavaScript with no formal notion of interfaces, [duck typing](https://en.wikipedia.org/wiki/Duck_typing) (where an object just has the same methods as a base object's and no formal hierarchy exists) implies an underlying interface with certain expected behavior. Subtypes violating that expected behavior pay the price in the form of runtime errors and/or code defecation in the form of if/else/switch statements with special logic for specific types. 
+All this is well and good, but who nowadays is using inheritance for code reuse? Is the LSP even relevant anymore? It very much is<sup id="cite14">[14](https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html)</sup>, asserts Bob Martin, since the LSP was never about inheritance and all about subtyping. Implementing an interface is subtyping. Even in dynamic languages such as JavaScript with no formal notion of interfaces, [duck typing](https://en.wikipedia.org/wiki/Duck_typing) (where an object just has the same methods as a base object's and no formal hierarchy exists) implies an underlying interface with certain expected behavior. Subtypes violating that expected behavior pay the price in the form of runtime errors and/or code defecation in the form of if/else/switch statements with special logic for specific types. 
 
 There is a lot more to pre/post-condition violations than has been said here that requires a deeper dive into topics like [covariance and contravariance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)). [Eric Lippert](https://ericlippert.com/) has written a series of in-depth [posts](https://docs.microsoft.com/en-us/archive/blogs/ericlippert/covariance-and-contravariance-in-c-part-one) on this topic that should be well worth reading. 
 
@@ -154,10 +154,10 @@ There is a lot more to pre/post-condition violations than has been said here tha
 - Since compilers can't flag LSP violations, expected behavior of base classes/interfaces must be well documented in the code.
 
 ### References
-1. [Cutting Edge - Code Contracts: Inheritance and the Liskov Principle](https://docs.microsoft.com/en-us/archive/msdn-magazine/2011/july/msdn-magazine-cutting-edge-code-contracts-inheritance-and-the-liskov-principle)
+1. <a href="#cite1">^</a> [Cutting Edge - Code Contracts: Inheritance and the Liskov Principle](https://docs.microsoft.com/en-us/archive/msdn-magazine/2011/july/msdn-magazine-cutting-edge-code-contracts-inheritance-and-the-liskov-principle)
 2. [Barbara Liskov: The Liskov Substitution Principle](https://www.youtube.com/watch?v=-Z-17h3jG0A)
-3. [A Behavioral Notion of Subtyping - B. Liskov, Jeannette Wing](http://web.cse.ohio-state.edu/~soundarajan.1/courses/788/lwb.pdf)
-4. [Wikipedia: Liskov Substitution Principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+3. <a href="#cite3">^</a> [A Behavioral Notion of Subtyping - B. Liskov, Jeannette Wing](http://web.cse.ohio-state.edu/~soundarajan.1/courses/788/lwb.pdf)
+4. <a href="#cite4">^</a> [Wikipedia: Liskov Substitution Principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 5. [SOLID Design Principles Explained: The Liskov Substitution Principle with Code Examples](https://stackify.com/solid-design-liskov-substitution-principle/)
 6. [SOLID violations in the wild: The Liskov Substitution Principle](https://www.devonblog.com/software-development/solid-violations-wild-liskov-substitution-principle/)
 7. [Is this a violation of the LSP?](https://softwareengineering.stackexchange.com/questions/170138/is-this-a-violation-of-the-liskov-substitution-principle/170142)
@@ -167,4 +167,4 @@ There is a lot more to pre/post-condition violations than has been said here tha
 11. [How does strengthening of preconditions and weakening of postconditions violate Liskov substitution principle?](https://softwareengineering.stackexchange.com/questions/187613/how-does-strengthening-of-preconditions-and-weakening-of-postconditions-violate)
 12. [How to verify the Liskov substitution principle in an inheritance hierarchy?](https://softwareengineering.stackexchange.com/questions/170189/how-to-verify-the-liskov-substitution-principle-in-an-inheritance-hierarchy)
 13. [SOLID principles – Part 3: Liskov’s Substitution Principle](https://www.ckode.dk/programming/solid-principles-part-3-liskovs-substitution-principle/)
-14. [SOLID Relevance](https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html)
+14. <a href="#cite14">^</a> [SOLID Relevance](https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html)
