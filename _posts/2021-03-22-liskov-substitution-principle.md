@@ -146,10 +146,10 @@ All this is well and good, but who nowadays is using inheritance for code reuse?
 There is a lot more to pre/post-conditions violations than has been said here that requires a deeper dive into topics like [covariance and contravariance](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)). [Eric Lippert](https://ericlippert.com/) has written a series of [posts](https://docs.microsoft.com/en-us/archive/blogs/ericlippert/covariance-and-contravariance-in-c-part-one) on this topic that should be locatable with some Google skills. 
 
 ### Takeaways
-- Liskov Substitution Principle says that types should not alter fundamental behavior of types they inherit from.
+- Liskov Substitution Principle says that subtypes should not alter expected behavior of supertypes.
 - Passing a subtype in lieu of a supertype should be totally transparent with no special handling required on the part of clients.
 - LSP implies that preconditions may not be tightened, postconditions not weakened, and invariants not modified by a subtyped method.
-- Violations of LSP may indicate that the type hierarchy isn't sound.
+- Violations of LSP may indicate a flawed hierarchy.
 - Since compilers can't flag LSP violations, expected behavior of base classes/interfaces must be well documented in the code.
 
 ### References
