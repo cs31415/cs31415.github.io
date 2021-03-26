@@ -38,7 +38,7 @@ The LSP can be better understood by looking at some examples of violations:
 
 Subtype methods with missing implementations are a violation of the LSP. If the client expects the supertype to have a certain method and the subtype fails to implement it, then the subtype fails the "is a" supertype test. In the example below, `ITicketingAgent` represents an interface to a movie theater. Theaters can have auditoriums with reserved seating or general seating. 
 
-```
+```javascript
 ITicketingAgent
 + bool IsShowSoldOut(IShow show)
 + string[] GetAvailableSeats(IReservedShow show)
@@ -48,7 +48,7 @@ ITicketingAgent
 
 Bilbo's theaters don't support reserved seating. Hence the `GetAvailableSeats` and `ReserveSeats` method taking a list of seat ids is not implemented.
 
-```
+```javascript
 BilbosTicketingAgent : ITicketingAgent
 + bool IsShowSoldOut(IShow show)
 + string[] GetAvailableSeats(IReservedShow show) <= not impl
@@ -58,7 +58,7 @@ BilbosTicketingAgent : ITicketingAgent
 
 Frodo's theaters only have auditoriums with reserved seating. Hence, the methods for general seating auditoriums aren't implemented. Both of these are violations of the LSP. It indicates our original ticketing agent abstraction may be too broad.
 
-```
+```javascript
 FrodosTicketingAgent : ITicketingAgent
 + bool IsShowSoldOut(IShow show)  <= not impl
 + string[] GetAvailableSeats(IReservedShow show)
@@ -71,7 +71,8 @@ FrodosTicketingAgent : ITicketingAgent
 > The key point is that a derived class can’t just add preconditions. In doing so, it will restrict the range of possible values being accepted for a method, possibly creating runtime failures. - Dino Esposito <sup>[1]</sup>
 
 In this example, we have `SimpleZip` and `AdvancedZip` classes that compress a given string. They are both subtypes of the `IZip` interface. `AdvancedZip` adds the precondition that input should not be null, where the base interface specifies no such expectation. This is a violation of the LSP precondition rule. The thing to note here is that LSP depends on what expected behavior is specified in the base class. If the interface in this example had specified that null input would raise exception, then `SimpleZip`, not `AdvancedZip` would violate LSP.
-```
+
+```javascript
 interface IZip
 {
     // returns null if input is null else returns compressed string
@@ -104,7 +105,7 @@ class AdvancedZip : IZip
 
 The canonical example flogged to death by every other article discussing LSP is revisited here. `Rectangle` can be stretched by a multiplicative factor. `Square` rather unwisely piggybacks on `Rectangle`, and boxes the `Height` and `Width` to be always equal. `HorizontalStretch` is expected to only increase the `Width` and keep `Height` invariant. However, since `Height` and `Weight` move in concert for `Square`, `Height` is no longer invariant to `HorizontalStretch`. If the client was rendering the shapes and had sized the canvas expecting the `Height` to remain unchanged, part of the `Square` would now be clipped. If we overrode `HorizontalStretch` for `Square` to keep `Height` invariant, it would no longer remain a `Square`. Damned if you do, damned if you don't. A good sign that the hierarchy isn't sound.
 
-```
+```javascript
 class Rectangle
 {
     public virtual int Height { get; set; }
