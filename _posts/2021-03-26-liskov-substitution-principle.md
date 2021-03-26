@@ -163,8 +163,8 @@ There is a lot more to pre/post-condition violations than has been said here tha
 7. [Is this a violation of the LSP?](https://softwareengineering.stackexchange.com/questions/170138/is-this-a-violation-of-the-liskov-substitution-principle/170142)
 8. [Example of LSP Violation using vehicles](https://stackoverflow.com/questions/20861107/can-anyone-provide-an-example-of-the-liskov-substitution-principle-lsp-using-v)
 9. [Violating LSP](https://www.codeproject.com/Articles/648987/Violating-Liskov-Substitution-Principle-LSP)
-10. https://stackoverflow.com/questions/35582996/liskov-substitution-principle-violations
-11. https://softwareengineering.stackexchange.com/questions/187613/how-does-strengthening-of-preconditions-and-weakening-of-postconditions-violate
-12. https://softwareengineering.stackexchange.com/questions/170189/how-to-verify-the-liskov-substitution-principle-in-an-inheritance-hierarchy
-13. https://www.ckode.dk/programming/solid-principles-part-3-liskovs-substitution-principle/
+10. [Liskov Substitution Principle Violations](https://stackoverflow.com/questions/35582996/liskov-substitution-principle-violations)
+11. [How does strengthening of preconditions and weakening of postconditions violate Liskov substitution principle?](https://softwareengineering.stackexchange.com/questions/187613/how-does-strengthening-of-preconditions-and-weakening-of-postconditions-violate)
+12. [How to verify the Liskov substitution principle in an inheritance hierarchy?](https://softwareengineering.stackexchange.com/questions/170189/how-to-verify-the-liskov-substitution-principle-in-an-inheritance-hierarchy)
+13. [SOLID principles – Part 3: Liskov’s Substitution Principle](https://www.ckode.dk/programming/solid-principles-part-3-liskovs-substitution-principle/)
 14. [SOLID Relevance](https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html)
