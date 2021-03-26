@@ -39,49 +39,49 @@ We have here a simple order processing class for an e-commerce store with a sing
 ```javascript
 class OrderProcessor
 {
-	public void Purchase(Cart cart)
-	{
-		switch (cart.PaymentMethod)
-		{
-			case PaymentMethod.CreditCard:
-				var creditCardProcessor = new CreditCardProcessor();
-				creditCardProcessor.ProcessPayment(cart);
-				break;
-			case PaymentMethod.Paypal:
-				var venmoProcessor = new PaypalProcessor();
-				venmoProcessor.ProcessPayment(cart);
-				break;
-		}
-	}
+    public void Purchase(Cart cart)
+    {
+        switch (cart.PaymentMethod)
+        {
+            case PaymentMethod.CreditCard:
+                var creditCardProcessor = new CreditCardProcessor();
+                creditCardProcessor.ProcessPayment(cart);
+                break;
+            case PaymentMethod.Paypal:
+                var venmoProcessor = new PaypalProcessor();
+                venmoProcessor.ProcessPayment(cart);
+                break;
+        }
+    }
 }
 
 class PaypalProcessor
 {
-	public void ProcessPayment(Cart cart)
-	{
-		// charge via Paypal
-	}
+    public void ProcessPayment(Cart cart)
+    {
+        // charge via Paypal
+    }
 }
 
 class CreditCardProcessor
 {
-	public void ProcessPayment(Cart cart)
-	{
-		// charge the customer's credit card
-	}
+    public void ProcessPayment(Cart cart)
+    {
+        // charge the customer's credit card
+    }
 }
 
 class Cart
 {
-	public Product[] Products { get; set; }
-	public PaymentMethod PaymentMethod { get; set; }
+    public Product[] Products { get; set; }
+    public PaymentMethod PaymentMethod { get; set; }
 }
 
 class Product
 {
-	public string ProductId { get; set; }
-	public string Description { get; set; }
-	public double Price { get; set; }
+    public string ProductId { get; set; }
+    public string Description { get; set; }
+    public double Price { get; set; }
 }
 
 enum PaymentMethod { CreditCard, Paypal }
@@ -93,56 +93,56 @@ In this example, the payment processor dependency is abstracted away through the
 ```javascript
 class OrderProcessor
 {
-	private readonly IPaymentProcessorFactory _paymentProcessorFactory;
+    private readonly IPaymentProcessorFactory _paymentProcessorFactory;
 
-	public OrderProcessor(IPaymentProcessorFactory paymentProcessorFactory)
-	{
-		_paymentProcessorFactory = paymentProcessorFactory;
-	}
-	public void Purchase(Cart cart)
-	{
-		var paymentProcessor = _paymentProcessorFactory.GetPaymentProcessor(cart.PaymentMethod);
-		paymentProcessor.ProcessPayment(cart);
-	}
+    public OrderProcessor(IPaymentProcessorFactory paymentProcessorFactory)
+    {
+        _paymentProcessorFactory = paymentProcessorFactory;
+    }
+    public void Purchase(Cart cart)
+    {
+        var paymentProcessor = _paymentProcessorFactory.GetPaymentProcessor(cart.PaymentMethod);
+        paymentProcessor.ProcessPayment(cart);
+    }
 }
 
 internal interface IPaymentProcessorFactory
 {
-	IPaymentProcessor GetPaymentProcessor(PaymentMethod paymentMethod);
+    IPaymentProcessor GetPaymentProcessor(PaymentMethod paymentMethod);
 }
 
 internal interface IPaymentProcessor
 {
-	void ProcessPayment(Cart cart);
+    void ProcessPayment(Cart cart);
 }
 
 internal class PaypalProcessor : IPaymentProcessor
 {
-	public void ProcessPayment(Cart cart)
-	{
-		// charge via Paypal
-	}
+    public void ProcessPayment(Cart cart)
+    {
+        // charge via Paypal
+    }
 }
 
 internal class CreditCardProcessor : IPaymentProcessor
 {
-	public void ProcessPayment(Cart cart)
-	{
-		// charge the customer's credit card
-	}
+    public void ProcessPayment(Cart cart)
+    {
+        // charge the customer's credit card
+    }
 }
 
 internal class Cart
 {
-	public Product[] Products { get; set; }
-	public PaymentMethod PaymentMethod { get; set; }
+    public Product[] Products { get; set; }
+    public PaymentMethod PaymentMethod { get; set; }
 }
 
 internal class Product
 {
-	public string ProductId { get; set; }
-	public string Description { get; set; }
-	public double Price { get; set; }
+    public string ProductId { get; set; }
+    public string Description { get; set; }
+    public double Price { get; set; }
 }
 
 public enum PaymentMethod { CreditCard, Paypal }
