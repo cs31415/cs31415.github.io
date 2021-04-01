@@ -58,10 +58,10 @@ According to Martin, the polyadic form is preferable to the monadic form because
 Finally, some food for thought. What do you think about apps that are built on some least-common denominator framework (like [Electron](https://www.electronjs.org/) or even the World Wide Web)? Do they violate ISP by providing a general-purpose client that works on all types of devices using a single codebase? Do the clients (the apps themselves) have dependencies that they don't really need? Would having client-specific apps (native apps built for each client) result in a more decoupled and change-resilient system? Or do the benefits of the least common denominator framework outweigh the costs?
 
 ### Takeaways
-- Interface segregation principle aims to reduce module's dependencies on each other.
+- Interface segregation principle aims to reduce modules' dependencies on each other.
 - It does this by mandating that interfaces tailored to each client be used rather than general-purpose ones that try to serve all clients.
 - ISP aims to provide different views of a module partitioned by SRP to different clients (that may be application classes, screens or web pages).
-- ISP provides guidance on how to pass dependencies into modules, favoring enumeration of each dependency (polyadic form) rather than passing in a container that houses all the dependencies (monadic form).  
+- ISP provides guidance on how to pass dependencies into modules, favoring enumeration of each dependency (polyadic form) rather than passing in a container that might house other unrelated dependencies in addition to the required dependencies (monadic form).  
 
 ### References
 
