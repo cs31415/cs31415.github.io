@@ -11,7 +11,8 @@ image: dip.jpg
 <span class="credit">Photo by <a href="https://unsplash.com/@processingly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">processingly</a> on <a href="https://unsplash.com/s/photos/invert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
 Bad design exhibits rigidity (cascading changes), fragility (breakages in unrelated parts), immobility (reusing parts of the design in other apps is hard). 
-[Bob Martin](https://en.wikipedia.org/wiki/Robert_C._Martin):
+
+Says [Bob Martin](https://en.wikipedia.org/wiki/Robert_C._Martin):
 > What is it that makes a design rigid, fragile and immobile? It is the interdependence of the modules within that design.<sup id="cite1">[1](https://web.archive.org/web/20110714224327/http://www.objectmentor.com/resources/articles/dip.pdf)</sup>
 
 How to improve a bad design that suffers from these flaws? That is the purpose of the Dependency Inversion Principle (DIP) which states that:
