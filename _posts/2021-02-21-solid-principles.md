@@ -40,12 +40,12 @@ SOLID itself is one of those manufactured acronyms that the programming landscap
 - It should be possible to substitute objects with instances of their subtypes (polymorphism)  
 - This is key to not tying classes to concrete dependencies, but rather to abstractions  
 
-**I**nterface Segregation Principle  
+**I**[nterface Segregation Principle](/blog/interface-segregation-principle) 
 - Favor fine grained interfaces tailored to needs of different clients than one thick general purpose interface  
 - Single responsibility applied to interfaces  
 - Principle of least privilege - clients don't need to know about functionality they don't use, so that they don't need to adapt to changes in that functionality    
 
-**D**ependency Inversion Principle        
+**D**[ependency Inversion Principle](/blog/dependency-inversion-principle)
 - Classes should depend only on other abstract interfaces, not other concrete classes  
 - A class' dependencies should be injected into the class (say, via constructor arguments) vs being instantiated within the class
 - Liskov Substitution makes Dependency Inversion possible   
