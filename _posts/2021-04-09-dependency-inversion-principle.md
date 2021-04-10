@@ -86,7 +86,7 @@ internal class CreditCardProcessor : IPaymentProcessor
 
 ### Dependency Inversion and unit testing
 
-A nice side-effect of Dependency inversion using interfaces is that it enables writing unit tests without the need to setup complex dependency chains. Since external dependencies aren't part of the SUT (System under Test), their behavior (as specified in the interface) can be mocked using a tool like Moq, and unit tests don't need to have any cascading dependencies on concrete classes. See [Unit Testing Part 3](http://chandrasivaraman.com/blog/unit-testing-3/).
+A nice side-effect of Dependency inversion using interfaces is that it enables writing unit tests without the need to setup complex dependency chains. Since external dependencies aren't part of the SUT (System under Test), their behavior (as specified in the interface) can be mocked using a tool like [Moq](https://github.com/Moq/moq4/wiki/Quickstart), and unit tests don't need to have any cascading dependencies on concrete classes. See [Unit Testing Part 3](http://chandrasivaraman.com/blog/unit-testing-3/).
 
 This completes our brief tour of [SOLID Principles](/blog/solid-principles).
 
