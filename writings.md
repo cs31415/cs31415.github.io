@@ -74,3 +74,7 @@ Ramu and Somu tackle unreason in the face of a pandemic
 <br/>
 ### [Ramu Somu and the Bigots](\writings\Ramu%20Somu%20and%20the%20Bigots)
 Ramu and Somu confront a rising wave of bigotry in Shivajinagar
+<br/>
+<br/>
+### [Time Travels: Karachi Diary](\writings\Time%20Travels%20-%20Karachi%20Diary)
+A journey back in time to Karachi, 1947

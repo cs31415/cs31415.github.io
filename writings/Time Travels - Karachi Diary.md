@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Time Travels: Karachi Diary
+title: Time Travels - Karachi Diary
 ---
 
 ### Time Travels: Karachi Diary
@@ -17,13 +17,14 @@ Short story based on the following prompt:
 "Muslim!"—I blurted, thanking my stars that I hadn't charged my razor in more than a month. Laziness can sometimes save your life.
 
 "Your clothes look strange. You aren't an English spy, are you?". I had forgotten to change into period attire. 
+
 "I took these from an Englishman killed by a mob."
 
-"Why are your pants ripped at the knees?" 
-"He must have fallen down while running from the mob."
+"Why are your pants ripped at the knees?"
+<br/>"He must have fallen down while running from the mob."
 
 "You have a funny accent."
-"I am a refugee from Hyderabad."
+<br/>"I am a refugee from Hyderabad."
 
 "I knew you were not from here. You know what they're doing to our brothers over there. We are not cowards. Come, let's go and show them we can also fight." 
 
@@ -47,13 +48,13 @@ I didn't feel like taking a look. It would be a difficult memory to erase. Some 
 
 The dock was like a zoo where the animals had escaped. The police were herding refugees like cattle. Why, I wondered, weren't they out controlling the mobs in the city? Maybe they, too, were scared of them. A loudspeaker implored people to form queues; the ship to Bombay would leave as soon as it was full. People with suitcases and cloth bundles were swarming all over the gangway trying to get onto the ship like ants. They had taken only the things that they could carry. Even if they managed to get onboard and survive the journey, an uncertain future loomed ahead. 
 
-I had to get the boy aboard the ship. His best chance lay in getting out of this hellhole. I hoisted him onto my shoulders and barged through the crowd, ignoring  the vitriol thrown at us. There was a thin line between bravery and foolishness, but I managed to stay on it. A crowd parting trick from the railway stations of Bombay came in handy—shouting “Fish water”. It never failed to work. 
+I had to get the boy aboard the ship. His best chance lay in getting out of this hellhole. I hoisted him onto my shoulders and barged through the crowd, ignoring  the vitriol thrown at us. There was a thin line between bravery and foolishness, but I managed to stay on it. A crowd parting trick from the railway stations of Bombay came in handy—shouting “*Fish water!*”. It never failed to work. 
 
-The gangway was now within reach. After some more shoving and pushing, we were ascending it. We had the advantage of not having any baggage. I got onto the ship’s deck and found an official with a register. I entrusted the boy to him and absentmindedly gave my contact address. 
+The gangway was now within reach. After some more shoving and pushing, we were ascending it. We had the advantage of not having any baggage. I got onto the ship’s deck and found an official looking person with a register. I entrusted the boy to him and absentmindedly gave my contact address. 
 
 That done, I began hunting for the family I had come for. I scanned the teeming mass of humanity on the decks and those peering from the state rooms, looking for familiar faces. Old photographs and tales were my only reference. 
 
-Minutes later, after being on the verge of giving up, I sighted them on the lower deck. Packed tighter than a Virar fast train. I didn’t recognize the children at first. The father and mother, though, stood out-Stoic figures. They looked like they had just walked out of the faded photograph my father had shown me. Except they were in color. They must have been stressed, but I didn't see it in their faces. Their composure would have comforted the children no end in the midst of an ordeal.
+Minutes later, after being on the verge of giving up, I sighted them on the lower deck. Packed tighter than a *Virar* fast train. I didn’t recognize the children at first. The father and mother, though, stood out—Stoic figures. They looked like they had just walked out of the faded photograph my father had shown me. Except they were in color. They must have been stressed, but I didn't see it in their faces. Their composure would have comforted the children no end in the midst of an ordeal.
 
 I turned my attention to the children. In my mind, I tried to turn the clock back and imagine what my father and uncles would have looked like as children. This I superimposed upon the reality unfolding in front of my eyes. A blurred image came into focus. I recognized them as in a vivid dream. I shouted their names over the cacophony of the crowd. But they didn’t hear me. I had to get closer.
 
