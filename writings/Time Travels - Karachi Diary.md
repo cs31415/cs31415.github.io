@@ -63,10 +63,7 @@ I turned my attention to the children. In my mind, I tried to turn the clock bac
 
 To my dismay, my time was up. The timer had run out, and I was back in Simi Valley. The fragrance of coffee filled the air and the toast had just popped. I wanted to call my father and talk to him, but it was past his bedtime. The thought of squeezing in another trip flashed through my mind. 
 
-
-
-
-
+**p.s.** Some of the characters, locations and events in this story are based on the experiences of my father and his family during the partition of India in 1947. They traveled by ship from Karachi to Mumbai in 1947 as refugees of the partition following communal riots in Karachi. 
 
 
 
