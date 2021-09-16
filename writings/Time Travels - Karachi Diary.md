@@ -5,6 +5,9 @@ title: Time Travels - Karachi Diary
 
 ### Time Travels: Karachi Diary
 
+![Karachi Harbor](../../../img/karachi-dock.jpg)
+<span class="credit">Witness to Life and Freedom, Roli Books, Delhi</span>
+
 Short story based on the following prompt:
 
 > Like an impatient fool, I lugged over the lever, and incontinently the thing went reeling over, and I was flung headlong through the air.
