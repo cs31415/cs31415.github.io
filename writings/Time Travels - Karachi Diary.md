@@ -19,7 +19,7 @@ Short story based on the following prompt:
 
 "Muslim!"—I blurted, thanking my stars that I hadn't charged my razor in more than a month. Laziness can sometimes save your life.
 
-"Your clothes look strange. You aren't an English spy, are you?". I had forgotten to change into period attire. 
+"Your clothes look bizarre. You aren't an English spy, are you?". I had forgotten to change into period attire. 
 
 "I took these from an Englishman killed by a mob."
 
