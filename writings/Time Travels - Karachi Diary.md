@@ -37,7 +37,7 @@ Short story based on the following prompt:
 
 I braced for more insults, but to my surprise, the mob moved on. They had other targets.
 
-It was risky to stay there for long. I approached an elder for the way to *Ramaswami Ghadi Gatha*. He looked me up and down and directed me to a road. Not a soul could be seen walking on it. It looked like a fire had ravaged the area. Many homes had been reduced to ashes. Smoke was still rising from within their precincts. Vandals had left nothing of value behind. 
+It was risky to stay there for long. I approached an elder for the way to a locality named *Ramasami Ghadi Gatha*. He looked me up and down and directed me to a road. Not a soul could be seen walking on it. It looked like a fire had ravaged the area. Many homes had been reduced to ashes. Smoke was still rising from within their precincts. Vandals had left nothing of value behind. 
 
 A boy, barely eight, emerged out of the smoke and haze in front of me. His arms were like pencils. He was covered in dust from head to toe. Some of his shirt buttons were broken, and his shorts were torn. He was clutching a wooden horse with a broken foot that had seen better days. It, too, seemed to be in a daze like him. 
 
