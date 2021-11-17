@@ -82,7 +82,7 @@ The drive on highway 41 was full of  spectacular views, though very winding and 
 
 We encountered a dense fog that lasted for miles. It was strange because the fog lasted till 2-3 pm. 
 
-Had lunch in Visalia from Curry Pizza Company. Ordered butter paneer masala pizza. Didn't realize family size would be humongous. It was delicious too rich and buttery to eat more than one slice. Me and Shonu managed to eat two slices with great difficulty. Kamini smartly had only one. As if the pizza wasn’t enough, we had received complementary bread sticks, equally rich. 
+Had lunch in Visalia from Curry Pizza Company. Ordered butter paneer masala pizza. Didn't realize family size would be humongous. It was delicious but too rich and buttery to eat more than one slice. Me and Shonu managed to eat two slices with great difficulty. Kamini smartly had only one. As if the pizza wasn’t enough, we had received complementary bread sticks, equally rich. 
 
 Got coffee from adjoining Starbucks. Shonu got Very Berry Hibiscus iced tea lemonade and Kamini got Chai Tea Latte. This particular Starbucks was a dump. They didn’t even have sugar, milk, stirrers. Had to ask. The coffee was alright though the barista added too much milk. The chai tea was milky. The iced tea was delicious according to Shonu. 
 
