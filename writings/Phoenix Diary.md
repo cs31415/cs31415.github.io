@@ -11,7 +11,7 @@ title: Phoenix Diary
 
 #### 21st November 2021:
 
-Started for Phoenix at 12:30. The 210-10 route is always traffic heavy. Don’t like it. Some confusion on the way about which route to take. Google maps is routing through San Diego and showing a 7 hour journey— longer than the 6 hours when we started out. After some disagreements, end up staying on 210-10 which shows 5.5 hours. 
+Started for Phoenix at 12:30. Gullu came along. The 210-10 route is always traffic heavy. Don’t like it. Some confusion on the way about which route to take. Google maps is routing through San Diego and showing a 7 hour journey— longer than the 6 hours when we started out. After some disagreements, end up staying on 210-10 which shows 5.5 hours. 
 
 Reach Phoenix at 8.21 Mountain Time (7:21 Pacific Time) after a non-stop, continuously traffic-laden drive through open desert in the dusk and dark. Too many trucks struggling to overtake each other up inclines and slowing traffic to a crawl in the process. Some gorgeous mountains in the far distance painted magenta in the desert sunset. 
 
@@ -56,7 +56,7 @@ The road then abruptly exits the park and houses start popping up on either side
 
 We shortly re-enter the park. After a few misses, we manage to find a picnic spot to have lunch, having to drive through an unpaved road. It’s very nicely designed with every spot having its own parking, trash, tables and fire pit. Get a table with a great view of hillside covered in saguaro cactus, and overlooking a great saguaro filled valley. We are surrounded by saguaro, ocotillo, mesquite and several other distinct cactus varieties. It is very peaceful and silent except for the humans talking in the spot next to us. There is a meditative air to the place. 
 
-We have a welcome lunch of nachos and tacos from the cafe. We are full by the time we get to the enchiladas, which are saved for dinner. Shonu has filled a bottle with a fruit punch that she made in the hotel. It is very refreshing. 
+We have a welcome lunch of nachos and tacos from the cafe. We are full by the time we get to the enchiladas, which are saved for dinner. Shonu has filled a bottle with a fruit punch that she made in the hotel. It is very refreshing. Gullu also enjoys the scenery.
 
 After a few photos, we move on to the visitor center. Get a national parks pass and a map. From the map, we learn about a petroglyphs site and a desert walk close by. 
 
@@ -72,7 +72,7 @@ We now hear thunder rumbling in the distance, and decide to head back. Back in t
 
 The return trip is uneventful except for a low tire pressure warning (which is fixed by filling air at a gas station), and a brief halt to view a spectacular sunset in the far distance. After a cloudy day, the sun emerged just before sunset, heroically breaking free from the shackles only to promptly disappear below the horizon after a little cameo. 
 
-Dinner is leftovers from Dhaba and the enchiladas from morning. It is quite adequate. Accompanied by Canada Dry ginger ale while watching Shark Tank. 
+Dinner is leftovers from Dhaba and the enchiladas from morning. It is quite adequate. Accompanied by Canada Dry ginger ale while watching Shark Tank. Gullu poses for some photos.
 
 #### 24th November 202
 
@@ -84,7 +84,7 @@ The drive to Camp Verde (where we were going to stay) along highway 17 was smoot
 
 Reached the Cliff Casino Hotel at around 1:30pm. Went in search of lunch and found it at a small vendor selling fry bread, a traditional Native American snack, that is like a bhatura. We got salt and cinnamon sugar flavors. It was very fresh and tasty. A Native American gent and his wife were working the stall, which was setup in an open field. The man was quite talkative and cheerful and was asking customers where they were from. A desi family from Texas was ahead of us. The mother was explaining to her son that it was like chola bhatura (without chola). We got confirmation that no lard or egg was used to make the bread. Just flour and vegetable oil. 
 
-Since check-in was only at 4 pm and it was only 3 pm, we went to nearby Montezuma Castle National Monument. Kamini, me and Appa had been here years ago during our trip to Sedona, although I didn't have a very good memory of it.
+Since check-in was only at 4 pm and it was only 3 pm, we went to nearby Montezuma Castle National Monument. Kamini, me and Appa had been here years ago during our trip to Sedona, although I didn't have a very good memory of it. Gullu comes along in Kamini's handbag.
 
 The ruins are very well preserved for a 700 year old structure. It was made by ancestors of the Pueblo people called the Sinagua (“without water” which is curious since a stream adjoins the site) people who lived here between 600 and 1400 AD. The complex is much larger than what is visible. This was an ancient high rise colony in a great location — right next to a stream — with good weather and great visibility of surroundings. It must have required considerable effort to construct this elaborate structure on a cliff face. The stream nearby enabled agriculture and the growing of corn, squash and beans. 
 
@@ -160,7 +160,7 @@ Light traffic initially; it picks up as we near Phoenix. We play the “Are you 
 
 It is 2:30 MT (1:30 PT) by the time we stop for gas at a 76. I take over the wheel. We stop shortly thereafter for lunch at a small highway town called Blythe just past the California border. We gain back the hour we lost when we enter California since we go from Mountain Time to Pacific Time. We order in the drive through and then park to eat. Chalupa and fiesta potatoes taste especially good when you are hungry. The attendant has given us extra potatoes by mistake. We don't mind this mistake in the least. We one by three it. 
 
-The drive resumes. We are running into more traffic now. We stop in Palm Desert for Starbucks coffee. Shonu has Very Berry Hibiscus iced tea as usual and Kamini and I share a Mocha. 
+The drive resumes. Gullu gets a good view from the dashboard but then feels too hot and retreats to the back seat. We are running into more traffic now. We stop in Palm Desert for Starbucks coffee. Shonu has Very Berry Hibiscus iced tea as usual and Kamini and I share a Mocha. 
 
 As soon as we get back on the freeway, our friend the tire pressure indicator revisits us. We pull off at the next gas station and check the pressure. All seems good. So I reset the TPMS indicator and get back on the freeway. The unpaved roads might have thrown off the sensor.
 
