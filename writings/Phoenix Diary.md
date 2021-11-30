@@ -166,7 +166,7 @@ As soon as we get back on the freeway, our friend the tire pressure indicator re
 
 Traffic is getting worse. Google maps reroutes us through Palm Springs town. It proves to be a nice, scenic detour. Shonu and  Kamini are playing a mythology game. The traffic now slows to a crawl as we approach the freeway again. It stays this way for the next hour and half. 
 
-It opens up then after San Bernardino. We call and talk to Tatha Patis. Kamini orders food from Woodlands - palak paneer, mixed veg curry and aloo paratha. 
+It opens up then after San Bernardino. We call and talk to Tatha Patis from the car since it will be too late by the time we get home. Kamini orders food from Woodlands - palak paneer, mixed veg curry and aloo paratha. 
 We pick up food and finally arrive home around 8:15pm. 
 
 Thoughts of the day:
