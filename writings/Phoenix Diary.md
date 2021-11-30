@@ -6,7 +6,7 @@ title: Phoenix Diary
 ### Phoenix Diary
 
 ![Phoenix](../../../img/phoenix.jpg)
-<span class="credit">Yosemite Valley view from meadow at dusk</span>
+<span class="credit">Saguaro National Park</span>
 
 
 #### 21st November 2021:
