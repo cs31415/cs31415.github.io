@@ -13,9 +13,9 @@ title: Phoenix Diary
 
 Started for Phoenix at 12:30. The 210-10 route is always traffic heavy. Don’t like it. Some confusion on the way about which route to take. Google maps is routing through San Diego and showing a 7 hour journey— longer than the 6 hours when we started out. After some disagreements, end up staying on 210-10 which shows 5.5 hours. 
 
-Reach Phoenix at 8.21 MT (7:21 PT) after a non-stop, continuously traffic-laden drive through open desert in the dusk and dark. Too many trucks struggling to overtake each other up inclines and slowing traffic to a crawl in the process. Some gorgeous mountains in the far distance painted magenta in the desert sunset. 
+Reach Phoenix at 8.21 Mountain Time (7:21 Pacific Time) after a non-stop, continuously traffic-laden drive through open desert in the dusk and dark. Too many trucks struggling to overtake each other up inclines and slowing traffic to a crawl in the process. Some gorgeous mountains in the far distance painted magenta in the desert sunset. 
 
-Phoenix seems very clean. Broad freeways and roads. Light traffic. Drivers are chilled out. Driving at 70mph and staying in their lanes compared to frenzied LA drivers switching in and out of lanes. 
+Phoenix seems very clean - broad freeways and roads, light traffic, chilled out drivers, driving at 70mph and staying in their lanes compared to frenzied LA drivers switching in and out of lanes. 
 
 We are staying at Marriott Springhill suites. Nice suite with kitchenette, fridge, microwave and sink, sofa and living room area, 2 double beds, 2 TVs,  fancy lighting on the bathroom mirror. 
 
@@ -158,7 +158,7 @@ Get ready and leave at 10:30. Stop to see Arcosanti community on the way back. T
 
 Light traffic initially; it picks up as we near Phoenix. We play the “Are you from X?” game while listening to New Hindi Songs playlist. We add places from MP, Harry Potter, Lord of the Rings etc. Kamini takes over the wheel and I get a good break. We take 303 Phoenix bypass which runs through the Sonoran desert. It’s virtually empty. But this is a mirage, since we hit traffic as soon as the road joins the interstate I-10. Lots of trucks and slow coaches make for an unpleasant drive. We look for a Taco Bell for lunch around 1 pm PT. There is one in 5 minutes, but I make an error in reading the map and think that we can skip this one. There will be many others at 10-20 minute intervals. The next one turns out to be 1 1/2 hours away. Oops. 
 
-It is 2:30 by the time we stop for gas at a 76. I take over the wheel. We stop shortly thereafter for lunch at a small highway town called Blythe just past the California border. We gain back the hour we lost when we enter California since we go from Mountain Time to Pacific Time. We order in the drive through and then park to eat. Chalupa and fiesta potatoes taste especially good when you are hungry. The attendant has given us extra potatoes by mistake. We don't mind this mistake in the lest. We one by three it. 
+It is 2:30 by the time we stop for gas at a 76. I take over the wheel. We stop shortly thereafter for lunch at a small highway town called Blythe just past the California border. We gain back the hour we lost when we enter California since we go from Mountain Time to Pacific Time. We order in the drive through and then park to eat. Chalupa and fiesta potatoes taste especially good when you are hungry. The attendant has given us extra potatoes by mistake. We don't mind this mistake in the least. We one by three it. 
 
 The drive resumes. We are running into more traffic now. We stop in Palm Desert for Starbucks coffee. Shonu has Very Berry Hibiscus iced tea as usual and Kamini and I share a Mocha. 
 
@@ -169,8 +169,8 @@ Traffic is getting worse. Google maps reroutes us through Palm Springs town. It 
 It opens up then after San Bernardino. We call and talk to Tatha Patis. Kamini orders food from Woodlands - palak paneer, mixed veg curry and aloo paratha. 
 We pick up food and finally arrive home around 8:15pm. 
 
-Random thoughts of the day:
+Thoughts of the day:
 
-- Random mountains and hills along the route don’t get much love. Some mountains like Everest and half dome get all the attention. Those unknown mountains and hills are still very much real. The sun rises and sets over them just as much as the celebrity mountains. 
+- Random mountains and hills along the route don’t get much love. Some mountains like Everest and Half Dome get all the attention. The unknown mountains and hills are just as real. The sun rises and sets over them just as much as the celebrity mountains. 
 
-- We transported our atoms into a different physical reality - Phoenix, Sedona. They are as real as Simi Valley. They are the default reality for someone just like Simi Valley is ours. A strange coincidence served to illustrate this. When Kamini was picking up food from Woodlands, she came across someone who was also picking up food. They happened to have done the inverse trip from us. They were visiting Los Angeles from Phoenix. 
+- We transported our atoms into a different physical reality - Phoenix and Sedona. They are just as real as Simi Valley - the default reality for someone just like Simi Valley is ours. A strange coincidence illustrated this. When Kamini was at Woodlands, she came across someone who was also picking up food. They happened to have done the inverse trip - they were visiting Los Angeles from Phoenix. 
