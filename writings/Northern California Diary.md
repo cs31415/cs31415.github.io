@@ -13,7 +13,7 @@ title: Northern California Diary
 
 Woke up late at 9am. It was drizzling. Roof started leaking again last night despite the patching done last week. We might have to cancel the trip.
 
-Meanwhile Kamini had already called the guy who patched the roof and half a dozen other roofing fellows. Nobody was responding. 
+Meanwhile Kamini, who hadn't been able to sleep due to tension, had already called the guy who patched the roof and half a dozen other roofing fellows. Nobody was responding. 
 
 One guy from G&C agreed to come by and look when Kamini said that we had travel plans. He seemed to know what he was doing. He climbed up briskly and immediately said that we have a couple of broken tiles. He would cover it for now for $150 and fix it later for $1100. Luckily it was raining after he fixed it, and it didn’t leak anymore. We could go on our trip after all. 
 
@@ -27,7 +27,7 @@ The road then routed back towards 101 via smaller roads. It was another hairy ri
 
 Finally reached 101 after what seemed like an eternity. 101 was faster, but there were some construction stretches that were rather claustrophobic with a single lane and no shoulder on both sides.  
 
-Final stretches were through some rough roads and back country. Was very glad to finally pull into the hotel. It was a stressful drive on the whole. 
+Final stretches were through some rough roads and back country. Was very glad to finally pull into the hotel. 
 
 Carmel Bay Inn is a boutique hotel. Nice, cozy room overlooking swimming pool. 
 
@@ -67,12 +67,11 @@ We come out into a vast courtyard with a fountain in the center. In one corner t
 
 We enter a museum with ancient artifacts from the 17th and 18th century. We see how the monks lived hundreds of years ago. No native Americans are depicted which I find curious, since we know that converting Native Americans was one of the functions of the missions. Sidebar: Robert Louis Stevenson had been a visitor to the place. We didn’t see any swallows or nests.
 
-On our way back, we eat lunch at Mission Bistro. Veggie fajitas, veggie quesadilla and garlic fries. Everything is excellent. Best quesadilla I have eaten. The fajitas are sizzling and lightly flavored. Fries are a little garlic heavy but fresh. 
+On our way back, we eat lunch at Mission Bistro where we request outdoor seating. We order veggie fajitas, veggie quesadilla and garlic fries. The owner is accomodating and willing to make vegetarian items for us that are not on the menu. Everything is excellent. Best quesadilla I have eaten. The fajitas are sizzling and lightly flavored. A woman walking by remarks that they smell great and its a good thing she just had lunch. Fries are a little garlic heavy but fresh. We are pleased with the meal and Kamini gives a big Christmas tip.
 
 In the evening, we go for a walk. There are Christmas lights all over the town. The place looks like a fairytale land. We get some gifts from a small gift shop. Earrings, a small notebook, caramel candy. 
 
-Shonu and Kamini spend the rest of the evening watching TV 
-Deal or No Deal, HGTV, Shark Tank. I do my best to write my diary amidst the cacophony. 
+Shonu and Kamini spend the rest of the evening watching TV - Deal or No Deal, HGTV, Shark Tank. I do my best to write my diary amidst the cacophony. 
 
 #### 25th December 2021:
 
@@ -87,10 +86,9 @@ After a couple of similar viewpoints, the path wound back through forest, descen
 
 Stopped and took photos at many viewpoints. There was a bird rock where seagulls and cormorants were nesting. The ocean swells were getting more and more violent. 
 
-Wind swept cypress trees start popping up on either side of the road. These are Monterey cypress trees, native to the region. They are frozen in exotic dance poses. 
+Wind swept cypress trees now start popping up on either side of the road. These are Monterey cypress trees, native to the region. They are frozen in exotic dance poses. 
 
-We finally reach the highlight of the drive 
-The Lone Cypress: a solitary 250 year old Monterey cypress standing on a rocky outpost in the ocean, resolutely braving the frigid winds and ocean waves. A lone bulwark against the mighty Pacific Ocean battering away at the shoreline. This tree in a way symbolizes the spirit of rugged individualism that is the hallmark of this part of the country. It is cold enough to not want to stand outside for more than a few minutes. An old woman remarks that it is as cold as Ohio. 
+We finally reach the highlight of the drive - The Lone Cypress, a solitary 250 year old Monterey cypress standing on a rocky outpost in the ocean, resolutely braving the frigid winds and ocean waves. A lone bulwark against the mighty Pacific Ocean battering away at the shoreline, this tree symbolizes the spirit of rugged individualism that is the hallmark of this part of the country. It is cold enough to not want to stand outside for more than a few minutes. An old woman remarks that it is as cold as Ohio. 
 
 We decide to go back to the hotel and have lunch given the weather conditions. 
 
@@ -102,7 +100,7 @@ We have chai and play some games. Escape Room is a series of puzzles that have t
 
 We have Haldirams kadhi chawal for dinner with chips. It is nicely spiced and heartwarming. 
 
-We watch Home Alone and Home Alone 2 on TV. We nearly fall off the bed laughing at a funny scene in which the little boy Kevin throws bricks down on the robbers from a terrace. Incidentally, Donald Trump makes a cameo appearance in Home Alone 2. Apparently, he owned the hotel in the movie at the time. 
+We watch Home Alone and Home Alone 2 on TV. We nearly fall off the bed laughing at a funny scene in which the little boy Kevin throws four bricks in succession down on an unlucky robber's head from a terrace. Incidentally, Donald Trump makes a cameo appearance in Home Alone 2. Apparently, he owned the hotel in the movie at the time. 
 
 #### 26th December 2021:
 
@@ -122,7 +120,7 @@ Kamini makes chai and Rasika makes coffee for me and Mamaji.
 
 We leave at 5:45 for the [‘83](https://en.wikipedia.org/wiki/83_(film)) movie which is at 6:30pm at Century Cinemas 16 in Mountain View. Only Mamaji is joining us. Rasika is going to a wedding reception and Usha Mami isn’t interested. 
 
-Reach Marriott Residence Inn at San Mateo at around 9:30. It is a suite with a sofa, living area, full kitchen and writing table. It is basically a studio apartment. 
+Reach Marriott Residence Inn at San Mateo at around 9:30. It is a suite with a sofa, living area, full kitchen and writing table. It is basically a studio apartment. Shonu says she wouldn't mind living here.
 
 #### 27th December 2021:
 
@@ -138,7 +136,7 @@ Next stop was Lombard Street, the self-proclaimed crookedest street in the world
 
 Next we drove through the Golden Gate Bridge, one of the engineering marvels of the world connecting two peninsulas separated by a narrow strait. We parked on the other side of the bridge, which is in a different county. Marin county, in stark contrast to San Francisco, is completely rural. We wondered why it was undeveloped, given the proximity to the city and the stunning views of the city from the hills. It would have made for prime real estate. 
 
-We pulled over into a viewing area on the other end of the bridge. It was surprising how crowded it was given it was a Monday. Probably lots of tourists on Christmas vacation. There was a long line of cars waiting to park. We quickly found a parking spot through a stroke of luck as a car was leaving right in front of us and we happened to be in the right place at the right time. 
+We pulled over into a viewing area on the other end of the bridge. It was surprising how crowded it was given it was a Monday. Probably lots of tourists on Christmas vacation. There was a long line of cars waiting to park. We quickly found a parking spot through sheer luck as a car was leaving right in front of us. We happened to be in the right place at the right time. 
 
 As soon as we exited the car, we were greeted by a magnificent full rainbow over the far end of the bay overlooking the mainland. 
 
@@ -150,7 +148,7 @@ By this time, Shonu was done for the day and wanted to leave. Mention of dosa at
 
 We made a pit stop at the hotel to freshen up, and then went straight to Komala Vilas, a 30 minute drive away. 
 
-The place is a no frills tiffin center with no ambience to speak of. Shonu ordered ghee roast dosa and wada sambhar, Kamini ordered cheese dosa, and I ordered a limited evening thali with sambhar rice, curd rice, cabbage curry, poricha aplaam, and semiya payasam. Everything was delicious. The sambhar was spicy and thick. The coconut chutney was lightly spiced and well flavored. Shonu was happy. It was too bad they were closed the next day. 
+The place is a no-frills tiffin center with no ambience to speak of. Shonu ordered ghee roast dosa and wada sambhar, Kamini ordered cheese dosa, and I ordered a limited evening thali with sambhar rice, curd rice, cabbage curry, poricha aplaam, and semiya payasam. Everything was delicious. The sambhar was spicy and thick. The coconut chutney was lightly spiced and well flavored. Shonu was happy. It was too bad they were closed the next day. 
 
 Came back to the hotel and had the raspberry chocolate from the wharf for dessert. It was excessively sweet. 
 
@@ -158,7 +156,7 @@ Called and spoke to Mumbai and Ratlam.
 
 #### 28th December 2021:
 
-Woke up at 8:15 today, in time for breakfast. Kamini refused to come, saying it was too cold. I didn’t want to die wondering so I went to see what they had. As it turns out, they didn’t have much. Fruits, coffee, and muffins, bear claws etc. Got coffee and fruits since all the other baked stuff would have had egg. The coffee was strong and much better than the room coffee. 
+Woke up at 8:15 today, in time for breakfast. Kamini refused to come, saying it was too cold. I didn’t want to die wondering so I went to see what they had. As it turns out, they didn’t have much - fruits, coffee, muffins, bear claws etc. Got coffee and fruits since all the other baked stuff would have had egg. The coffee was strong and much better than the room coffee. 
 
 Checked out at 12 after a breakfast of ciabatta bread and vegan chili. 
 
@@ -172,9 +170,9 @@ We had some coffee and started out for Napa Valley. A few minutes later, we were
 
 We finally reached Hotel Indigo, which was a clean yet quirky hotel. There was a couch and a Keurig coffee maker in the room, and wine-themed wall art. The bed was very comfortable. We were hungry and ate a lot of junk food chips, chiwda etc and had half a cup of coffee. We didn’t feel too good after that. Then we had a short 1 hour nap. 
 
-We went to Azzurro Pizzeria for dinner. It was a 10 minute drive from the hotel. When we reached, we found the place teeming with people waiting to be seated. We clearly didn’t stand a chance of being seated anytime soon. The owner informed us that they were out of pizza dough and weren’t taking any more customers for the night. We asked her if we could order pasta to go and she said we could. The waiting crowd suddenly dispersed, and the owner then asked us if we would like to dine in, to which we gleefully assented. 
+We went to Azzurro Pizzeria for dinner. It was a 10 minute drive from the hotel. When we reached, we found the place teeming with people waiting to be seated. We clearly didn’t stand a chance of being seated anytime soon. The owner then informed everyone that they were out of pizza dough and weren’t taking any more customers for the night. We asked her if we could order pasta to go and she said we could. The waiting crowd suddenly dispersed on hearing about the pizza dough. The owner asked us if we would like to dine in since many waiting people had left, to which we gleefully assented. 
 
-We were seated outdoors. They had heaters, so we were warm and toasty. We ordered spaghetti and penne pasta with squash. The food arrived in 5 minutes, which was amazing. It was a stroke of luck that they ran out of dough, otherwise we would have been eating back in the hotel room. The pasta was delicious. We ordered drinks - Coke for Shonu, and a glass of Merlot wine each for us. The wine enhanced the taste of the food, and warmed us up. It was wonderful to be able to have local wine in Napa, a place we had only heard about till now. We enjoyed the experience so much that we gave a $20 tip. 
+We were seated outdoors. They had heaters, so we were warm and toasty. A large desi family was sitting next table from us. We ordered spaghetti and penne pasta with squash. The food arrived in 5 minutes, which was amazing. It was dumb luck that they ran out of dough, otherwise we would have been eating back in the hotel room. The pasta was delicious. We ordered drinks - Coke for Shonu, and a glass of Merlot wine each for us. The wine enhanced the taste of the food, and warmed us up. It was wonderful to be able to have local wine in Napa, a place we had only heard about till now. We enjoyed the experience so much that we gave a $20 tip. 
 
 We drove back through inner streets to be safe. 
 
@@ -198,11 +196,11 @@ The corridor leads to a massive circular hall underneath the building’s dome. 
 
 We climb up to the 2nd floor via stairs that are lined with portraits of past governors. The bannisters have intricate wood carvings, and lamps mounted on elaborate assemblies. On the 2nd floor, there are impressive doors to the senate chambers. 
 
-The third floor has portraits of recent governors including Gray Davis and Arnold Schwarzenegger and entrance to the governors chamber.
+The third floor has portraits of recent governors including Gray Davis and Arnold Schwarzenegger and entrance to the governor's chamber.
 
 We go back down and look at the display for Ventura county for a few minutes before exiting. Kamini is feeling hungry to the point of fainting. 
 
-We have some stroop waffle for the time being and decide to have lunch at  Preethi’s, an Indian restaurant in the downtown area nearby. 
+We have some stroop waffle for the time being and decide to have lunch at  Preethi’s, an Indian restaurant in the downtown area nearby. It has both North and South Indian food, and generally these kinds of restaurants aren't good at anything. But we are hungry and it is close to 3 pm when most Indian restaurants close for siesta.
 
 The restaurant is empty, and the staff is an old Telugu uncle and aunty, who are almost surprised to see us. We have our doubts, but sit down and order 
 dosas and uthappam. The aunty is wearing a mask that doesn’t cover the nose. The uncle isn’t wearing a mask and is coughing. Another maskless fellow enters the restaurant and starts talking with the uncle. We decide to not take a risk and walk out. The uncle calls out after us asking if we want or not, and we reply in the negative. It feels embarrassing and we feel bad for the uncle and aunty, but we can’t risk getting ill in times like these. 
@@ -217,11 +215,11 @@ Disaster strikes as we get out from the car. The bottom of the bag rips and the 
 
 Shonu is a bit upset, but her mood improves after dinner. 
 
-We play 2 rounds of Trophies game while listening to classical music tabla and pakhawaj, which is a lot of fun.  
+We play 2 rounds of Trophies game while listening to classical music - tabla and pakhawaj, which is a lot of fun.  
 
 #### 30th December 2021:
 
-Woke up at 8:15 to the good news that India has won the [1st test](https://www.espncricinfo.com/series/india-in-south-africa-2021-22-1277060/south-africa-vs-india-1st-test-1277079/full-scorecard) against South Africa. Went and got hot breakfast waffles, muffins, fresh coffee, Shonu’s fruit loops, a banana. 
+Woke up at 8:15 to the good news that India has won the [1st test](https://www.espncricinfo.com/series/india-in-south-africa-2021-22-1277060/south-africa-vs-india-1st-test-1277079/full-scorecard) against South Africa. Went and got hot breakfast - waffles, muffins, fresh coffee, Shonu’s fruit loops, a banana. 
 
 First stop was Old Town Sacramento. A quaint, historic shopping district with old buildings, 1800-1900s style signs, a riverfront, steamboats, a railway station, the Tower Bridge, a vertical lift bridge opened in 1935 painted a distinctive yellow. A lot of walking got us hungry, so we stopped at a hole in the wall pizza place for a slice of cheese pizza. We had to sit on a bench outside since there was no indoor seating. The pizza was unexpectedly tasty. It was a thin slice with a moderate amount of cheese, and a well baked, lightly crumbly crust. In fact, it was so good and light, that we each had one more slice, and didn’t feel too heavy afterwards. 
 
@@ -233,7 +231,7 @@ This hall led to another massive hall modeled as a historic railway station. It 
 
 There were informational placards  about the instruments used by surveyors, the history of railroads, and the businessmen who had the vision to build it. People like Leland Stanford, the founder of Stanford university, who was also a California governor and US senator, in addition to being a railroad magnate. Was he a visionary businessman or a robber baron, asks the placard. I suspect the answer depends on your political leanings, and might have shades of gray.  
 
-We inspect the interior of a mail car, a goods car transporting Sunkist oranges, a luxury car. An orange red X6051 diesel locomotive is very impressive and  quintessentially American. It is overpoweringly huge. The typical American megalomania. 
+We inspect the interior of a mail car, a goods car transporting Sunkist oranges and a luxury car. An orange red X6051 diesel locomotive is very impressive and  quintessentially American. It is overpoweringly huge. The typical American megalomania at work. 
 
 The 2nd floor is entirely devoted to toy trains of various sizes. There is a large glass enclosed display of working toy trains. I am especially impressed by the microscopic Z scale models which are built to 1:220 ratio. There are lots of intricate models of mining towns, pirate towns, small towns built around the railroad. Some of these are so detailed, they must have taken years to build. I would never have the patience for it, but I can certainly appreciate the effort and passion. 
 
@@ -247,7 +245,7 @@ Check with Pavan on their new year plans. He invites us over.
 
 Shonu and me go and get some snacks from the front desk - onion rings, Fritos corn chips, Twix and M&Ms, and Pepsi. 
 
-I also get hot water from the front desk to make Mac n cheese. 
+I also get hot water in water bottle from the front desk to make Mac n cheese.  Kamini drinks water from the bottle thinking it to be warm water and burns her mouth. Give her cold pepsi and get some ice from ice machine for her. She seems to be OK.
 
 We have hot Mac n cheese and corn chips for dinner with Pepsi, and Twix for dessert. 
 
@@ -257,7 +255,7 @@ Shonu and Kamini watch HGTV.
 
 Woke up at 8:30. Kamini and me went for hot breakfast of waffle, muffin and coffee. Got fruit loops for Shonu. 
 
-Checked out at 11 sharp. Another picturesque drive through flat plains with green rolling hills on either side. Kamini took over at around 11:30. 
+Checked out at 11 sharp. Stopped at a drive through for 20 minutes for coffee only to be informed that they are out of all the drinks we want. We decide to have coffee later and resume the drive. Another picturesque drive through flat plains with green rolling hills on either side. Kamini took over at around 11:30. 
 
 Stopped at Taco Bell at around 1:30pm. Had chalupa and fiesta potatoes. Filled gas at 76 and got back on I-5. 
 
@@ -267,11 +265,11 @@ Resumed drive. Got stuck for about 30-45 minutes due to a 3-car accident. Some g
 
 When we got to the mountains just outside LA, there was a fog so deep and dense that we could barely make out the road markings and the car in front of us. Drove slowly for about 30-40 minutes till it cleared near Frazier park. It had snowed in Frazier park and the mountains were fully covered in snow. Temperature was 35 degrees Fahrenheit. 
 
-We finally reached home at 6:30 only to find that electricity was out on our whole street. It came back at around 7 pm. 
+We finally reached home at 6:30 to be greeted by a pitch dark street. The electricity was out on our whole street. Gave Shonu her Chromebook which was supposed to be a Christmas present. She does a jumping jack dance, during which the lights come back on.
 
 We went to Pavan’s house at 7:45, buying some sodas along the way, and carrying some desserts. 
 
-Sirisha had made pani puri. Ate about 12-16 without realizing. There was also Shahi paneer, rajma, chapati and rice. It was a very heavy dinner. 
+Sirisha had made pani puri. Ate about 12-16 without realizing. There was also Shahi paneer, rajma, chapati and rice. It was a deceptively heavy dinner. 
 
 Saw a couple of movies on their new Sony TV. Hindi Medium and Bell Bottom. 
 
