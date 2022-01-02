@@ -3,7 +3,7 @@ layout: default
 title: Northern California Diary
 ---
 
-### Northern California
+### Northern California Diary
 
 ![Golden Gate Bridge](../../../img/golden-gate.jpg)
 <span class="credit">Chandra Sivaraman</span>
