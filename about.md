@@ -17,18 +17,3 @@ title: About
 </div>
 ### Contact Info:
 [cs31415@gmail.com](mailto:cs31415@gmail.com)
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>

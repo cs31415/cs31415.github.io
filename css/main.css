@@ -1,37 +1,46 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: auto;
+    /*width: 70%;*/
 }
 
+.top {
+   margin-top:2%;
+}
+
+.bottom {
+    position:sticky;
+    margin-bottom: 10%;
+    width:100%;
+}
 .container {
-	margin-right: 80px; /* enforce text wrapping before it reaches the very right of the screen during resize */
-	margin-top:   30px;
-    margin-bottom: 30px;
+    overflow:auto;
+    height: 65vh;
+    padding-right: 5vh;
+    padding-bottom: 2vh;
+    margin-bottom: 1%;
 }
 
 .biophoto {
-    width: 90%;
+    width: 60%;
     margin-bottom: 10px;
     margin-left: 20px;
-    margin-right: 0px
+    margin-right: 0px;
+    border-top: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
 }
 
 img {
     width: 100%;
 }
 
-/*.top {
-    background-color: whitesmoke;    
-    border-left: 1px solid #d5d5d5;
-    border-right: 1px solid #d5d5d5;
-}
-
 footer {
-    background-color: whitesmoke;    
+/*    background-color: whitesmoke;    
     border-top: 1px solid #d5d5d5;
     border-left: 1px solid #d5d5d5;
-    border-right: 1px solid #d5d5d5;
-}*/
+    border-right: 1px solid #d5d5d5;*/
+}
 
 .right{
     direction: right;
@@ -46,21 +55,20 @@ footer {
 }
 
 span.header {
-    font-family:'Courier New','Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Times', 'Arial', 'Sans-Serif';
     font-size: 130%;
     font-weight: bold;
-    color: grey;
 }
 
 span.header a {
-    color: #818181;
+    color: #C0392B;
 }
 
 span.header b { 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 60%; 
     font-weight: normal;
-    color: #a1a1a1;
+    color: grey;
 }
 
 span.copyright { 
@@ -71,13 +79,13 @@ span.copyright {
 }
 
 nav {
-    /*margin-top:   20px;*/
+    margin-top:   20px;
     /*padding-left: 30%;
     padding-right: 30%;*/
 }
 
 nav ul, footer ul {
-    font-family:'Courier New','Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Courier', 'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: normal;
     padding:0px;
@@ -105,12 +113,13 @@ a {
 }
 
 a:hover {
-    color: crimson;
+    color:#C0392B ;
 }
 
 a.active {
-    color: crimson;
+    color:#C0392B;
     font-weight: bolder;
+    border-bottom: 3px solid #C0392B ;
 }
 
 .credit {
@@ -181,7 +190,7 @@ blockquote {
         width: 70%;
     }
     .container, footer, .top {
-        max-width: 650px;
+        max-width: 800px;
     }
     pre.highlight {
         font-size:0.9em;
