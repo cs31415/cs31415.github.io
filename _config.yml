@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
 title: Chandra Sivaraman
-description: Programming/Software Engineering Notes
+description: Software Engineering Notes
 copyright: © 2020 Chandra Sivaraman
 permalink: /:categories/:title/
 highlighter: rouge
