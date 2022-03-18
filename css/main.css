@@ -16,8 +16,8 @@ body {
     overflow:auto;
     height: 65vh;
     padding-right: 5vh;
-    padding-bottom: 2vh;
-    margin-bottom: 1%;
+    padding-bottom: 3vh;
+    /*margin-bottom: 1%;*/
 }
 
 .biophoto {
