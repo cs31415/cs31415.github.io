@@ -17,5 +17,3 @@ Parse SQL references from C#
 <br/>
 ### [Evaluator](https://github.com/cs31415/Evaluator)
 Evaluate expressions dynamically
-<br/>
-<br/>

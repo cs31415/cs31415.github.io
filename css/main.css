@@ -1,34 +1,23 @@
 body {
     margin: auto;
-    /*width: 70%;*/
+    width: 70%;
 }
 
 .top {
-   margin-top:2%;
-}
-
-.bottom {
-    position:sticky;
-    /*margin-bottom: 25%;*/
-    width:100%;
-}
+    margin-top:2%;
+ }
 .container {
-    overflow:auto;
-    height: 60vh;
-    padding-right: 5vh;
-    padding-bottom: 3vh;
-    /*margin-bottom: 1%;*/
+	margin-right: 80px; /* enforce text wrapping before it reaches the very right of the screen during resize */
+	margin-top:   30px;
+    margin-bottom: 30px;
 }
 
 .biophoto {
-    width: 60%;
+    width: 40%;
+    height: 40%;
     margin-bottom: 10px;
     margin-left: 20px;
-    margin-right: 0px;
-    border-top: 1px solid gainsboro;
-    border-left: 1px solid gainsboro;
-    border-right: 1px solid gainsboro;
-    border-bottom: 1px solid gainsboro;
+    margin-right: 0px
 }
 
 img {
