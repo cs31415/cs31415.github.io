@@ -144,7 +144,7 @@ document.getElementById('follow-button').addEventListener('click', function() {
 }, false);
 ```
 
-`follow.php` calls the Spotify `/follow` API. The `/follow` API is limited to 50 artists. This code gets around that by calling `/follow` in batches of 50 at a time. It also calls `/artists?ids=` to get the artist names and links, which are returned as the response to this call. It emails the result to an admin email account as well for tracking:
+`follow.php` calls the Spotify `/follow` API. The `/follow` API is limited to 50 artists per call. I got around that by calling `/follow` in batches of 50 at a time. Then, I call `/artists?ids=` to get the artist names and links, which are returned as the response to this call. An admin email is sent as well to track users who followed:
 
 ```javascript
 $access_token = $_GET["access_token"];
