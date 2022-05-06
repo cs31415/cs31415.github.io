@@ -194,7 +194,7 @@ $access_token = $_GET["access_token"];
 ```
 ### Logout button
 
-When I submitted a quota extension request for the app, Spotify asked me to put in a login button. Here's the code for it. It clears cookies and redirects to `logout.php`:
+When I submitted a quota extension request for the app, Spotify asked me to provide a way for users to disconnect from Spotify. I added a logout button which clears cookies and redirects to `logout.php`:
 ```javascript
 document.getElementById('logout-button').addEventListener('click', function() {
 	Cookies.remove("t", { path: '' });
@@ -240,6 +240,6 @@ That's it. The flow looks like this:
 
 - After publishing this code to your server, update the redirect URI in the Developer dashboard and in `login.php`. 
 
-- Some improvements are possible to this code. I am currently passing access token in a cookie. I could probably make the `/v1/me` call in `callback.php` and pass back `client_id` in the cookie.
+- Some improvements are possible to this code. I am currently passing access token in a cookie. I could probably make the `/v1/me` call in `callback.php` and pass back `client_id` in the cookie, and store the access token in session.
 
 - The Spotify app starts out in Development mode. This means that any user other than yourself has to be explicitly granted access to the app through the Developer dashboard in order to use it. Once you have tested it, you can submit a quota extension request to make it publicly accessible for all users. The first time I did this, Spotify rejected it and asked me to provide a logout feature, add their logo, and provide links to artist content on Spotify. I had to resubmit and am still waiting to hear back.
