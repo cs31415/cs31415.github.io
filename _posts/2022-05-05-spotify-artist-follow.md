@@ -65,13 +65,13 @@ The `Login with Spotify` button redirects to `login.php`:
 
 ```javascript
 document.getElementById('login-button').addEventListener('click', function() {
-            window.location = 'http://localhost/follow/login.php';   
-          }, false);
+	window.location = 'http://localhost/follow/login.php';   
+}, false);
 ```
 
-`login.php` redirects to Spotify's authorize endpoint (the `response_type` must be set to `code` for the authorization code and the redirect URI passed has to match the redirect URI in the Spotify app settings) :
+`login.php` redirects to Spotify's authorize endpoint (the `response_type` must be set to `code` for the authorization code, and the redirect URI passed has to match the redirect URI in the Spotify app settings) :
 
-```javascript
+```php
 $client_id = "<client id from the Spotify app in developer dashboard>";  
 $state = generateRandomString(16);
 
@@ -87,9 +87,14 @@ $url .= "&state=" . urlencode($state);
 header("Location: " . $url);
 ```
 
-Spotify authorize endpoint redirects back to `http://localhost/follow/callback.php` passing it the authorization code. `callback.php` exchanges this code for an access token by `POST`ing to the `https://accounts.spotify.com/api/token` endpoint. It cookies the access token and redirects back to the `index.html` page:
+Spotify authorize endpoint redirects back to `http://localhost/follow/callback.php` passing it the authorization code. `callback.php` exchanges this code for an access token by `POST`ing to the `https://accounts.spotify.com/api/token` endpoint. It then calls the `/v1/me` endpoint with this token to get the user's display name and user id. It cookies this profile info, encrypts and cookies the access token and redirects back to the `index.html` page:
 
-```javascript
+```php
+// get token & state from url 
+$error = isset($_GET["error"]) ? $_GET["error"] : NULL;
+$code = $_GET["code"];
+$state = $_GET["state"];
+$url = "/follow";   
 $client_id = config()["client_id"];
 $client_secret = config()["client_secret"];
 $redirect_uri = config()["redirect_url"];
@@ -105,96 +110,114 @@ $fields = [
     
 //url-ify the data for the POST
 $fields_string = http_build_query($fields);
-console_log("fields_string = " . $fields_string);
 
 $result = http_request("POST", $url, 
     array(
         'authorization: Basic ' . base64_encode($client_id . ":" . $client_secret)
     ),
     $fields_string);
-if ($result !== FALSE) {    
+
+if ($result !== FALSE && ($result === "" || !array_key_exists("error", json_decode($result,true)))) {    
     $result_arr = json_decode($result, true);
     $access_token = $result_arr["access_token"];
-    setcookie("t", $access_token, time()+1200); 
+    $enc_access_token = encrypt($access_token); 
+
+    setcookie("t", $enc_access_token, time()+1200); 
     setcookie("state", $state, time()+1200); 
-    setcookie("id", $client_id);
-    header("Location: /follow");    
+    header("Location: /follow");
+
+    // get the client-id & name
+    $url = 'https://api.spotify.com/v1/me';   
+    $result = http_request("GET", $url, 
+        array(
+            'authorization: Bearer ' . $access_token
+        ));
+
+    if ($result !== FALSE && ($result === "" || !array_key_exists("error", json_decode($result,true)))) {    
+        $result_arr = json_decode($result, true);
+        $display_name = $result_arr["display_name"];
+        $user_id = $result_arr["id"];
+        setcookie("display_name", $display_name);
+        setcookie("user_id", $user_id);
+        header("Location: /follow");	
 ``` 
 
 ### Profile information
 
-Back on the `index.html` page, we call the `https://api.spotify.com/v1/me` endpoint to get user profile information (user name, etc.), and display the `Follow All` button. 
+On the `index.html` page, we hide the login button, and display the logout and `Follow All` button. 
 
 ### Follow button
 
-The `Follow All` button redirects to `follow.php` passing in `access_token` and `user_id` (which comes from the `/v1/me/` API call):
+The `Follow All` button redirects to `follow.php` passing in encrypted `access_token` and `user_id`:
 
 ```javascript
 document.getElementById('follow-button').addEventListener('click', function() {
-  const urlParams = new URLSearchParams(window.location.href.split('#')[1]);
-  const access_token = urlParams.get('access_token');
-  var url = `http://localhost/follow/follow.php?token=${access_token}&id=${user_id}`;
-  $.ajax({type: 'GET', url: url})
-  .done(function(response) {
-    artistsFollowedPlaceholder.innerHTML = artistsFollowedTemplate(response);
-  })
-  .fail(function(msg) {
-    alert(`Failed with error: ${JSON.stringify(msg)}`);
-  });
+	var url = `/follow/follow.php?access_token=${access_token}&id=${user_id}`;
+	$.ajax({type: 'GET', url: url})
+	.done(function(response) {
+	  artistsFollowedPlaceholder.innerHTML = artistsFollowedTemplate(response);
+	})
+	.fail(function(msg) {
+	  $('#errorMsg').text(msg.responseJSON.msg); 
+	});
 }, false);
+
 ```
+
 
 `follow.php` calls the Spotify `/follow` API. The `/follow` API is limited to 50 artists per call. I got around that by calling `/follow` in batches of 50 at a time. Then, I call `/artists?ids=` to get the artist names and links, which are returned as the response to this call. An admin email is sent as well to track users who followed:
 
-```javascript
-$access_token = $_GET["access_token"];
-    $spotify_id = $_GET["id"];
-    $artist_ids = config()["artist_ids"];
+```php
+$access_token = decrypt(str_replace(" ", "+", $_GET["access_token"]));
+$spotify_id = $_GET["id"];
+$artist_ids = config()["artist_ids"];
+$api_root_url = "https://api.spotify.com/v1";
+$startIdx = 0;
+$more = True;
+$artist_ids_arr = str_getcsv($artist_ids);
+$batch_size = 50;
+$result_json = [];
+$followed = FALSE;
 
-    $api_root_url = "https://api.spotify.com/v1";
-    $url = $api_root_url . "/me/following?type=artist&ids=" . $artist_ids;
-    
-    $startIdx = 0;
-    $more = True;
-    $artist_ids_arr = str_getcsv($artist_ids);
-    $batch_size = 50;
-    $result_json = [];
-    $followed = FALSE;
-    while ($more) {
-        $artist_ids_batch = join(",", array_slice($artist_ids_arr, $startIdx, $batch_size));
-        $result = http_request("PUT", $url, array('authorization: Bearer ' . $access_token));
-        if ($result !== FALSE) {
-            $url = $api_root_url . "/artists?ids=" . $artist_ids_batch;
+while ($more) {
+    $artist_ids_batch = join(",", array_slice($artist_ids_arr, $startIdx, $batch_size));
+    $url = $api_root_url . "/me/following?type=artist&ids=" . $artist_ids_batch;
+    $result = http_request("PUT", $url, array('authorization: Bearer ' . $access_token));
+    if ($result !== FALSE && ($result === "" || !array_key_exists("error", json_decode($result,true)))) {
+        $url = $api_root_url . "/artists?ids=" . $artist_ids_batch;
 
-            $result = http_request("GET", $url, array('authorization: Bearer ' . $access_token));
-            $result_json = array_merge($result_json, json_decode($result,true)["artists"]);
+        $result = http_request("GET", $url, array('authorization: Bearer ' . $access_token));
+        $result_json = array_merge($result_json, json_decode($result,true)["artists"]);
 
-            $followed = True;
-        }
-        else {
-            $followed = False;
-            $result_json = json_decode("{\"name\": \"Error following artists\",\"images\":[{\"url\":\"\"},{\"url\":\"\"},{\"url\":\"\"}]}");
-            break;
-        }
-        $startIdx = $startIdx + $batch_size;
-        if (count($artist_ids_arr)-1 < $startIdx) {
-            $more = False;
-        } 
-    }
-
-    if ($followed) {
-        mail(config()["admin_email"], $spotify_id . "followed all artists on Auricle collective", "");
+        $followed = True;
     }
     else {
-        mail(config()["admin_email"], $spotify_id . "Failed to follow all artists on Auricle collective", "");
+        $followed = False;
+        $result_json = json_decode("{\"msg\": \"" . "Follow artists failed with error: " . json_decode($result,true)["error"]["message"] . "\"}");
+        break;
     }
+    $startIdx = $startIdx + $batch_size;
+    if (count($artist_ids_arr)-1 < $startIdx) {
+        $more = False;
+    } 
+}
 
-    header('Content-Type: application/json; charset=utf-8');
-    echo(json_encode($result_json));
+if ($followed) {
+    mail(config()["admin_email"], $spotify_id . "followed all artists on Auricle collective", "");
+}
+else {
+    mail(config()["admin_email"], $spotify_id . "Failed to follow all artists on Auricle collective", "");
+}
+
+header('Content-Type: application/json; charset=utf-8');
+http_response_code($followed ? 200 : 500);
+echo(json_encode($result_json));
+
 ```
 ### Logout button
 
 When I submitted a quota extension request for the app, Spotify asked me to provide a way for users to disconnect from Spotify. I added a logout button which clears cookies and redirects to `logout.php`:
+
 ```javascript
 document.getElementById('logout-button').addEventListener('click', function() {
 	Cookies.remove("t", { path: '' });
@@ -225,7 +248,7 @@ window.addEventListener("pageshow", function(evt){
 
 ### App flow
 
-That's it. The flow looks like this:
+The flow looks like this:
 ![](../../../img/spotify-follow-1 1.jpg)
 ![](../../../img/spotify-follow-2.jpg)
 ![](../../../img/spotify-follow-3.jpg)
@@ -240,6 +263,6 @@ That's it. The flow looks like this:
 
 - After publishing this code to your server, update the redirect URI in the Developer dashboard and in `login.php`. 
 
-- Some improvements are possible to this code. I am currently passing access token in a cookie. I could probably make the `/v1/me` call in `callback.php` and pass back `client_id` in the cookie, and store the access token in session.
+- The HTTP calls in PHP should ideally be asynchronous, but I don't know enough PHP to do that and this app isn't expected to have very high volume, so synchronous is good enough.
 
 - The Spotify app starts out in Development mode. This means that any user other than yourself has to be explicitly granted access to the app through the Developer dashboard in order to use it. Once you have tested it, you can submit a quota extension request to make it publicly accessible for all users. The first time I did this, Spotify rejected it and asked me to provide a logout feature, add their logo, and provide links to artist content on Spotify. I had to resubmit and am still waiting to hear back.
