@@ -3,6 +3,8 @@ layout: default
 title: Projects
 ---
 
+Some tools I've created to make my life easier:
+
 ### [Regex Tester](https://github.com/cs31415/RegexTester)
 Regular expression test tool
 <br/>

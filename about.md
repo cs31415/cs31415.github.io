@@ -9,7 +9,7 @@ title: About
     <span class="credit">Illustration by <a href="https://www.linkedin.com/in/maxakbar/">Max Akbar</a></span>
 </div>
 <p>
-<b>Software Engineer</b>, <a href="https://www.instagram.com/cs31415"> photographer</a>, writer, traveler and cricket (the sport not the insect) fanatic. I <A href="/">write</a> about Software best practices and Computer Science topics.
+<b>Software Engineer</b>, <a href="/">writer</a>, <a href="https://www.instagram.com/cs31415">photographer</a>, traveler and <a href="https://en.wikipedia.org/wiki/Cricket">cricket</a> fanatic. I write about Software best practices and Computer Science topics.
 </p>
 <p>
 <a href="/chandra%20sivaraman.pdf">Résumé</a>
