@@ -4,7 +4,7 @@ title: switzerland-india-diary
 share: true
 ---
 
-### Trip to Switzerland and India in summer of 2022 (July 3 - Aug 1)
+### A Trip to Switzerland and India in summer of 2022 (July 3 - Aug 1)
 
 #### July 3: Flight to Zurich<br><br>Pavan dropped us off at LAX 4 hours before the flight after missing the Tom Bradley terminal once while we were rambling on about some pointless political topics. We had to exit the airport, take a u turn and come back. <br><br>It was good we came early. The Asian guy at the checkin counter said that we could only take one piece of hand luggage each, which was wholly unexpected– we ended up checking in my carry on bag. The security check, which also involved a sniffer dog, went by pretty quickly. <br><br>Our SwissAir flight was from gate 159. Me and Shonu decided to get mocha from Starbucks. It was a long long long walk. There was a long line at the end of which we ended up ordering from the Starbucks app. Big mistake. The app predicted a totally bogus wait time of 8 minutes. After waiting for about double that time, we were told it would be another half hour before the barista even got to our order. Ended up canceling the order for which I had to dial another number, during which I received half a dozen panicked calls from Kamini to inform us that boarding had started. We rushed to the gate and got in line. Boarding was uneventful except for the checker who bizarrely let both me and Kamini in before Shonu, which didn’t sit too well with Kamini.
 
