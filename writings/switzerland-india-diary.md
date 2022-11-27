@@ -2,7 +2,6 @@
 layout: default
 title: switzerland-india-diary
 share: true
-repo: <br><br>owner: cs31415 <br><br>repo: cs31415.github.io <br><br>branch: master
 ---
 
 ### Trip to Switzerland and India in summer of 2022 (July 3 - Aug 1)
