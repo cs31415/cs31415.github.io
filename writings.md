@@ -2,7 +2,7 @@
 layout: default
 title: Writings
 ---
-### Fiction
+## Fiction
 
 ### [Ramu Somu and the School bus](\writings\Ramu%20Somu%20and%20the%20School%20bus)
 Ramu and Somu plot to escape going to school
@@ -76,17 +76,17 @@ Ramu and Somu tackle unreason in the face of a pandemic
 Ramu and Somu confront a rising wave of bigotry in Shivajinagar
 <br/>
 <br/>
+### [Ramu Somu and the T-Rex](\writings\Ramu%20Somu%20and%20the%20T-Rex)
+Ramu and Somu's encounters with T-Rex
+<br/>
+<br/>
 ### [Time Travels: Karachi Diary](\writings\Time%20Travels%20-%20Karachi%20Diary)
 A journey back in time to Karachi, 1947
 <br/>
 <br/>
+## Travelogs
 ### [Yosemite Diary](\writings\Yosemite%20Diary)
-<br/>
 ### [Phoenix Diary](\writings\Phoenix%20Diary)
-<br/>
 ### [Northern California Diary](\writings\Northern%20California%20Diary)
-<br/>
 ### [Death Valley Diary](\writings\death-valley-diary)
-<br/>
 ### [Cancun Diary](\writings\cancun-diary)
-<br/>

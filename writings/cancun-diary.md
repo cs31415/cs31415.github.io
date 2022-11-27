@@ -8,7 +8,7 @@ title: Cancun Diary
 ![Cancun](../../../img/cancun.jpg)
 <span class="credit">Playa Delfines</span>
 
-# Nov 20-25 2022
+### Nov 20-25 2022
 
 ### Day 1:
 
