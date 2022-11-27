@@ -78,3 +78,15 @@ Ramu and Somu confront a rising wave of bigotry in Shivajinagar
 <br/>
 ### [Time Travels: Karachi Diary](\writings\Time%20Travels%20-%20Karachi%20Diary)
 A journey back in time to Karachi, 1947
+<br/>
+<br/>
+### [Yosemite Diary](\writings\Yosemite%20Diary)
+<br/>
+### [Phoenix Diary](\writings\Phoenix%20Diary)
+<br/>
+### [Northern California Diary](\writings\Northern%20California%20Diary)
+<br/>
+### [Death Valley Diary](\writings\death-valley-diary)
+<br/>
+### [Cancun Diary](\writings\cancun-diary)
+<br/>
