@@ -6,7 +6,7 @@ share: true
   
 ### A Trip to Switzerland and India in summer of 2022 (July 3 - Aug 1)  
   
-#### July 3: Flight to Zurich  
+#### July 3: Flight to Zurich
   
 Pavan dropped us off at LAX 4 hours before the flight after missing the Tom Bradley terminal once while we were rambling on about some pointless political topics. We had to exit the airport, take a u turn and come back.   
   
@@ -382,6 +382,4 @@ Saw comedy Suraj Pe Mangal Bhari featuring Diljit Dosanjh , Manoj Bajpayee and A
   
 Watched half of Tom Cruise sci-fi movie Oblivion    
   
-Flight arrives a little late. It takes us a while for luggage to arrive. Message Pavan and he comes to pick us up shortly.  
-  
-Reach home at around 5:30.
+Flight arrives a little late. It takes us a while for luggage to arrive. Message Pavan and he comes to pick us up shortly. Reach home at around 5:30.
