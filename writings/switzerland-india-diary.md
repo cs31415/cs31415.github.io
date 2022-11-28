@@ -277,7 +277,7 @@ Sangeet program started around 6pm. Shonu started off with *Jiya re* and did a w
   
 Vijay wanted me to wear traditional Rajasthani suit so I obliged though it was loose.   
   
-Me and Amma went in the car to Balaji. There, we were met by deafening dhol and firecrackers all arranged courtesy Vijay. His son tied safa for me and we waited for Appa. When he, Shonu and Kamu arrived, they tied safa for him as well and the dhol and firecrackers were repeated with pink smoke flares added. It was a wild display followed by unhinged dancing by almost everyone. Even I was unwillingly roped in.   
+Me and Amma went in the car to Balaji. There, we were met by deafening dhol and firecrackers all arranged courtesy Vijay. His son tied *safa* for me and we waited for Appa. When he, Shonu and Kamu arrived, they tied *safa* for him as well and the dhol and firecrackers were repeated with pink smoke flares added. It was a wild display followed by unhinged dancing by almost everyone. Even I was unwillingly roped in.   
   
 Following this, Amma and Appa were seated on a throne on the dais, and a photo session and cake cutting ceremony followed accompanied by confetti showers. Again over the top arrangements by Vijay.   
   
