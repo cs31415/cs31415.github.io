@@ -5,7 +5,7 @@ share: true
 ---  
 ### Switzerland - India Diary  
   
-!switzerland.jpg  
+![Mt Pilatus](../img/switzerland.jpg)  
 <span class="credit">Mt Pilatus</span>  
   
 ### A Trip to Switzerland and India in summer of 2022 (July 3 - Aug 1)  
@@ -236,7 +236,7 @@ They joined two tables for us. I ordered pav bhaji, Kamu ordered momos and Shonu
   
 Post dinner, Appa Amma left for home with Om Prakash. The ladies did some shopping for earrings. There were small children selling balloons. They seemed to have come with people from rural areas. One little boy was selling an elaborate balloon while playing with it himself. He was that age. He found no takers. Meanwhile, one of the balloons burst and then another. The poor chap was trying desperately to blow new ones up, and failing. Shonu also felt sorry for him and wanted to buy the balloon, but it kept popping and the little fellow went back to his father or grandfather. Luckily, he didn’t get yelled at. I thought that the boy hadn’t done anything to deserve this fate. It was just sheer chance that he had been born poor. And what about the role of the state? It had done nothing to improve his lot in 80 years since independence and quite a bit to actively keep him poor, through its incompetence, apathy and hostility towards its own citizens, and its wrong, outdated, and destructive socialist philosophies. I could do little beyond feeling an impotent rage.   
     
-!dharmarajeshwar.jpg  
+![Dharmarajeshwar](../img/dharmarajeshwar.jpg)]  
 <span class="credit">Dharmarajeshwar</span>  
   
 #### July 19: Trip to Mandsaur, Dharmarajeshwar  
