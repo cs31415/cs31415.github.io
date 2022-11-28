@@ -265,7 +265,7 @@ Booked tickets for Mumbai for 26th at 4:10pm on Indigo through Expedia.
     
 #### July 23: Amma Appa 50th Anniversary Celebration  
   
-Kamini’s parents’ 50th wedding anniversary today. Dal bati arranged by Akshay for lunch with besan gatte ki sabzi,  kadi and choorma ladoo. Lunch was at around 1pm. Akshay, Vishal and Vijay and family came for 1st batch. Vijay’s wife, Poornima, is the newly elected local councilor (parshad). Lunch was very tasty. Vijay and Meenu served initial batch of Akshay, Vishal, Vijay’s children, Kamini, Me and Poornima. Vijay serving his wife was a novel but welcome sight.  
+Kamini’s parents’ 50th wedding anniversary today. *Dal bati* arranged by Akshay for lunch with *besan gatte ki sabzi,  kadi* and *choorma ladoo*. Lunch was at around 1pm. Akshay, Vishal and Vijay and family came for 1st batch. Vijay’s wife, Poornima, is the newly elected local councilor (parshad). Lunch was very tasty. Vijay and Meenu served initial batch of Akshay, Vishal, Vijay’s children, Kamini, Me and Poornima. Vijay serving his wife was a novel but welcome sight.  
   
 Had a nap till 4. After waking up, a flood of people arrived. Mandsaur people - Vinod, Rama and Kamakshi, Mahender, wife Sampath and kids, Amisha, Tanisha, (his son Amit is doing AI engineering in Indore), Vinod’s lawyer brother, wife and son Raghav, Suresh. Family from Indore - Prema chithi, Meera chithi, Kumar, Yogesh and Param. Yogesh appeared very ill and lay down to nap.   
   
@@ -295,9 +295,9 @@ Lazy day today. Woke up after 9:30. Shonu slept in even longer.
   
 Skipped breakfast since I felt heaviness from yesterday’s rich food.   
   
-Had fresh gilki sabzi and daal bati from yesterday.   
+Had fresh *gilki sabzi* and *daal bati* from yesterday.   
   
-Read The Beak of the Finch, which provides a history of how Darwin arrived at his monumental theory and how the Grants are providing real-time evidence for the theory through the multifarious finches of the laboratory called Galapagos.   
+Read *The Beak of the Finch*, which provides a history of how Darwin arrived at his monumental theory and how the Grants are providing real-time evidence for the theory through the multifarious finches of the laboratory called Galapagos.   
   
 Kamu, Meenu and Amma visited Prema and Meera Chithis in the evening. Shonu, me and Appa stayed behind.   
   
@@ -307,11 +307,11 @@ Watched Superstar singer with all.
   
 #### July 25  
   
-Vijay brought samosa kachori in the morning. Samosa was super fresh though on the spicy side with a hint of sweetness. Kachori was equally fresh with the dal filling and slightly softer crust providing points of difference. Shonu had just the crust. Jalebi helped take the edge off the spice.   
+Vijay brought *samosa kachori* in the morning. *Samosa* was super fresh though on the spicy side with a hint of sweetness. *Kachori* was equally fresh with the dal filling and slightly softer crust providing points of difference. Shonu had just the crust. *Jalebi* helped take the edge off the spice.   
   
 #### July 26: Flight to Mumbai  
   
-Leaving for Mumbai from Indore via Indigo flight at 4:10pm. Got ready by 10am. Walked over to Gurvinder house to say bye. His mom and grandparents spoke to us for a few minutes and offered us coffee and biscuits. Gurvinder had gone to school.   
+Leaving for Mumbai from Indore via Indigo flight at 4:10pm. Got ready by 10am. Walked over to Gurvinder house to say bye. His mom and grandparents spoke to us for a few minutes and offered us coffee and biscuits. Gurvinder had gone to school. Sad that Shonu couldn't meet him at all this time.   
   
 Om Prakash dropped us off at Indore airport. It was a mostly smooth ride though there were quite a few potholes on the highway. We arrived at 1:15 having started at 11:15.   
     
