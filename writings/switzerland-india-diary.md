@@ -196,7 +196,7 @@ Nisha is here and makes fresh hot Poha and coffee/tea for us.
   
 Went for follow up visits to Nanavati Hospital. Arjun graciously agreed to accompany me. The Uber I booked canceled so we took an auto. There was heavy traffic as soon as we hit Juhu circle.   
   
-Pick up reports at the hospital. Have to pay Rs 1000 for the follow up with Dr Avanish Arora which irks me. He is nice though and doesn’t rush us. He says that there is no cause for worry based on the reports. Appa has had a prostate surgery 20 years ago because of which the tubes might be getting constricted. He is putting him on medication to open up the tubes and we are to see him in one month.   
+Pick up reports at the hospital. Have to pay Rs 1000 for the follow up with Dr Avanish Arora which irks me. He is nice though and doesn’t rush us. He says that there is no cause for worry based on the reports. He is putting him on medication and we are to see him in one month.   
   
 Dr Bhosale is also cordial and patiently explains my questions. He said that for him it is a routine procedure which he does every day and has done 17000 of them, that it is not some emergency procedure that has to be done, but is up to Appa how active he wants to be and how much pain he can tolerate. Regarding risk, he said they run a series of tests prior to the surgery and if anything comes up, he wouldn’t do it. He also said he has done it for people in 80s and 90s. He is projecting recovery of few weeks. He sounded confident.  
   
