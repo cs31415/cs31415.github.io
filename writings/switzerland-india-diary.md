@@ -253,7 +253,7 @@ Back in Mandsaur, we make a couple of social visits and then head back home, rea
     
 #### July 21  
   
-Reading The Beak of the Finch, which is about evolution happening in real-time.   
+Reading *The Beak of the Finch*, which is about evolution happening in real-time.   
     
 #### July 22  
   
