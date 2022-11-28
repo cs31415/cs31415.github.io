@@ -89,4 +89,5 @@ A journey back in time to Karachi, 1947
 ### [Phoenix Diary](\writings\Phoenix%20Diary)
 ### [Northern California Diary](\writings\Northern%20California%20Diary)
 ### [Death Valley Diary](\writings\death-valley-diary)
+### [Switzerland - India Diary](\writings\switzerland-india-diary)
 ### [Cancun Diary](\writings\cancun-diary)
