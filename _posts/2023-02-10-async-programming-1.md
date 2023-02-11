@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: My Stupid Guide to Async Programming Part 1
+title: Async Programming Part 1
 permalink: /blog/async-programming-1
 description: Async Programming Part 1
 image: async1.jpg
@@ -10,7 +10,7 @@ image: async1.jpg
 ![Async Programming](../../../img/async-juggling.jpg)
 <span class="credit">Photo by <a href="https://unsplash.com/@stevenliuyi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yi Liu</a> on <a href="https://unsplash.com/photos/hiFZxXC6pGw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-I have always had a mental fog around this topic and the more I read the less I seem to understand. Writing this guide is an attempt to demystify this important concept to my stupid self. Hopefully it will be useful to others engaged in the same struggle. 
+I have had a mental fog around this topic for a while and the more I read the less I seem to understand. Writing this guide is an attempt to demystify this concept for myself. Hopefully it will be useful to others. 
   
 ## Introduction
 
