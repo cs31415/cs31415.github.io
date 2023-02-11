@@ -1,9 +1,9 @@
----  
-layout: default  
-title: switzerland-india-diary  
-share: true  
----  
-### Switzerland - India Diary  
+---
+layout: default
+title: switzerland-india-diary
+---
+
+### Switzerland - India Diary
   
 ![Mt Pilatus](../../../img/switzerland.jpg)  
 <span class="credit">Mt Pilatus</span>  

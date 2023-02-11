@@ -14,7 +14,7 @@ I have always had a mental fog around this topic and the more I read the less I 
   
 ## Introduction
 
-When I wake up in the morning, I head down to the kitchen and start boiling water for tea. While the water is boiling, I unload the dishwasher. By then, the water is ready, and I proceed to make tea. Later in the morning, I will get the coffee machine going, pop waffles in the toaster, and head off to water the plants in the yard. By the time I return, the coffee and waffles are waiting for me.   
+My morning starts with boiling water for tea. While the water is boiling, I unload the dishwasher. The water has started to boil by then and it is tea time. Later in the morning, I grind beans and start the coffee machine which takes about 3 minutes to brew. Meanwhile I put bread in the toaster, and go out to water the plants in the yard. By the time I return, I can smell fresh toast and coffee.  
 
 This is asynchronous processing in the kitchen. Likewise, in a program, it means starting a task on a thread, letting the task run in the background (CPU bound tasks might run on a separate thread; IO bound tasks are just waiting around so don't even need to engage a thread) while the thread (you) is released to work on other tasks, and being notified when the task has completed so that you can consume the results at your convenience. By contrast, in a synchronous program, the thread (you) would be sitting around waiting for each task to complete before embarking on the next task. Not an optimal use of resources.
 
@@ -103,7 +103,7 @@ This was a short user guide. You could be done at this point and still reap all 
 
 In a nutshell, .NET creates a state machine for each async method to keep track of the current execution point, and passes a reference to the part of the method following the `await` (called the continuation and captured by the state machine) to the underlying operating system API to be called (by the device driver) once the async operation is complete. This continuation runs on a different (threadpool) thread from the calling thread. The ambient context of the thread (called the synchronization context) is captured by the continuation and replayed when it runs. There are times when we may not want the context to be captured (especially in libraries that can be called by clients with different types of contexts) and this can be done through calling `ConfigureAwait(false)` on the task object. This may not make much sense at this time, but conveys a hint of the complexities lurking underneath.
 
-In Part 2 (TBD), we descend into the labyrinth. 
+Part 2 (TBD) descends into the labyrinth. 
 
 ## Takeaways
 
