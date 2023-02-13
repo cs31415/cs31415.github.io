@@ -10,7 +10,7 @@ image: async1.jpg
 ![Async Programming](../../../img/async-juggling.jpg)
 <span class="credit">Photo by <a href="https://unsplash.com/@stevenliuyi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yi Liu</a> on <a href="https://unsplash.com/photos/hiFZxXC6pGw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-I have had a mental fog around this topic for a while and the more I read the less I seem to understand. Writing this guide is an attempt to demystify this concept for myself. Hopefully it will be useful to others. 
+I have struggled to wrap my head around this topic for a while and the more I read the less I seem to understand. This guide is an attempt to demystify this concept for myself. Hopefully it will be useful to others as well. 
   
 ## Introduction
 
@@ -22,7 +22,7 @@ Like in a kitchen, it is possible to have many balls in the air at any one time.
 
 ## Definition
 
-**Asynchronous programming** is a model where (relatively) long-running tasks can be started in the background, allowing the thread to do other work (on the same thread if it doesn't require the preceding task result, or by releasing it to the threadpool if it cannot proceed without the result) instead of blocking while users or other requests are waiting. 
+**Asynchronous programming** is a model where (relatively) long-running tasks can be started in the background, allowing the thread to do other work instead of blocking while users or other requests are waiting. 
 
 Both user interfaces as well as backend services can benefit from this, the former in being responsive to the user, the latter in being able to process other requests while the async operation is in progress. 
 
@@ -34,7 +34,7 @@ Both user interfaces as well as backend services can benefit from this, the form
 
 We focus here on `async/await` as the pattern [recommended by Microsoft](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap) for new development. 
 
-Long-running tasks fall into two buckets - I/O bound (disk or network operations) and CPU bound (CPU intensive calculations). In C#, the same `async/await` pattern can be polymorphically used for both.
+Long-running tasks can be I/O bound (disk or network operations) or CPU bound (CPU intensive calculations). In C#, the same `async/await` pattern can be polymorphically used for both.
 
 
 ## User Guide
@@ -44,25 +44,25 @@ The async model in C# using `async/await` is:
 
 ### IO-bound operations 
 
-Asynchronous methods are marked with the `async` modifier and immediately return with a token of type `Task` or `Task<T>` which can be used to retrieve the result of the operation which is of type `T`. Async methods that don't return any data return the non-generic `Task` type.
+Asynchronous methods are marked with the `async` modifier and immediately return with a token of type `Task` or `Task<T>` which can be "awaited" to retrieve the result of the operation which is of type `T`. The non-generic `Task` type is returned by async methods that don't return any data (return type `void`).
 
 **Example:**
 
-Consider a web service that returns a random activity. The `GetAsync` method is invoked for the `/api/activity` endpoint. This method is marked with the `async` modifier, since it is an asynchronous method. It makes an HTTP call to an external API using the `_httpClient.GetAsync` async method. `HttpClient`'s `GetAsync` method is an asynchronous method that returns a `Task<HttpResponse>` type - a token that can be used to retrieve a result of type `HttpResponse`. 
+Consider a web service that returns a random activity. The `/api/activity` endpoint maps to the `GetAsync` asynchronous method. This method is marked with the `async` modifier and has an `Async` suffix by convention. It makes an HTTP call to an external API using the `_httpClient.GetAsync` asynchronous method, which returns an object of type `Task<HttpResponse>` - a token that can be used to retrieve a result of type `HttpResponse`. 
 
-Asynchronous methods are suffixed with `Async` to distinguish them from synchronous methods. The `Task<HttpResponse>` type is a token that is returned immediately while the HTTP call runs in the background. This token can be `awaited` to simulate a synchronous flow. This will ensure that the subsequent statement isn't executed until the result from the async HTTP call is available.  
+The `Task<HttpResponse>` token is returned immediately while the HTTP network call runs in the background. This token can be "awaited" to simulate a synchronous flow where the subsequent statement (`var content = response.Content;`) isn't executed until the result from the async HTTP call is available.  
 
 ```
 using System.Net.Http;using System.Threading.Tasks;using System.Web.Http;using Newtonsoft.Json.Linq;namespace async_samples.Controllers{    public class ActivityController : ApiController    {        private static HttpClient _httpClient;        static ActivityController()        {            _httpClient = new HttpClient();        }        [Route("api/activity")]        public async Task<string> GetAsync()        {            var uri = "https://www.boredapi.com/api/activity";            var response = await _httpClient.GetAsync(uri);            var content = response.Content;            if (content != null)            {                var responseJson = await content.ReadAsStringAsync();                if (!string.IsNullOrEmpty(responseJson))                {                    dynamic jObj = JObject.Parse(responseJson);                    return jObj.activity?.ToString();                }            }            return null;        }    }}
 ```
 
-By itself, this is a real benefit, since the calling thread that would have remained blocked during the HTTP call is now released to the threadpool and can service other web requests. The web service's throughput can be much higher. But it gets even better.
+By itself, this is a real benefit, since the calling thread that would have remained blocked during the HTTP call is now returned to the threadpool and can handle web requests waiting in the queue. The web service can now handle much more traffic. But it gets even better.
 
 ### Async tasks in parallel
 
-The caller can choose to do other things if the result of the HTTP call isn't immediately required and only await the token when it's result is required. This can make a big difference in execution time since we can now have independent tasks running in parallel. 
+The caller can choose to do other work instead of "awaiting" if the result of the HTTP call isn't immediately required. The "await" can be deferred until a point where the code can't continue without the HTTP result. This can make a big difference in execution time since we can now have independent tasks running in parallel. 
 
-As an example, if we wanted to return 10 activities instead of one, we could write something like this. This would suspend the thread for the duration of each HTTP call, effectively serializing them:
+For example, if we wanted to return 10 activities instead of one, we could write something like this. This would suspend the thread for the duration of each HTTP call, effectively serializing them:
 
 ```
 [Route("api/activities/serial")]public async Task<string[]> GetListSerialAsync(int n = 10){	var activities = new List<string>();	for (int i = 0; i < n; i++)	{		activities.Add(await GetAsync());	}	return activities.ToArray();}
@@ -97,13 +97,14 @@ If an async method needs to be called from a non-async method, then `GetAwaiter(
 static void Main(){	var activity = GetActivityAsync().GetAwaiter().GetResult();	Console.WriteLine(activity);}
 ```  
 
-## To sum up
+## Under the hood
 
-This was a short user guide. You could be done at this point and still reap all the benefits of using async. However, this is just the tip of the iceberg. It helps to know how things work internally for those cases where something doesn't work as expected or you are trying to do something atypical and encounter the rough edges of the abstraction.
+This was a short user guide. You could be done at this point and reap most of the benefits of using async. However, this is just the tip of the iceberg. It helps to know how things work internally for scenarios where something doesn't work as expected or you are trying to do something atypical and encounter the rough edges of the abstraction.
 
-In a nutshell, .NET creates a state machine for each async method to keep track of the current execution point, and passes a reference to the part of the method following the `await` (called the continuation and captured by the state machine) to the underlying operating system API to be called (by the device driver) once the async operation is complete. This continuation runs on a different (threadpool) thread from the calling thread. The ambient context of the thread (called the synchronization context) is captured by the continuation and replayed when it runs. There are times when we may not want the context to be captured (especially in libraries that can be called by clients with different types of contexts) and this can be done through calling `ConfigureAwait(false)` on the task object. This may not make much sense at this time, but conveys a hint of the complexities lurking underneath.
+In a nutshell, when an async call is encountered, .NET captures the ambient context (called the synchronization context) and passes the continuation (the part of the method following the async call) to the async call and immediately returns a token - the `Task` object - which can be used to retrieve the results. The C# compiler implements the continuation as a state machine which it creates for each async method. The continuation gets passed all the way to the device driver which is async by design. Even synchronous operations are performed asynchronously by the device driver through a contraption of IRPs (I/O request packets), ISRs (Interrupt service request), DPC (Deferred procedure call) and kernel-mode APC (asynchronous procedure call) which runs on the IO thread pool and notifies the task that it is complete, which then queues the continuation to run on a threadpool thread, which updates the task object status. It is a [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine) lurking just beneath the surface.
 
-Part 2 (TBD) descends into the labyrinth. 
+In future parts, we explore more nuances of async usage and delve into the internals of this complex machine.
+  
 
 ## Takeaways
 
