@@ -116,6 +116,9 @@ In future parts, we explore more nuances of async usage and delve into the inter
 - The continuation captures and replays the synchronization context except when `ConfigureAwait(false)` is called on the task.
 
 
+## Code
+[https://github.com/cs31415/samples/tree/main/async/part1](https://github.com/cs31415/samples/tree/main/async/part1)
+
 
 ## Further Reading
 
