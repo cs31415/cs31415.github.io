@@ -91,3 +91,6 @@ A journey back in time to Karachi, 1947
 ### [Death Valley Diary](\writings\death-valley-diary)
 ### [Switzerland - India Diary](\writings\switzerland-india-diary)
 ### [Cancun Diary](\writings\cancun-diary)
+### [Las Vegas SLC Diary](\writings\las-vegas-slc-diary)
+### [Yellowstone Diary](\writings\yellowstone-diary)
+### [Grand Teton Diary](\writings\grand-teton-diary)
