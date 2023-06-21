@@ -50,6 +50,9 @@ We made a pit stop at the cabin and then got back on the road towards Old Faithf
 
 We drive straight on to Old Faithful (the most famous geyser in the park which erupts on a predictable schedule every 90 minutes plus minus 10 minutes), ignoring the guided app's many suggestions along the way. We know exactly where to park and what to do. First thing to do is to go to the visitor center and check the time of the next eruption. We have nearly an hour. We find a spot on the benches overlooking Old Faithful and wait. A couple of annoying kids are in the bench in front of us. The eruption starts 7 minutes ahead of schedule and is unmistakeable. The superheated water shoots up to nearly 30-40 feet accompanied by billowing steam clouds. It keeps going for a couple of minutes. It is a spectacular sight and worth the wait. A reminder of the raging inferno below our feet deep in the earth's interior. 
 
+![Old Faithful](../../../img/old-faithful.jpg)
+<span class="credit">Old Faithful</span>
+
 Next, we walk over to a dining area we noticed yesterday while sheltering from the rain. They have a black bean burger. We go in with high expectations. They are instantly dashed - the burger contains egg. There is a smoked red pepper and Gouda soup though which is impressive sounding. We order that along with two French fries. The soup lives up to its name. 
 
 We walk to a grocery store next door to buy apples and chocolate. The cashier sells Shonu a huckleberry lollipop. I have never heard of this berry but Shonu says she has. I then remember Huckleberry Finn. 
@@ -83,6 +86,9 @@ We saw a baby black bear and her mother probably (who was brown). The cub crosse
 The GuideAlong uncle said that the less human contact wild animals have with man, the better for them. The more they get used to us, the more they will approach us, and become a danger to us, which is bad for them. This stayed with me. We are so eager to spot wildlife, yet, not spotting them would be the best thing we can do for them. 
 
 Lamar Valley was our next destination. This is a highly scenic drive through sweeping grassy valleys gently sloping up into hills on either side. Panoramic views are to be had on both sides. We saw a deer and her sprightly kid confidently cross the road. There were hundreds of bison lazing and grazing in the distance. They were everywhere. We got tired of seeing them after a while. After a leisurely drive that ended at Soda butte, we drove back to Canyon Village. 
+
+![Bison](../../../img/bison.jpg)
+<span class="credit">Bison relaxing</span>
 
 The cafe as usual had no vegetarian options and the wok place was closed too. Scenery: A+. Food: F. We got ice cream bars from the nearby store and went back to the cabin. We had Ching's noodles for dinner and ice cream (which had become a soup but tasted good) for dessert. Shonu had smartly finished hers as soon as we left the store. 
 
