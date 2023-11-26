@@ -14,7 +14,7 @@ title: Palm Springs Diary
 - Stopped at Starbucks in Upland for coffee on the way. 
 - Reached Best Western Cathedral City at 4 pm. Room 217 on 2nd floor. Large, modern suite with king bed and sofa. Quite nice. 
 - Have Ching's noodles and lentil soup for dinner while watching shark tank. By now we know what the sharks look for – unit cost, unit selling price, margin, year on year revenue, net profit, proprietary advantage/patents, market size, debt, founder background, future growth prospects, at least 10% equity to have skin in the game. Except Mr Wonderful who is always looking for royalties in lieu of equity. They don't seem to care so much what is actually being sold. They even entertain outrageous products like a beer can holder cum fishing reel. 
-- These two turn in at 8:30, I at 9 after a bit of reading [[The Master Algorithm]] book. 
+- These two turn in at 8:30, I at 9 after a bit of reading [The Master Algorithm](https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine-ebook/dp/B012271YB2) book. 
 
 #### 21st November 2023:
 
@@ -85,4 +85,4 @@ I again wake up at 6:30 and get ready by 7:30. These two brush and come down for
 - Checked out from hotel at 10:15. We split a cappuccino from hotel while Shonu demanded and got a peppermint mocha from Starbucks. 
 - Reached home in 2:30 hours at 12:50. 
 - Had pizza and soup for lunch. Took a long nap, had chai. Then dinner at woodlands. It was very busy. Had to wait nearly half an hour. I had mysore masala dosa, Kamu had masala dosa, Shonu had idli Vada and palak paneer. Everything was delicious despite the traffic. 
-- Rounded the day by visiting sprouts and doing laundry while watching an old, forgettable movie – [[Bachna Ae Haseeno]].
+- Rounded the day by visiting sprouts and doing laundry while watching an old, forgettable movie – [Bachna Ae Haseeno](https://en.wikipedia.org/wiki/Bachna_Ae_Haseeno).
