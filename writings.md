@@ -94,3 +94,5 @@ A journey back in time to Karachi, 1947
 ### [Las Vegas SLC Diary](\writings\las-vegas-slc-diary)
 ### [Yellowstone Diary](\writings\yellowstone-diary)
 ### [Grand Teton Diary](\writings\grand-teton-diary)
+### [Palm Springs Diary](\writings\palm-springs-diary)
+

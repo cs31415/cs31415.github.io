@@ -10,12 +10,7 @@ title: Palm Springs Diary
 #### 20th November 2023:
 
 - Started at 12:30 for Palm Springs in Accord accompanied by Binky, Kiki, Penguin, mini Grogu and Rocky raccoon. Route was straightforward –118-210-10. Encountered moderate traffic but no significant slowdowns. 
-- Had interesting discussion about religion and existence of god after crossing San Bernardino. 
-- Isn't religion helpful? Doesn't it help us love our fellow humans? Then why is it at the center of lots of global conflicts? India-Pakistan, Israel-Palestine, Armenia-Azerbaijan, etc. 
-- How the only evidence we have comes from our parents and priests in temples. The former having received instruction from their parents and priests. The latter having significant conflict of interest. None of us have seen god in person except in television serials nor spoken to him except in a dream perhaps. Yet the overwhelming majority of the world is religious. If most of the world believes something to be true isn't there a good chance it is? Most of the world believed the sun went around the earth and that the earth was flat until scientists provided overwhelming evidence to the contrary. Why is religion so popular? It's an idea virus. It went viral just like a TikTok video. But TikTok videos don't stay viral forever. Religion is a powerful idea. It has been debunked but still persists. At some time in the future, it will be looked at just like flat earth or Ptolemic astronomy. 
-- With religion, there is also a confusion of correlation with causation. You pray to god before an exam. You do well on the exam. Hence, god exists. What about the times you prayed and didn't do well? Or of those who pray just as hard but perennially fail?
-- Another argument advanced by the faithful is that the staggering complexity of humans could not have emerged spontaneously and implies a creator. 
-- And when you ask a good faith question of the believers about the mechanism by which their particular belief or miracle works, all you get are platitudes and evasions and long and misleading detours at best or anger and offense at worst. 
+- Had interesting philosophical discussions after crossing San Bernardino. 
 - Stopped at Starbucks in Upland for coffee on the way. 
 - Reached Best Western Cathedral City at 4 pm. Room 217 on 2nd floor. Large, modern suite with king bed and sofa. Quite nice. 
 - Have Ching's noodles and lentil soup for dinner while watching shark tank. By now we know what the sharks look for – unit cost, unit selling price, margin, year on year revenue, net profit, proprietary advantage/patents, market size, debt, founder background, future growth prospects, at least 10% equity to have skin in the game. Except Mr Wonderful who is always looking for royalties in lieu of equity. They don't seem to care so much what is actually being sold. They even entertain outrageous products like a beer can holder cum fishing reel. 
@@ -66,7 +61,6 @@ I again wake up at 6:30 and get ready by 7:30. These two brush and come down for
 ![Salton Sea Beach](../../../img/salton-sea-beach.jpg)
 <span class="credit">Chandra Sivaraman</span>
 
- AI to measure quality of social media feeds based on user specified parameters. #ideas 
 - Same ho hum breakfast today. Left hotel at 10:30 for Salton Sea, a massive lake formed in the early 1900s when a dam on an irrigation canal from the Colorado broke and water flooded into the Salton Sink, a depression in the Imperial Valley. It has been kept replenished by farm runoff, which unfortunately also makes the water toxic. It has been shrinking for years. It was once a popular recreational destination with resorts dotting the coast that are now largely abandoned. 
 - The route is flanked by inhospitable desert on both sides with railway tracks to the left. Goods trains pass intermittently. There are some fields from time to time and we wonder how any agriculture is possible in this terrain and soil. Apparently the soil is highly fertile, being alluvial silt deposited by rivers flowing into the basin. The water comes from the Colorado via canals and other smaller rivers. 
 - At first sight, the sea looks massive. Apparently the burst dam resulted in Colorado water flowing into the depression for two whole years. 
