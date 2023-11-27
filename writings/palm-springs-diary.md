@@ -25,7 +25,7 @@ These two turn in at 8:30, I at 9 after a bit of reading [The Master Algorithm](
 #### 21st November 2023:
 
 ![Joshua Tree NP](../../../img/joshua-tree-np.jpg)
-<span class="credit">Chandra Sivaraman</span>
+<span class="credit">Joshua Tree National Park</span>
 
 
 I wake up only at 6:30 since Shonu did "beskeet" (shoved the blanket under her because she was hot) thereby removing it from us, waking us up several times. 
@@ -59,7 +59,7 @@ Drive back through cottonwood springs takes about 30 minutes followed by another
 #### 22nd November 2023:
 
 ![Palm Canyon](../../../img/palm-canyon.jpg)
-<span class="credit">Chandra Sivaraman</span>
+<span class="credit">Indian Canyon</span>
 
 I again wake up at 6:30 and get ready by 7:30. These two brush and come down for breakfast, which has a deja vu feel to it. This time though Shonu has waffle since her mom has verified that it is eggless. 
 
@@ -92,7 +92,7 @@ Good night.
 #### 23rd November 2023:
 
 ![Salton Sea Beach](../../../img/salton-sea-beach.jpg)
-<span class="credit">Chandra Sivaraman</span>
+<span class="credit">Salton Sea Beach</span>
 
 
 Same ho hum breakfast today. Left hotel at 10:30 for Salton Sea, a massive lake formed in the early 1900s when a dam on an irrigation canal from the Colorado broke and water flooded into the Salton Sink, a depression in the Imperial Valley. It has been kept replenished by farm runoff, which unfortunately also makes the water toxic. It has been shrinking for years. It was once a popular recreational destination with resorts dotting the coast that are now largely abandoned. 
@@ -111,10 +111,15 @@ We return to the car and are about to exit when we spot another area near the do
 
 After a few minutes we leave only to return immediately for lunch after realizing we won't find a better lunch spot. The same trademark chips sandwich with Canada Dry this time and Diwali sweets for dessert. It's been a long time since we experienced such calm. This is the highlight of our trip. These two are having a good time singing some silly 90's film song. 
 
+![Bombay Beach](../../../img/bombay-beach.jpg)
+<span class="credit">Bombay Beach</span>
+
 Next stop is Bombay Beach, an abandoned resort town a few minutes away. We find houses, trailers and buses covered in art and graffiti, bizarre sculptures and exhibits amidst a dystopian landscape. Most of the houses seem abandoned, but some are inhabited. There is a levee running along the coastal edge of the town with steps going up to the beach. We spot kids on skateboards out of nowhere and three dogs running wild – little chihuahuas. A first in this country. 
 
 ![Salvation Mountain](../../../img/salvation-mountain.jpg)
-<span class="credit">Chandra Sivaraman</span>
+
+![Salvation Mountain](../../../img/salvation-mountain-2.jpg)
+<span class="credit">Salvation Mountain</span>
 
 
 After this odd excursion, we head for Salvation Mountain in Niland, suggested by Kamini. It is a kind of Christian themed art exhibit. To get there we have to pass through some rough road and cross two railroad tracks and a small town in middle of nowhere. 
