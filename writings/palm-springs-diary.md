@@ -81,7 +81,7 @@ Back at the top, a lunch of cheese and chips sandwich, chips and apple with spri
 
 After this, there is no appetite for further hikes and a demand is made for gelato from a store in Palm Springs downtown. Gelato Granucci is the name. Shonu has 2 scoops – strawberry and lemon basil, Kamu has 1 scoop lemon basil, I have one scoop of mango. All very delicious and refreshing. 
 
-This is followed by a walk through downtown with window shopping that turns into the real thing of which Shonu is the chief beneficiary – a sweater and earrings. Usha Mami calls while in the shop and chats briefly. She and Radhika have obtained realtor licenses and are selling homes. 
+This is followed by a walk through downtown with window shopping that turns into the real thing of which Shonu is the chief beneficiary – a sweater and earrings. 
 
 Back to hotel for siesta. Then off to Taste of India for dinner. Small unassuming hole in the wall place with limited seating. But food is very good by US standards. We have paneer makhani, chana masala, garlic naan and rice. Shonu tops off with mango lassi. Satisfied feeling and pleasant after taste. Tamil pataalam behind us is from our hotel. TA (Tamilan alert) as Shonu says. 
 
