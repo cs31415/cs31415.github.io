@@ -12,7 +12,7 @@ title: switzerland-india-diary
   
 #### July 3: Flight to Zurich  
   
-Pavan dropped us off at LAX 4 hours before the flight after missing the Tom Bradley terminal once while we were rambling on about some pointless political topics. We had to exit the airport, take a u turn and come back.   
+Pavan dropped us off at LAX 4 hours before the flight after missing the Tom Bradley terminal once while we were engrossed in some political discussions. We had to exit the airport, take a u turn and come back.   
   
 It was good we came early. The Asian guy at the checkin counter said that we could only take one piece of hand luggage each, which was wholly unexpected– we ended up checking in my carry on bag. The security check, which also involved a sniffer dog, went by pretty quickly.   
   

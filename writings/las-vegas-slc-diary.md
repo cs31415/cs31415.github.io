@@ -34,9 +34,7 @@ Finished reading [The People of the Indus](https://www.amazon.com/People-Indus-N
 
 #### 4th June 2023:
 
-Left Cedar City at 10:30 after breakfast of bagel and yogurt. Shonu had cereal and bagel. It was a beautiful scenic drive through grassy meadows with mountains in the distance, the ones further away cloaked in snow. Pavan called and spoke. He asked about our travel first. Then talk turned to how it had rained more this year. According to him, the rains were due to yagnas and pujas done by many temples. And how everything was in the Vedas and some professor had written a white paper on it. I didn't try to argue with him. We had a discussion after the call among ourselves on the wide appeal of beliefs like this that even education cannot dispel. It is perhaps due to a human need for certainty in an uncertain universe. 
-
-We stopped for lunch at Govinda's in Spanish Fork. The temple is beautiful and the tables were just like the ones in Iskcon Juhu. There was a buffet with rice, dal, palak paneer, sheera. It was not as good as Culver City Govinda's but not bad either. 
+Left Cedar City at 10:30 after breakfast of bagel and yogurt. Shonu had cereal and bagel. It was a beautiful scenic drive through grassy meadows with mountains in the distance, the ones further away cloaked in snow. Pavan called and spoke. We stopped for lunch at Govinda's in Spanish Fork. The temple is beautiful and the tables were just like the ones in Iskcon Juhu. There was a buffet with rice, dal, palak paneer, sheera. It was not as good as Culver City Govinda's but not bad either. 
 
 Next we went to Great Salt Lake State Park. There was a strong salty smell. Apparently the salt lake is 15% salt compared to the ocean which is 3%. The lake is massive. We got some photos but couldn't stay long because of the 
 smell. 
