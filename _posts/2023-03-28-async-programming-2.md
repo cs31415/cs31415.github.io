@@ -22,7 +22,7 @@ It is a promise or future value for an async operation - a token, or rather a ba
 
 The `Task`/`Task<T>` objects are not quite as dramatic but have properties for the result, exception if any, and statuses to indicate completion, failure and cancelation.  `Task<T>` inherits from `Task`.
 
-Typical `Task<T>` constructors looks like this:
+Typical `Task<T>` constructors look like this:
 
 ```clojure
 Task<TResult>(Func<Object,TResult> doSomething, Object inputToDoSomething);
@@ -125,7 +125,7 @@ task =
 }
 ```
 
-The `Status` value is `7` (`Faulted`), `IsCompleted` indicates the task finished, `IsCompletedSuccessfully` and `IsFaulted` tell us it didn't complete successfully due to an unhandled exception.  
+The `Status` value is `7` (`Faulted`), `IsCompleted` indicates the task finished, `IsCompletedSuccessfully` and `IsFaulted` tell us it didn't complete successfully due to an unhandled exception, and `Exception` contains the exception details.  
 
 ### Canceled Task
 
