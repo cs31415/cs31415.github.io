@@ -8,7 +8,7 @@ image: async2.jpg
 ---
 
 ![Async Programming](../img/async2.jpg)
-<span class="credit">Photo by <a href="https://unsplash.com/@angelekamp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Angèle Kamp</a> on <a href="https://unsplash.com/photos/four-paper-card-tags-KaeaUITiWnc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
+<span class="credit">Photo by <a href="https://unsplash.com/@edenconstantin0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Eden Constantino</a> on <a href="https://unsplash.com/photos/person-holding-purple-and-pink-box-iJg1YzsEfqo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>
   
 In [Part 1](/blog/async-programming-1), we saw what .NET async programming is and when and how to use it. It all seems to work like magic but there's a lot going on underneath, just like in an automobile. Let's open the hood and look inside.
 
@@ -276,6 +276,7 @@ This behavior is important for the operation of the async machine as it hops fro
 ### Further Reading
 - [Task Class](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-8.0)
 - [Task return type](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-return-types)
+- [Jeremy Clark Explains Task, Await and Asynchronous Methods in C#](https://visualstudiomagazine.com/Articles/2023/05/15/asynchronous-programming.aspx)
 - [Useful Abstractions Enabled with ContinueWith](https://devblogs.microsoft.com/pfxteam/useful-abstractions-enabled-with-continuewith/)
 - [Tasks, Monads and LINQ](https://devblogs.microsoft.com/pfxteam/tasks-monads-and-linq/)
 - [Monads, part one](https://ericlippert.com/2013/02/21/monads-part-one/)
