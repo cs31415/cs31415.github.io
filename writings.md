@@ -95,4 +95,5 @@ A journey back in time to Karachi, 1947
 ### [Yellowstone Diary](\writings\yellowstone-diary)
 ### [Grand Teton Diary](\writings\grand-teton-diary)
 ### [Palm Springs Diary](\writings\palm-springs-diary)
+### [NYC Diary](\writings\nyc-diary)
 
