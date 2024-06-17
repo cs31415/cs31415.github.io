@@ -11,36 +11,34 @@ title: NYC Diary
 #### Day 1: 8th June 2024:
 
 
-Woke up at 5:30, had tea and got ready by 6:45. Uber came at 7. Elderly Sardarji in Camry. Spoke in English at first. Switched to Hindi after inquiring as to our origins. From Punjab. Had been here for 12 years. Asked if we were going to India. No. New York to watch India USA cricket. Some small talk about Indian population and Indian stores and restaurants in Simi Valley. Told him Shonu plays hockey and many Indians play. Wonderful. Yes, it is a sport from Punjab, he beams. 
+Woke up at 5:30, had tea and got ready by 6:45. Uber came at 7. Elderly Sardarji in Camry. Spoke in English at first. Switched to Hindi after inquiring as to our origins. From Punjab. Had been here for 12 years. Asked if we were going to India. No. New York to watch India USA cricket. Some small talk about Indian population and Indian stores and restaurants in Simi Valley. Told him Shonu plays hockey and many Indians play. Wonderful. Yes, it is a sport from our Punjab, he remarks. 
 
 Reach LAX around 8. Traffic is moderate. Clear security quickly. Gate is 47B. American Airlines flight 184 to JFK. Seats are in short supply at the gate which seems built for an era of smaller planes. Find separate seats, then together as a flight boards for Mexico City from an adjacent gate. A cute kid opposite us, barely a year old looks at Shonu intently. 
 
 Have homemade burger for breakfast. Boarding starts shortly. Our seats are in the middle, towards front of the economy block. Lots of legroom thanks to premium plus seats bought by Kamini using airline miles. We got two seats together. Kamini requests the guy at the window if he would exchange with another window seat of ours. He graciously agrees with the caveat that he will reclaim his seat if it happens to be next to a crying baby or dog. We glance back to make sure he is next to neither. 
 
-A cute baby in a bjorn and a saintly dog wend their way through to the back of the cabin. 
+A cute baby in a björn and a saintly dog, a handheld terrier, wend their way through to the back of the cabin. 
 
 They have a screen with English movies only. Headphones are offered free. I start watching [Shawshank Redemption](https://www.rottentomatoes.com/m/shawshank_redemption), but stop soon. It is a grim theme about convicts in a prison. 
 
-How many states do we have to cross enroute to New York? 9. 
+How many states do we have to cross en route to New York? 9. 
 
-> Life’s most essential textures reside in kairos (decisive moments of action). 
+> Life’s most essential textures reside in *kairos* (decisive moments of action). 
 > – [The Vagabond's Way](https://www.amazon.com/Vagabonds-Way-Meditations-Wanderlust-Discovery/dp/0593497457)
 
 The genesis of this whole trip was Shonu's persistence in checking ticket availability for India vs USA game. Once the tickets were secured, the whole trip crystallized around that event. 
 
-American flight is surprisingly decent. Didn't expect anything. Free headphones, snack box with cheese, crackers and fruit, biscuits and pretzels, beverages, friendly service are all a welcome bonus. We didn't need food since we brought our own – puff pastry samosas and sandwiches made by Kamini. We had samosa for lunch at 1:15pm.
+American Airlines flight is surprisingly decent. Didn't expect anything. Free headphones, snack box with cheese, crackers and fruit, biscuits and pretzels, beverages, friendly service are all a welcome bonus. We didn't need food since we brought our own – puff pastry samosas and sandwiches made by Kamini. We had samosa for lunch at 1:15pm.
 
 Get some writing done. This travelogue. 
 
 Shonu gets good views of NYC from window seat as we arrive. It looks much greener than LA. The plane loops a long way around Long Island before it prepares to land at JFK. It has been a smooth flight with a few mild bumps. It is a touch breezy when we land just before 6pm. It is sunny with a few scattered clouds. 
 
-As we walk towards the exit, there is a giant sculpture of an apple. We take photos next to it. We take Lyft to the hotel which is in Manhattan. Bangladeshi driver in Toyota RAV-4 with EarPods mumbling inaudibly to someone, a wife or friend, in Bengali. It is a very long drive and there is a lot of traffic. Long Island is fairly rustic with unkempt grass and vegetation hiding brown brick apartments and homes, which get progressively bigger. Very reminiscent of Mumbai. I later learn these areas are Queens and Brooklyn. As we approach Manhattan Island, some sights made familiar by Hindi movies start materializing. A bridge which is not the Brooklyn bridge but looks like it frames the setting sun. The Statue of Liberty, tiny yet unmistakable in the distant sunset haze. We slither through the Hugh L Carrey tunnel to Manhattan. The iconic Manhattan skyline looms above, dominated by the World Trade Tower, symbol of unconquerable will. Xeroxed by cities the world over, this is the original silhouette. Humanity's riposte to nature's mountains. The Big Apple. The Brooklyn bridge races by to the right, the Chrysler building to the left as we pass through the city's more industrial, seedier side. Here, there are ancient buildings housing all sorts of businesses – oil, diesel, Mexican, Chinese wine traders. The Chinese are also into wine now? Is there anything they have left for the rest of the world to make?
+As we walk towards the exit, there is a giant sculpture of an apple. We take photos next to it. We take Lyft to the hotel which is in Manhattan. Bangladeshi driver in Toyota RAV-4 with EarPods mumbling inaudibly to someone, a wife or friend, in Bengali. It is a very long drive and there is a lot of traffic. Long Island is fairly rustic with unkempt grass and vegetation hiding brown brick apartments and homes, which get progressively bigger. Reminiscent of Mumbai. I later learn these areas are Queens and Brooklyn. As we approach Manhattan Island, some sights made familiar by Hindi movies start materializing. A bridge which is not the Brooklyn bridge but looks like it frames the setting sun. The Statue of Liberty, tiny yet unmistakable in the distant sunset haze. We slither through the Hugh L Carrey tunnel to Manhattan Island. The iconic Manhattan skyline looms above, dominated by the World Trade Tower, symbol of unconquerable will. Xeroxed by cities the world over, this is the original silhouette. Humanity's riposte to nature's mountains. The Big Apple. The Brooklyn bridge races by to the right, the Chrysler building to the left as we pass through the city's more industrial, seedier side. Here, there are ancient buildings housing all sorts of businesses – oil, diesel, power tools, Chinese wine traders. The Chinese are also into wine now? Is there anything they have left for the rest of the world to make?
 
-As we turn into Manhattan, away from the freeway that circumferences it, the light grows dimmer from the shadows of giant buildings, like the floor of a rainforest. The city is alive and throbbing, cars and people pulsing through its arteries and veins. A raw human energy is palpable, as in India. 
+As we turn into Manhattan, away from the freeway that circumferences the island, the light grows dimmer from the shadows of giant buildings, like the floor of a rainforest. The city is alive and throbbing, cars and people pulsing through its arteries and veins. A raw human energy is palpable, as in India. 
 
-Our hotel tower is in what seems like a slightly wider alley. We are accosted by a tout as soon as we alight from the car. He moves on when he sees we have a booking. 
-
-We enter the lobby of the Hilton through a revolving door. Shonu squeezes into the same enclosure as me even though it says only one person at a time. 
+Our hotel tower is in what seems like a slightly wider alley. We are accosted by a hotel tout as soon as we alight from the car. He moves on when he sees we have a booking. We enter the lobby of the Hilton through a revolving door. Shonu squeezes into the same enclosure as me even though it says only one person at a time. 
 
 After we check-in, we have to take an elevator. There is a touch screen on which we have to select our room number and tap our key next to a reader. This summons an elevator with no buttons that is programmed to take us to our floor. High tech. There are a number of elevators and this solves the problem of distributing load as well as security. 
 
@@ -50,12 +48,11 @@ The room is tiny but highly functional. Every square inch of space has been util
 
 We freshen up and head out to a nearby Target through Times Square. Towering electronic billboards adorn every building here. The whole building converted into a multicolored, flashing, strobing advertisement that changes every few seconds. What must a 10 second spot cost here? One of the screens has an ad for the T20 World Cup with Virat Kohli jumping out at us, amidst other faces that are barely recognizable. Can't escape the marketing machine that is Kohli even in the Big Apple. 
 
-The crush of human traffic is unanticipated. Mumbai vibes. Multiple nationalities – African, Latin American, Middle Eastern, European, Indian, East Asian. The crossroads of the world. We are taken unawares by the scale of the place – the inhuman scale of the billboards and the crush and throng of humanity. There is even a gathering with Palestinian flags, though peaceful. Touts abound. One tries to *namaste* us into a city tour bus. This is Mumbai scale humanity, even Hong Kong paling in comparison. Santa Monica 3rd street no more than a village. 
+The crush of human traffic is unanticipated. Multiple nationalities – African, Latin American, Middle Eastern, European, Indian, East Asian. The crossroads of the world. We are taken unawares by the scale of the place – the inhuman scale of the billboards and the crush and throng of humanity. There is even a gathering with Palestinian flags, though peaceful. Touts abound. One tries to *namaste* us into a city tour bus. This is Mumbai scale humanity, even Hong Kong paling in comparison. Santa Monica 3rd street no more than a village. 
 
 We thread our way through this herd of wildebeest and reach Target. This location is different – concrete floors, stepped levels, human thrum – it feels like New York. We get some staples – soup, bread, Mac n cheese, water, chocolates. 
 
 Back at the hotel, we have a light dinner – Mac n cheese, soup and toast – and draw the curtains on an eventful day. 
-
 
 
 #### Day 2: 9th June 2024:
@@ -69,45 +66,35 @@ iPad is installed in position with WillowTV app at 10:30. Rain has delayed start
 
 Rohit started with a bang hitting Shaheen for a six in the first over. Kohli matched him by hitting an exquisite cover drive off Naseem next over. Then, disaster as he holed out to point. A needless shot I felt given that they needed to get through the initial difficult period without losing wickets. 
 
-Next over, the heavens fell down when Rohit also perished flicking Shaheen to deep midwicket. Had they gone mad? Whose idea was it go down guns blazing?
+Next over, the heavens fell down when Rohit also perished flicking Shaheen to deep midwicket. Had they gone mad? Whose idea was it to go down guns blazing? Mamaji at this point disconnected as he felt that the video call was jinxing it. 
 
-Mamaji at this point disconnected as he felt that the video call was jinxing it. 
+Pant had come in followed by Axar. This was a bizarre tactic. Suryakumar being protected by a nightwatchman in T20? Axar had apparently come out as a pinch hitter. He did that job somewhat by hitting a six and a couple of boundaries. 
 
-Pant had come in followed by Axar. This was a bizarre tactic. Suryakumar being protected by a nightwatchman in T20?
+Pant was not his usual self and was missing most shots and living dangerously. The sticky wicket with balls not quite coming on was upsetting his timing. He broke the shackles in one Harris Rauf over hitting three successive boundaries. But he continued to be the cat with nine lives as he kept hitting the ball inches away from outstretched hands and giving Paki and Indian hearts a workout. 
 
-Axar had apparently come out as a pinch hitter. He did that job somewhat by hitting a six and a couple of boundaries. Pant was not his usual self and was missing most shots and living dangerously. The sticky wicket with balls not quite coming on was upsetting his timing. 
+Axar perished scoring 20. Surya and Dube came and went back with crumbs to their name. Pant rode his prodigious luck before perishing for 42. Pandya huffed and puffed his way to 7 off 12 and it was left to Arshdeep and Siraj to push the score close to 120. 119 all out in 19 overs. 120 to win in 20. What an abject performance knowing the nature of the wicket fully well. A strategic failure above all to be over aggressive and not aim for a reasonable score from the outset. 
 
-He broke the shackles in one Harris Rauf over hitting three successive boundaries. But he continued to be the cat with nine lives as he kept hitting the ball inches away from outstretched hands and giving Paki and Indian hearts a workout. 
-
-Axar perished scoring 20. Surya and Dube came and went back with crumbs to their name. Pant rode his prodigious luck before perishing for 42. 
-
-Pandya huffed and puffed his way to 7 off 12 and it was left to Arshdeep and Siraj to push the score close to 120. 119 all out in 19 overs. 120 to win in 20. What an abject performance knowing the nature of the wicket fully well. A strategic failure above all to be over aggressive and not aim for a reasonable score from the outset. 
-
-It seemed like the result was a formality. 
-
-Had leftover sandwiches, puff pastry, cheese and grapes for lunch. 
+It seemed like the result was a formality. Had leftover sandwiches, puff pastry, cheese and grapes for lunch during the innings break. 
 
 India started with Arshdeep and Siraj. They were not very tight and runs were ticking over like a clock. Bumrah for some reason was held back and his introduction in the 3rd over immediately resulted in a regulation catch spooned by Rizwan to Dube at deep fine leg which he shelled. Silent outrage. Catches like these cannot be dropped at international level. 
 
 Barfi had tagged along and surfaced during the break. He had been lying low. 
 
-Babar cute glided one to SKY at slip in Bumrah's next and was on his way. 26-1. Usman Khan was into the bullring for the first time in his life and looked nervous. 
+Babar glided one to SKY at slip in Bumrah's next and was on his way. 26-1. Usman Khan was into the bullring for the first time in his life and looked nervous. 
 
 He went at 57 when Axar came on, rapped plumb in front first ball. Fakhar Zaman, of whom the Pakis had high hopes, started well but was deceived by a Pandya bouncer for a smart catch by Pant. 73-3 in the 12th over. 
 
-Bumrah's return in the 14th over was the turning point as he induced a slog and shattered Rizwan's furniture. Of all the bowlers, he picked Bumrah to slog. Not the most intelligent tactic. Their set batter was gone and the others were finding it difficult to get runs. 
+Bumrah's return in the 14th over was the turning point as Rizwan tried to hit him over midwicket and had his furniture shattered. Picking Bumrah to slog was not the most intelligent tactic. Their set batter was gone and the others were finding it difficult to get runs. 
 
-Meanwhile Mom was annoyed that the day had been spent watching a losing cause instead of sightseeing and went off to sleep. Appa also went off to bed in Mumbai thinking that defeat was imminent and not wanting to miss out on sleep. 
+Meanwhile Mom was annoyed that the day had been spent watching a losing cause instead of sightseeing and went off to sleep. Appa also went off to bed in Mumbai thinking that defeat was imminent. 
 
-Meanwhile, a squeeze was being stealthily applied by Pandya, Jadeja and Axar and runs were drying up. The balance was tilting slowly but ominously. Shadab holed out to a short ball from Pandya in the 16th. When Bumrah started the 19th, 21 runs were required. He got Ifthikar and only gave away 3 runs. Arshdeep had 18 to defend in the last over. A total and unexpected reversal of fortunes. 
+Meanwhile, a squeeze was being stealthily applied by Pandya, Jadeja and Axar and runs were drying up. The balance was tilting slowly and ominously. Shadab holed out to a short ball from Pandya in the 16th. When Bumrah started the 19th, 21 runs were required. He got Ifthikar and only gave away 3 runs. Arshdeep had 18 to defend in the last over. The pendulum had swung in India's favor. 
 
-Imad went early in the 19th caught behind by Pant. Shaheen and Naseem tried their best, with the latter hitting a couple of boundaries.  But it was too late for last-minute heroics and India scraped through by 6 runs, by the skin of their teeth. 
+Imad went early in the 20th over, caught behind by Pant. Shaheen and Naseem tried their best, with the latter hitting a couple of boundaries.  But it was too late for last-minute heroics and India scraped through by 6 runs, by the skin of their teeth. 
 
-A totally unexpected and undeserved result. They got out of jail thanks to Bumrah and the bowlers. Pakistan were swindled in broad daylight, their fortunes in the tournament left hanging by a thread. 
+An unexpected and undeserved result. They got out of jail thanks to Bumrah and the bowlers. Pakistan swindled in broad daylight, their fortunes in the tournament left hanging by a thread. 
 
-By this time, Mom had woken up and was somewhat placated by the Indian win. We dressed and quickly left the hotel. 
-
-A short 15 minute walk through 7th ave brought us to Central Park. The weather was lovely and sunny with a few clouds. Shonu cajoled her mom into a berry drink from Pret along the way. 
+By this time, Mom had woken up and was somewhat placated by the Indian win. We dressed and quickly left the hotel. A short 15 minute walk through 7th ave brought us to Central Park. The weather was lovely and sunny with a few clouds. Shonu cajoled her mom into a berry drink from Pret along the way. 
 
 Central Park is a little jungle right in the middle of a city. The backdrop of skyscrapers makes it unique. No other city must be having a park of this size within it's boundaries, that too where real estate is at such a premium. The most expensive park in the world. 
 
@@ -117,7 +104,7 @@ It was leafy and shaded and our hike brought us some spectacular views of the sk
 
 By now, Mom was hangry so we looked for pizza. We found a Simò Pizza on W 52nd. It was a little hole in the wall place with a few barstools and benches for eating in. We ordered a *Margherita* and a *Verdura*. It came hot off the oven and tasted fresh and delicious. It was Italian style Napolitano pizza. Great find. 
 
-Hunger abated, we trudged back to the hotel. Enroute, Shonu eyed a Van Leeuwen vegan ice cream place on 6th ave and dragged us inside. I refrained given my cough, but Shonu had a dark chocolate and Mom had cookies and cream. According to Shonu, it was a 9.8 compared to 10 for Salt and Straw in Culver City. 
+Hunger abated, we trudged back to the hotel. En route, Shonu eyed a Van Leeuwen vegan ice cream place on 6th ave and dragged us inside. I refrained given my cough, but Shonu had a dark chocolate and Mom had cookies and cream. According to Shonu, it was a 9.8 compared to 10 for Salt and Straw in Culver City. 
 
 Back at the hotel, we saw photos, I typed my journal and downloaded photos from camera, and we slept early. These two by 9, I at 10:30. 
 
@@ -126,7 +113,7 @@ Back at the hotel, we saw photos, I typed my journal and downloaded photos from 
 
 Breakfast at 7 in eating area downstairs. Bagel, muffin, coffee, cereal – the usual suspects. 
 
-5 minute walk to subway station on 50th st. We buy a Metro card and load 30 dollars on it at the kiosk. Then take the 1 downtown train to South Ferry enroute to Battery Park for the ferry to Statue of Liberty. Tickets are for 1pm but we arrive early at 11:30. There is a serpentine queue and it takes 5 minutes to find the end of it. It moves quickly and by 12 we are at the security check and board the ferry shortly after. We head to the top deck but there is only standing room. We can see the Statue of Liberty in the distance. Its scale must be impressive to be visible from this far. 
+5 minute walk to subway station on 50th st. We buy a Metro card and load 30 dollars on it at the kiosk. Then take the 1 downtown train to South Ferry en route to Battery Park for the ferry to Statue of Liberty. Tickets are for 1pm but we arrive early at 11:30. There is a serpentine queue and it takes 5 minutes to find the end of it. It moves quickly and by 12 we are at the security check and board the ferry shortly after. We head to the top deck but there is only standing room. We can see the Statue of Liberty in the distance. Its scale must be impressive to be visible from this far. 
 
 It is a short ride and within 10 minutes the statue comes clearly into view. Its scale is truly massive and it looms over the Manhattan skyline like a colossus. 
 
@@ -173,7 +160,7 @@ The entrance is grand, with fountains and classical architecture. We already got
 
 We slipped into an African exhibit next, guarded by two figures with lion heads. Saw some typical tall African looking figurine before stepping back out into Egypt. Relics from tomb of Metjetji, 4500 years old. These have hieroglyphics, some of which are engraved, others are embossed. Ancient stories which were only understood 200 years ago. 
 
-We move on to ancient China, a period following Buddhist influence. A giant mural depicting life of Buddha covers a whole wall. Busts of Bodhisatva as Maitreya, Buddha of the future, from present day Pakistan depict him with a moustache and flowing locks. 
+We move on to ancient China, a period following Buddhist influence. A giant mural depicting life of Buddha covers a whole wall. Busts of Bodhisatva as Maitreya, Buddha of the future, from present day Pakistan depict him with a mustache and flowing locks. 
 
 A pair of chimeras, mythical monsters with lions head, goat body and serpent tail guard a section. 
 
@@ -244,13 +231,13 @@ A line of kids holding a massive wrapped Indian flag emerges from beneath us. Fr
 
 The men in blue take the field led by Rohit.
 
-A Gujju group has come in front of us. They are standing up most of the time blocking our view. Irritating. Luckily, it transpires that the seats aren't theirs when a couple of US supporters land up. These guys are more considerate and stay seated. In general the desis are giving the security a hard time by not sitting in their own seats. The security has to evict the Tamilians as well from the seats in front of us and some more Gujjus from the seats behind us. Desi jugaad alive and well in America. 
+A Gujju group has come in front of us. They are standing up most of the time blocking our view. Irritating. Luckily, it transpires that the seats aren't theirs when a couple of US supporters land up. These guys are more considerate and stay seated. In general the *desis* are giving the security a hard time by not sitting in their own seats. The security has to evict the Tamilians as well from the seats in front of us and some more Gujjus from the seats behind us. Desi jugaad alive and well in America. 
 
 Arshdeep opens the bowling and I turn on my phone to record video. Amazingly, he takes a wicket with the first ball. It seems like he was bowled from the way Arshdeep runs off but it transpires that it was actually lbw that was really plumb. We have a three quarters view – but we get a good idea of the speed of the bowling. It seems pretty quick. 
 
 Another wicket falls in the first over – a skied top edge taken by Pandya. 
 
-It looks like a no contest. The US fans in front of us – who seem like US born Asians, probably Pakistanis – are distraught. 
+It looks like a no contest. The US fans in front of us – who seem like US born Asians, probably Pakistanis – are distressed. 
 
 The fans next to us are in high spirits. Arshdeep comes to the boundary near us after his over and we all shout his name and wave and he waves back. This immersive feeling can't be had watching from TV. 
 
@@ -287,7 +274,7 @@ Pant hits an outrageous flick pull for six off Jesse Singh who looks pretty quic
 
 Ali Khan returns in the 7th over. A wave is going around the ground. Just when I think that this must be terribly distracting for the batsman, he produces a shooter that knocks Pant's middle stump over. 39-3. Trouble. Nothing Pant could have done about that one, wave or no wave. This isn't going to be an easy chase if someone of Pant's caliber can't handle it. 
 
-Shivam Dube is next man in. The Tamilians next to us are calling him "Aaru sami" – six God. They are CSK fans and at times raise CSK chants. I wonder if Dube understands this nickname they have given him. One guy from the back is telling Dube that this is blue not yellow and to play properly. 
+Shivam Dube is next man in. The Tamilians next to us are calling him *”Aaru sami”* – six God. They are CSK fans and at times raise CSK chants. I wonder if Dube understands this nickname they have given him. One guy from the back is telling Dube that this is blue not yellow and to play properly. 
 
 The atmosphere is tense for most of the game and it seems the result could go either way. The bowling is tight. Dube is struggling to even get singles and Suryakumar is not connecting his shots and confined to taking singles. The run rate is creeping up. Anything more than a run a ball seems hard. 
 
@@ -303,7 +290,7 @@ SKY gets to his 50, a well deserved one, in the 19th over to loud cheers and Dub
 
 There is a lot of shouting and jumping and the players are shaking hands. We stay for Shastri's interview with Arshdeep and then make our way out with the teeming masses. The buses are packed and there is only standing room. At the station we have to make a run for the train which leaves in 2 minutes, when there is a ticket check and we desperately fumble with our phone to activate the tickets. Luckily we are just in time for the train and even get seats. The return train is an express and we reach much faster. 
 
-We watch highlights in the evening. It feels like a different game – disembodied. The sense of immersion, excitement, energy and camaraderie we felt at the stadium is entirely absent even though we get a better sense of the cricketing action through the front on cameras. 
+We watch highlights in the evening. It feels like a different game – disembodied. The sense of immersion, excitement, energy and camaraderie we felt at the stadium is absent even though we get a better sense of the cricketing action through the front on cameras. 
 
 #### Day 6: 13th June 2024:
 
@@ -321,25 +308,25 @@ Before the show starts, an announcer informs us that in seat service is availabl
 ![Harry Potter and the Cursed Child](../../../img/harry-potter-cursed-child.jpg)
 <span class="credit">Harry Potter and the Cursed Child</span>
 
-Only Shonu knows the context and story of this play, having read the screenplay thrice. However, the special effects are mind blowing and the acting is high class. The story is about Harry Potter's child Elvis Potter who travels through time to prevent a death. I hadn't expected the effects to be so slick, that too from so close to the stage. The combination of the effects and the class of the actors creates a highly convincing illusion. We are engrossed for the entire 3.5 hours. At times the effects transcend the stage and enter the audience space. The scene near the interval where Voldemort's ghostly apparitions swirl high above the stage and over the audience is particularly chilling. All the actors are brilliant. The transitions between scenes are pin point and done without missing a beat. The lighting and music are instrumental towards creating an aura of believability. Full *paisa vasool*. 
+Only Shonu knows the context and story of this play, having read the screenplay thrice. However, the special effects are mind blowing and the acting is high class. The story is about Harry Potter's child Elvis Potter who travels through time to prevent a death. I hadn't expected the effects to be so slick, that too from so close to the stage. The combination of the effects and the class of the actors creates a highly convincing illusion. We are engrossed for the entire 3.5 hours. At times the effects transcend the stage and enter the audience space. The scene near the interval where Voldemort's ghostly apparitions swirl high above the stage and over the audience is particularly chilling. All the actors are brilliant. The transitions between scenes are pin point and done without missing a beat. The lighting and music are instrumental towards creating an aura of believability. *Paisa vasool*. 
 
-Play ends at 10:30pm. Walk back through Times Square. Insane energy and bustle. No place like New York City in the whole world. Nothing comes close to this level of energy. Not European cities. Not Hong Kong. Not Singapore. Times Square is permanently on Red Bull. Makes Santa Monica 3rd street seem like a quaint village. 
+Play ends at 10:30pm. Walk back through Times Square. Insane energy and bustle. No place like New York City in the whole world. Nothing comes close to this level of energy. Not European cities. Not Hong Kong. Not Singapore. Times Square is permanently on Red Bull. 
 
 #### Day 7: 14th June 2024:
 
 
-We decide to go to Columbia University where Kamini is doing CEO program. Unfortunately, the university is closed to the public probably due to the recent Gaza protests and she never applied for campus access. The campus itself is right in the middle of the city similar to UCLA. We walk around, find a shady area with benches and relax for some time before heading back to 24th street for lunch at Junoon, MasterChef Vikas Khanna's Michelin star restaurant. 
+We decide to go to Columbia University where Kamini is doing CEO program. Unfortunately, the university is closed to the public probably due to the recent Gaza protests and she never applied for campus access. The campus itself is right in the middle of the city similar to UCLA. We walk around, find a shady area with benches and relax for some time before heading back to 24th street for lunch at *Junoon*, MasterChef Vikas Khanna's Michelin star restaurant. 
 
 The ambience is elegant but not over the top. We order beverages. I take saffron delight, Shonu takes cilantro and Mom takes Mint drink. My drink had orange, mango and saffron notes. Refreshing. The others drinks are also refreshing I gather. 
 
-It is a 3 course lunch. We get to each pick one item per course which they will bring out one course at a time. Starters: I have kurkure bhindi, Shonu has lasooni gobi, Mom has baingan chaat. We share. Baingan chaat is eggplant slices ka bhajiya with light spice. Lasooni gobi is soft and has subtle hints of garlic. Kurkure bhindi consists of thin crispy slices of bhindi well fried and accompanied by a sweetish and savory tomato based sauce. 
+It is a 3 course lunch. We get to each pick one item per course which they will bring out one course at a time. Starters: I have *kurkure bhindi*, Shonu has *lasooni gobi*, Mom has *baingan chaat*. We share. Baingan chaat is eggplant slices *ka bhajiya* with light spice. *Lasooni gobi* is soft and has subtle hints of garlic. *Kurkure bhindi* consists of thin crispy slices of *bhindi* well fried and accompanied by a sweetish and savory tomato based sauce. 
 
 ![Junoon](../../../img/junoon.jpg)
 <span class="credit">Junoon</span>
 
-For the main course: me and Shonu have achari paneer, and Mom has Nadru kofta, made from lotus root with a gravy. All well presented and delicately yet distinctively spiced. The paneer is freshly made and soft, the achari gravy mildly spicy and sour. The kofta is soft and mildly savory with some sweet notes. The naan has egg so we get roti and hara bhara paratha. Both are freshly made and soft with a hint of crispiness. 
+For the main course: me and Shonu have *achari paneer*, and Mom has *nadru kofta*, made from lotus root with a squash and tomato based gravy. All well presented and delicately yet distinctively spiced. The *paneer* is freshly made and soft, the *achari* gravy mildly spicy and sour. The *kofta* is soft and mildly savory with some sweet notes. The *naan* has egg so we get *roti* and *hara bhara paratha*. Both are freshly made and soft with a hint of crispiness. 
 
-Desserts: I have maa ki kheer, a creamy textured, slightly sweet and rich rice pudding with caramelized almonds and banana. Shonu has kulfi – four flavors on sticks presented in a beautiful decorated wooden stand, each shaped differently. The flavors are mango, rose, saffron and ube malai. It is creamy, stretchy and soft per Shonu. Mom has sorbet sampler – mango, coconut and guava, which melts in the mouth. 
+Desserts: I have *maa ki kheer*, a creamy textured, slightly sweet and rich rice pudding with caramelized almonds and banana. Shonu has *kulfi* – four flavors on sticks presented in a beautiful decorated wooden stand, each shaped differently. The flavors are mango, rose, saffron and *ube malai*. It is creamy, stretchy and soft per Shonu. Mom has sorbet sampler – mango, coconut and guava, which melts in the mouth. 
 
 Overall, the meal is very well conceived and executed although it caters to a Western palate in terms of spice levels. 4.8 stars. 
 
@@ -350,7 +337,7 @@ Back to pavilion today. Check out from hotel at 11 after light breakfast downsta
 
 At the terminal, go through security which is slow. There is a family with 3 kids ahead of us who are very disorganized. The dad seems to be a desi. Kamini gets annoyed and says in Tamil that they should not get a big stroller at which the guy turns back with an understanding look. He might be a Tamilian. Oops. 
 
-A moderately long walk to gate 1. It is 11:45. Flight is at 3:30. We walk back in search of lunch. Find a Villa Pizza place manned by desis. Get a cheese pizza and a penne pasta and share it. It is fairly Ok. KitKat for dessert. Back to gate. 
+A moderately long walk to gate 1. It is 11:45. Flight is at 3:30. We walk back in search of lunch. Find a Villa Pizza place manned by *desis*. Get a cheese pizza and a penne pasta and share it. It is fairly Ok. KitKat for dessert. Back to gate. 
 
 Flight taxis for a long time before take off. Mild bumps occasionally. They serve the same cheese and crackers box as on the flight to NYC which we stow away for later use. 
 
