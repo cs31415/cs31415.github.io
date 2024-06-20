@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: SOLID Principles
+permalink: /blog/solid-principles
 description: Overview of SOLID Principles
 image: solid.jpg
 ---

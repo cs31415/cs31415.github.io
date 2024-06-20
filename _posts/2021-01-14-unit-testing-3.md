@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: Unit Testing Part 3 
+permalink: /blog/unit-testing-3
 description: Mocking dependencies in Unit Tests
 image: mockingbird.jpg
 ---

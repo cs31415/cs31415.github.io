@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: Unit Testing Part 4 
+permalink: /blog/unit-testing-4
 description: Mocking - Behavior Verification
 image: behavior-verification.jpg
 ---

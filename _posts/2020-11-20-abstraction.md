@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: Abstraction
+permalink: /blog/abstraction
 description: Concept of abstraction in software design
 image: abstraction-ricardo-gomez.jpg
 ---

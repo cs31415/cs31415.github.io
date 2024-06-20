@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: Single Responsibility Principle
+permalink: /blog/single-responsibility-principle
 description: Single Responsibility Principle (SOLID Principles)
 image: srp.jpg
 ---

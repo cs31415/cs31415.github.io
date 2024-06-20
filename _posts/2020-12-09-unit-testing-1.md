@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: Unit Testing Part 1
+permalink: /blog/unit-testing-1
 description: What is unit testing and why do we need it?
 image: unit-testing-testbytes.jpg
 ---

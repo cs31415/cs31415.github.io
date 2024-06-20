@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: Systems Thinking
+permalink: /blog/systems-thinking
 description: Systems thinking in software design 
 image: systems-thinking-alexander-schimmeck.jpg
 ---

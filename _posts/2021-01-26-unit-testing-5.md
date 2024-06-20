@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: Unit Testing Part 5
+permalink: /blog/unit-testing-5
 description: Refactoring Unit Tests
 image: refactoring.jpg
 ---
