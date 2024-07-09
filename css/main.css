@@ -5,6 +5,10 @@ body {
 
 .top {
     margin-top:2%;
+    background-color: whitesmoke;    
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+    text-align: center;
  }
 .container {
 	margin-right: 80px; /* enforce text wrapping before it reaches the very right of the screen during resize */
@@ -25,10 +29,10 @@ img {
 }
 
 footer {
-/*    background-color: whitesmoke;    
+    background-color: whitesmoke;    
     border-top: 1px solid #d5d5d5;
-    border-left: 1px solid #d5d5d5;
-    border-right: 1px solid #d5d5d5;*/
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom:2%;
 }
 
 .right{
@@ -74,7 +78,7 @@ nav {
 }
 
 nav ul, footer ul {
-    font-family:'Courier', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: normal;
     padding:0px;
@@ -148,7 +152,7 @@ p, .container li {
 
 footer {
     font-size: .8em;
-    border-top: 1px solid #d5d5d5;
+    /*border-top: 1px solid #C0392B;*/
 }
 
 ul.posts { 
