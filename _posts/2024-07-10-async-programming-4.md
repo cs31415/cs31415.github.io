@@ -27,18 +27,18 @@ Awaitable/Awaiter is a bridge between the caller of the async method and the con
 
 In the following code:
 ```clojure
-string text = await File.ReadAllTextAsync(filePath);
+HttpResponse response = await _httpClient.GetAsync(url);
 ```
 
-`File.ReadAllTextAsync(filePath)` returns a `Task<string>` instance. The compiler replaces `await` with a `GetAwaiter()` call on the task instance, which returns an "awaiter"  of type `TaskAwaiter<string>`. 
+`_httpClient.GetAsync(url)` returns a `Task<HttpResponse>` instance. The compiler replaces `await` with a `GetAwaiter()` call on the task instance, which returns an "awaiter"  of type `TaskAwaiter<HttpResponse>`. 
 
 ```clojure
-TaskAwaiter<string> awaiter = File.ReadAllTextAsync(filePath).GetAwaiter();
+TaskAwaiter<HttpResponse> awaiter = _httpClient.GetAsync(url).GetAwaiter();
 ```
 
 The awaiter as its name suggests, provides a non-blocking way to wait for the async operation to complete. It exposes a `GetResult()` method to return the result (called in the continuation). 
 ```clojure
-string text = awaiter.GetResult();
+HttpResponse response = awaiter.GetResult();
 ```
 
 Awaitable/Awaiter is not restricted just to task instances, but as Stephen Toub [explains](https://devblogs.microsoft.com/pfxteam/await-anything/), it is a pattern that the language supports to await any instance that exposes a `GetAwaiter` method. In the case of `Task`, `GetAwaiter` returns a `TaskAwaiter` instance. But you could write your own class `Bar` that exposes an awaiter pattern by just implementing a `GetAwaiter` method that returns a `BarAwaiter` instance that implements the `INotifyCompletion` interface and exposes three members, just as `TaskAwaiter` does:
@@ -55,7 +55,7 @@ TResult GetResult(); // TResult can also be void
 Here, a question arises: how does the system know when the async operation completes? We have to dive into the deep end of the pool to understand this. 
 
 ##### Winsock
-The async call to a framework method such as `_httpClient.GetAsync` ultimately results in a Windows Socket API (Winsock) call through P/Invoke (managed to unmanaged code interface). Winsock initiates an I/O operation in asynchronous mode, registers a callback function and returns immediately. 
+The async call to a framework method such as `_httpClient.GetAsync` invokes `SocketsHttpHandler` behind the scenes which makes a Windows Socket API (Winsock) call through P/Invoke (managed to unmanaged code interface). Winsock initiates an I/O operation in asynchronous mode, registers a callback function and returns immediately. 
 
 ##### TCP/IP driver
 To do this it creates an I/O request packet (IRP) for the I/O manager. The I/O Manager is part of the Windows kernel, responsible for managing I/O operations. It routes this IRP to the TCP/IP driver, which runs in kernel mode. The TCP/IP driver interfaces with NICs through device drivers, sending low level frames. 
