@@ -66,7 +66,7 @@ Hi Alice!
 
 How is a continuation different from a closure, a callback function that captures references to surrounding variables? 
 
-Continuations can make use of closures, but are a more powerful control flow construct that can be used to compose tasks. As seen above, they can connect async tasks and their post-completion routines. In part [1](/blog/async-programming-1), we saw how async operations can be started in parallel and tied to a single completion routine that can run when either all tasks complete (`Task.WhenAll`) or the first task completes (`Task.WhenAny`). In fact, continuations are used under the hood not just for async/await but also for iterators.
+Continuations can make use of closures, but are a more powerful control flow construct that can be used to compose tasks. As seen above, they can connect async tasks and their post-completion routines. In part [1](/blog/async-programming-1), we saw how async operations can be started in parallel and tied to a single completion routine that can run when either all tasks complete (`Task.WhenAll`) or the first task completes (`Task.WhenAny`). In fact, continuations are used under the hood not just for async/await but also for iterators, which is a future blog post.
 
 ### Continuations in .NET
 
