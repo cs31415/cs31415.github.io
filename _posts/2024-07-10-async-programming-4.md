@@ -48,9 +48,13 @@ void OnCompleted(Action continuation);
 TResult GetResult(); // TResult can also be void
 ```
 
-[Vasil Kosturski](https://vkontech.com/exploring-the-async-await-state-machine-the-awaitable-pattern/) has an excellent article with an example I recommend you try yourself to get a feel for the pattern. In a nutshell, when an `await` is encountered, the awaiter's `IsCompleted` is checked. If true, then the code proceeds synchronously to execute `GetResult()`. If false, then it means the operation is in progress, and `OnCompleted` is called to register the continuation. When the async I/O completes, the associated task is set to complete (using `Task.TrySetResult`) and the registered continuations scheduled to run. The continuation has access to the antecedent task, and can call `GetResult()` to obtain its result.
+Another usage of this pattern is to be found in the `Task` class itself. `Task.Yield()`, which is used to yield control back to the current context when awaited, returns a `YieldAwaitable`.
+[`Task.Yield()`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.yield?view=net-8.0) "creates an awaitable task that asynchronously yields back to the current context when awaited." 
+This is ostensibly to allow for control to be ceded back at yield points during long-running operations, so as to avoid monopolizing resouces.
 
-### Asynchronous I/O Operations Deep Dive
+[Vasil Kosturski](https://vkontech.com/exploring-the-async-await-state-machine-the-awaitable-pattern/) has an excellent article with an example worth trying to get a feel for the awaitable/awaiter pattern. In a nutshell, when an `await` is encountered, the awaiter's `IsCompleted` is checked. If true, then the code proceeds synchronously to execute `GetResult()`. If false, then it means the operation is in progress, and `OnCompleted` is called to register the continuation. When the async I/O completes, the associated task is set to complete (using `Task.TrySetResult`) and the registered continuations scheduled to run. The continuation has access to the antecedent task, and can call `GetResult()` to obtain its result.
+
+### Asynchronous I/O Deep Dive
 
 Here, a question arises: how does the system know when the async operation completes? We have to dive into the deep end of the pool to understand this. 
 
