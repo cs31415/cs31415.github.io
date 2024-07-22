@@ -199,7 +199,6 @@ blockquote {
     }
     .container, footer, .top {
         max-width:fit-content;
-        font-size: 0.8em;
     }
 }  
 @media screen and (max-width: 500px) {
