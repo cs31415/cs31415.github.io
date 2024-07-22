@@ -31,3 +31,15 @@
 .highlight .sr { color: #a31515 } /* Literal.String.Regex */
 .highlight .s1 { color: #a31515 } /* Literal.String.Single */
 .highlight .ss { color: #a31515 } /* Literal.String.Symbol */
+.lineno { 
+  color: #ccc; 
+  display:inline-block; 
+  padding: 0 5px; 
+  border-right:1px solid #ccc;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

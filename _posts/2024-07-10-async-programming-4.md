@@ -26,23 +26,23 @@ Awaitable is a type that can be awaited. It has a `GetAwaiter()` method that ret
 Awaitable/Awaiter is a bridge between the caller of the async method and the continuation that runs upon completion. It enables a linear flow of control and intuitive exception handling. JavaScript in its pre-await days suffered from *callback hell*, with flow of control jumping all over the place, and no easy way to return a value locally from an async operation. Awaitable/Awaiter helps avoid all that and write async code that looks and behaves like synchronous code, even though under the hood, the flow of control might be jumping around between threads.    
 
 In the following code:
-```clojure
+```csharp
 HttpResponse response = await _httpClient.GetAsync(url);
 ```
 
 `_httpClient.GetAsync(url)` returns a `Task<HttpResponse>` instance. The compiler replaces `await` with a `GetAwaiter()` call on the task instance, which returns an "awaiter"  of type `TaskAwaiter<HttpResponse>`. 
 
-```clojure
+```csharp
 TaskAwaiter<HttpResponse> awaiter = _httpClient.GetAsync(url).GetAwaiter();
 ```
 
 The awaiter as its name suggests, provides a non-blocking way to wait for the async operation to complete. It exposes a `GetResult()` method to return the result (called in the continuation). 
-```clojure
+```csharp
 HttpResponse response = awaiter.GetResult();
 ```
 
-Awaitable/Awaiter is not restricted just to task instances, but as Stephen Toub [explains](https://devblogs.microsoft.com/pfxteam/await-anything/), it is a pattern that the language supports to await any instance that exposes a `GetAwaiter` method. In the case of `Task`, `GetAwaiter` returns a `TaskAwaiter` instance. But you could write your own class `Bar` that exposes an awaiter pattern by just implementing a `GetAwaiter` method that returns a `BarAwaiter` instance that implements the `INotifyCompletion` interface and exposes three members, just as `TaskAwaiter` does:
-```clojure
+Awaitable/Awaiter is not restricted just to task instances, but as Stephen Toub [explains](https://devblogs.microsoft.com/pfxteam/await-anything/), it is a pattern that the language supports to await any instance that exposes a `GetAwaiter` method. In the case of `Task`, `GetAwaiter` returns a `TaskAwaiter` instance. But you could write your own class `Bar` that exposes an awaiter pattern by just implementing a `GetAwaiter` method that returns a `BarAwaiter` instance that implements the `INotifyCompletion` interface (which has one method - `OnCompleted`) and exposes the following members, just as `TaskAwaiter` does:
+```csharp
 bool IsCompleted { get; }
 void OnCompleted(Action continuation);
 TResult GetResult(); // TResult can also be void
@@ -70,8 +70,7 @@ When the NIC receives data back, the NIC driver triggers an interrupt to notify 
 ##### IOCPs
 When the TCP/IP driver is done, it signals completion to the I/O manager, which qeueues up a completion packet containing the received data to an I/O Completion Port (IOCP). IOCPs are a Windows mechanism for efficiently handling multiple asynchronous I/O operations. They are conceptually like a queue serviced by the thread pool (the .NET thread pool has dedicated IOCP processing threads). An IOCP thread from the pool awakens to process the completion packet, extract the result of the I/O operation, and invoke the registered callback (the completion packet has access to the IRP which can be used to identify the callback), which sets the associated task to completed. This in turn triggers the task framework to run the continuation. 
 
-[![Async Sequence Diagram](../img/async-sequence.png)](../img/async-sequence.png){:data-lightbox="async-sequence" data-title="Async Sequence Diagram"}
-
+[![Async Sequence Diagram](../img/async-sequence.png)](../img/async-sequence.png)
 <span class="credit">Async Sequence Diagram</span>
 
 All this Herculean effort just so that a thread is not blocked waiting to receive data. This free time for one thread, (which can be significant, since I/O operations can be 100-1000 times slower than CPU operations), multiplied by all the threads doing I/O across the system, can increase server throughput by upto [4x](https://mahdytech.com/2019/02/22/async-throughput-4x/))! 

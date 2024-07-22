@@ -77,9 +77,6 @@ nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: normal;
-    /*background-color:whitesmoke;
-    border-top: 1px solid #d5d5d5;
-    border-bottom: 1px solid #d5d5d5;*/
     padding:0px;
 }
 
@@ -138,10 +135,10 @@ h4 {
     font-weight: bold;
 }
 p, .container li {
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.4em;
     color: #414141;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Baskerville', 'Helvetica', 'Sans-Serif';
 }
 
 .postdate {
@@ -152,7 +149,7 @@ p, .container li {
 }
 
 .language-plaintext {
-    font-size: 1.2em;
+    font-size: 1.1em;
     background-color: whitesmoke;
 }
 
@@ -170,15 +167,14 @@ ul.posts li {
     list-style: none;
 }
 
-pre.highlight {
+/*pre.highlight {
     white-space: pre-wrap;
     word-wrap: break-word;
-}
+}*/
 
 blockquote {
     padding: 5px 15px;
-    background-color:#F5F8FA;
-    border-left:5px solid #30404D;
+    border-left:2px solid #C0392B; /* #30404D */
     margin:0 0 5px;
     word-wrap:break-word
 }

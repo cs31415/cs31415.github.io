@@ -24,10 +24,14 @@ The `Task`/`Task<T>` objects are not quite as dramatic but have properties for t
 
 Typical `Task<T>` constructors look like this:
 
-```clojure
+```csharp
 Task<TResult>(Func<Object,TResult> doSomething, Object inputToDoSomething);
-Task<TResult>(Func<Object,TResult> doSomething, Object inputToDoSomething, CancellationToken cancellationToken);
+Task<TResult>(
+  Func<Object,TResult> doSomething, 
+  Object inputToDoSomething, 
+  CancellationToken cancellationToken);
 ```
+
 where `doSomething` is a delegate (a function variable) that contains the code to run in the task, `inputToDoSomething` is the input to the delegate, and `cancellationToken` is used to signal the delegate to abort.
 
 Tasks can be started, waited on, canceled or yielded (another fascinating tangent). Starting a task schedules it for execution using the TaskScheduler, while queues it up on the thread pool.
@@ -35,7 +39,7 @@ Tasks can be started, waited on, canceled or yielded (another fascinating tangen
 ### Successful Task
 
 Here we create a task, start it and wait for it to be done:
-```clojure
+```csharp
 // task with parameter that completes successfully
 string TalkTrash(object? name)
 {
@@ -76,7 +80,7 @@ The result of the task, represented by the return value of the `TalkTrash` funct
 ### Failed Task
 
 What would a task instance gone bad look like?
-```clojure
+```csharp
 // faulted task
 void ThrowUp()
 {
@@ -130,7 +134,7 @@ The `Status` value is `7` (`Faulted`), `IsCompleted` indicates the task finished
 ### Canceled Task
 
 If a task is taking too long, we can cancel it.
-```clojure
+```csharp
 // canceled task
 var tokenSource = new CancellationTokenSource();
 var token = tokenSource.Token;
@@ -214,7 +218,7 @@ This is all wonderful, but there's a lot more to `Task`. The `Task` (and `Task<T
 
 `Task` has a `ContinueWith` method which acts like `bind`, allowing chaining of async operations. It takes a `Task` input (known as the antecedent task) and returns a `Task` (the continuation).
 
-```clojure
+```csharp
 // continuation task
 string AskName()
 {

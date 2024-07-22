@@ -26,12 +26,12 @@ Says [MSDN](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programmi
 As we saw in [part 2](/blog/async-programming-2), the results of the first operation, called the *antecedent*, are passed  to the continuation. Thus, continuations can be used to chain tasks together, in a monadic fashion (From [part 2](/blog/async-programming-2), monads are types that encapsulate structured data and allow composing operations that accept and return the same structure via the `bind` method), with the `ContinueWith` method acting as a `bind` operator. This enables async functions to register a completion routine to be run when the async operation completes. The completion routine might, in turn, call other async functions with their own continuations, and so on. 
 
 Let's take another look at that example:
-```clojure
+```csharp
 // continuation task
 string AskName()
 {
-    Console.WriteLine("What is your name?");
-    return Console.ReadLine() ?? "None";
+  Console.WriteLine("What is your name?");
+  return Console.ReadLine() ?? "None";
 }
 
 Console.WriteLine($"Thread id = {Thread.CurrentThread.ManagedThreadId}");
@@ -39,8 +39,9 @@ Console.WriteLine($"Thread id = {Thread.CurrentThread.ManagedThreadId}");
 var antecedentTask = new Task<string>(AskName);
 var continuation = antecedentTask.ContinueWith(antecedent =>
 {
-    Console.WriteLine($"Continuation task running. Thread id = {Thread.CurrentThread.ManagedThreadId}");
-    Console.WriteLine($"Hi {antecedent.Result}!");
+  Console.WriteLine(
+    $"Continuation task running. Thread id = {Thread.CurrentThread.ManagedThreadId}");
+  Console.WriteLine($"Hi {antecedent.Result}!");
 });
 
 Console.WriteLine("starting antecedent task");
@@ -48,12 +49,13 @@ antecedentTask.Start();
 Console.WriteLine("waiting for antecedent task to finish");
 antecedentTask.Wait();
 
-Console.WriteLine($"waiting for continuation task to finish. Thread id = {Thread.CurrentThread.ManagedThreadId}");
+Console.WriteLine(
+  $"waiting for continuation task to finish. Thread id = {Thread.CurrentThread.ManagedThreadId}");
 continuation.Wait();
 ```
 
 The output of this code is (notice the continuation running on a different thread):
-```clojure
+```text
 Thread id = 1
 starting antecedent task
 waiting for antecedent task to finish
@@ -80,68 +82,68 @@ Windows Forms and ASP.NET provide their own implementations by extending `Synchr
 Thus, a continuation is a callback that resumes program flow following the async method call, runs in the same context and has access to the same ambient state as the original code. It may run on the same thread as the original code or on a threadpool thread depending on the specific implementation of `SynchronizationContext` used in the application.
 
 For example, consider the web service from [part 1](/blog/async-programming-1) that returns a random activity:
-```clojure
+```csharp
 [Route("api/activity")]
 public async Task<string> GetAsync()
 {
-	var uri = "https://www.boredapi.com/api/activity";
-	var response = await _httpClient.GetAsync(uri);
-	var content = response.Content;
-	if (content != null)
-	{
-			var responseJson = await content.ReadAsStringAsync();
-			if (!string.IsNullOrEmpty(responseJson))
-			{
-					dynamic jObj = JObject.Parse(responseJson);
-					return jObj.activity?.ToString();
-			}
-	}
+  var uri = "https://www.boredapi.com/api/activity";
+  var response = await _httpClient.GetAsync(uri);
+  var content = response.Content;
+  if (content != null)
+  {
+    var responseJson = await content.ReadAsStringAsync();
+    if (!string.IsNullOrEmpty(responseJson))
+    {
+      dynamic jObj = JObject.Parse(responseJson);
+      return jObj.activity?.ToString();
+    }
+  }
 
-	return null;
+  return null;
 }
 ```
 
 The continuation following the `_httpClient.GetAsync` call can be written as:
 
-```clojure
+```csharp
 async Task<string> Continuation(Task<HttpResponse> antecedent, SynchronizationContext context)
 { 
-	// Capture and restore the original context, since this could be a reusable 
-	// threadpool thread
-	var oldContext = SynchronizationContext.Current;
-	try 
-	{
-		// set context to the original code's context
-		SynchronizationContext.SetSynchronizationContext(context);	
+  // Capture and restore the original context, since this could be a reusable 
+  // threadpool thread
+  var oldContext = SynchronizationContext.Current;
+  try 
+  {
+    // set context to the original code's context
+    SynchronizationContext.SetSynchronizationContext(context);	
 
-		var response = antecedent.Result;
-		var content = response.Content;
-		if (content != null)
-		{
-				var responseJson = await content.ReadAsStringAsync();
-				if (!string.IsNullOrEmpty(responseJson))
-				{
-						dynamic jObj = JObject.Parse(responseJson);
-						return jObj.activity?.ToString();
-				}
-		}
+    var response = antecedent.Result;
+    var content = response.Content;
+    if (content != null)
+    {
+      var responseJson = await content.ReadAsStringAsync();
+      if (!string.IsNullOrEmpty(responseJson))
+      {
+        dynamic jObj = JObject.Parse(responseJson);
+        return jObj.activity?.ToString();
+      }
+    }
 
-		return null;	
-	}
-	finally 
-	{
-		SynchronizationContext.SetSynchronizationContext(oldContext);
-	}
+    return null;	
+  }
+  finally 
+  {
+    SynchronizationContext.SetSynchronizationContext(oldContext);
+  }
 }
 ```
 
 and can be called thus:
-```clojure
+```csharp
 public async Task<string> GetAsync()
 {
-	var uri = "https://www.boredapi.com/api/activity";
-	var responseTask = _httpClient.GetAsync(uri);
-	responseTask.ContinueWith(antecedent => Continuation(antecedent, SynchronizationContext.Current));	
+  var uri = "https://www.boredapi.com/api/activity";
+  var responseTask = _httpClient.GetAsync(uri);
+  responseTask.ContinueWith(antecedent => Continuation(antecedent, SynchronizationContext.Current));	
 }
 ```
 
