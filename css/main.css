@@ -167,10 +167,10 @@ ul.posts li {
     list-style: none;
 }
 
-/*pre.highlight {
+pre, span {
     white-space: pre-wrap;
     word-wrap: break-word;
-}*/
+}
 
 blockquote {
     padding: 5px 15px;
