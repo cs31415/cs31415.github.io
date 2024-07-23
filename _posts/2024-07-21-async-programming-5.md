@@ -204,11 +204,29 @@ What if we have a method such as this which calls an async method, but doesn't a
 ```csharp
 private static void Main(string[] args)
 {
-    Task<string> activityTask = GetActivityAsync();
+    var task = GetActivityAsync();
 }
 ```
 
-No state machine is generated in this case for the `Main` method even though an async method is being called. One will be generated for `GetActivityAsync` though. However, the program will probably terminate before its continuations run.  
+A state machine is still constructed in this case for `Main`. Its `MoveNext` looks like this, and since there is no `await`, it involves no state transitions. The `<>t__builder.SetResult()` sets a `VoidTaskResult` into the task to indicate we are not interested in the result (since we aren't awaiting it):
+
+```csharp
+private void MoveNext()
+{
+	try
+	{
+		GetActivityAsync();
+	}
+	catch (Exception exception)
+	{
+		<>1__state = -2;
+		<>t__builder.SetException(exception);
+		return;
+	}
+	<>1__state = -2;
+	<>t__builder.SetResult();
+}
+```
 
 This completes our journey into async internals.
 
