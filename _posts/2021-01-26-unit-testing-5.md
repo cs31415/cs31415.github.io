@@ -17,7 +17,7 @@ Unit tests are code too. They can also get unwieldy and hard to read. Thus, they
 Let us consider a couple of scenarios:
 #### Common setup and teardown code:
 
-Consider our `ActivityDataTests` class from [Unit Testing 4](http://chandrasivaraman.com/blog/unit-testing-4/). We can see that the mock sql client and config objects are being created in every test. 
+Consider our `ActivityDataTests` class from [Unit Testing 4](/blog/unit-testing-4/). We can see that the mock sql client and config objects are being created in every test. 
 
 ```csharp
 public class ActivityDataTests
