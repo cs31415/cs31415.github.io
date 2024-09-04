@@ -96,4 +96,5 @@ A journey back in time to Karachi, 1947
 ### [Grand Teton Diary](\writings\grand-teton-diary)
 ### [Palm Springs Diary](\writings\palm-springs-diary)
 ### [NYC Diary](\writings\nyc-diary)
+### [Frazier Park Diary](\writings\frazier-park-diary)
 
