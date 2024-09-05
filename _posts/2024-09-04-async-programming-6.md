@@ -17,7 +17,7 @@ Now, armed with knowledge of internals (see parts [1](/blog/async-programming-1)
 
 #### Don't use `.Result`
 
-Calling `.Result` on an async method is a synchronous, blocking call. Calling `.Result` on an async method is a synchronous, blocking call. Blocking negates the benefit of async code by tying up the very thread that the async state machine so mightily labors to release. Consider the example below.
+Calling `.Result` on an async method is a synchronous, blocking call. Blocking negates the benefit of async code by tying up the very thread that the async state machine so mightily labors to release. Consider the example below.
 
 ```csharp
 static async Task Main(string[] args)
