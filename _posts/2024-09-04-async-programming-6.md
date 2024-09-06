@@ -17,7 +17,7 @@ Now, armed with knowledge of internals (see parts [1](/blog/async-programming-1)
 
 #### Don't use `.Result`
 
-Calling `.Result` on an async method is a synchronous, blocking call. Blocking negates the benefit of async code by tying up the very thread that the async state machine so mightily labors to release. Consider the example below.
+Calling `.Result` on an async method is a synchronous, blocking call. Blocking negates the benefit of async code by tying up the very thread that the [async state machine](/blog/async-programming-5) so mightily labors to release. Consider the example below.
 
 ```csharp
 static async Task Main(string[] args)
@@ -47,7 +47,7 @@ static async Task<string> GetActivityAsync()
 
 Looking into the framework code for `Task.Result` below, we see that `Thread.SpinWait` is eventually called, which is an implementation of an adaptive [spin wait](https://en.wikipedia.org/wiki/Busy_waiting) algorithm, which tries to balance responsiveness and CPU usage. This implementation can call `Thread.Sleep(1)` which can block the thread or `Thread.Sleep(0)` and `Thread.Yield()` which can consume CPU cycles.   
 
-The async method's continuation is scheduled to run on the same synchronization context as the method's caller (see [part 3](blog/async-programming-3) for more on synchronization context). A synchronization context only allows one unit of work to execute at a time. So, if the caller is already executing (because it is doing a blocking wait), the continuation can't run on the same context. And the caller is blocked waiting for the continuation to complete. So we have a deadlock. This can happen in frameworks that use a synchronization context, such as Windows Forms or ASP.NET (non-core). 
+The async method's continuation is scheduled to run on the same [synchronization context](/blog/async-programming-3) as the method's caller (see [part 3](blog/async-programming-3) for more on synchronization context). A synchronization context only allows one unit of work to execute at a time. So, if the caller is already executing (because it is doing a blocking wait), the continuation can't run on the same context. And the caller is blocked waiting for the continuation to complete. So we have a deadlock. This can happen in frameworks that use a synchronization context, such as Windows Forms or ASP.NET (non-core). 
 
 Even if we disable the synchronization context using `.ConfigureAwait(false)`, it can result in thread starvation issues since threads are tied up waiting on IO.
 
