@@ -41,7 +41,7 @@ Checkout and leave for Hearst Castle in San Simeon. It is a short 10 minute driv
 
 A photographer clicks the mandatory family photo before we get on the bus. I think she clicked while we were not even in position. The castle is situated on a hilltop. It was built by newspaper baron William Randolph Hearst between 1919 and 1947 – between WWI and Indian independence. The architect was Julia Morgan, a most interesting and feisty character in her own right in a time when female emancipation was not fashionable. 
 
-Sweeping and panoramic ocean views greet us at every turn as the bus winds its way up the serpentine road. The Earth's curvature is very evident from this height. Haven't the flat earth believers ever climbed a hill with ocean views? We spot mountain goats along the path. The castle gradually emerges into view, behind a wall of trees. 
+Sweeping and panoramic ocean views greet us at every turn as the bus winds its way up the serpentine road. The Earth's curvature is very evident from this height. Haven't the flat earth believers ever climbed a hill with ocean views? We spot cattle and mountain goats along the path. The castle gradually emerges into view, behind a wall of trees. 
 
 Hearst owned an actual castle in Wales and wanted a "little place" on the hilltop where he often hiked and camped as a child. 
 
