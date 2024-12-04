@@ -53,7 +53,7 @@ We climb the stairs to the Neptune pool, a massive Roman style swimming pool wit
 
 From here another flight of stairs takes us to a patio overlooking the pool. There is a sculpture of the Egyptian goddess Sekhmet, with the head of a lion – the destroyer of life – on the body of a woman, the creator of life. The statues are carved from a dark granite (diorite). 
 
-Then we are shown the facade to the castle, which is a composite of pieces of art from all over the world. We enter through a doorway into the assembly room, which is a massive old world space with sofa chairs, massive murals on the walls, walnut paneling on the ceiling, wrap around choir seating. This is where Hearst used to entertain guests in the evening. Edwin Hubble was one of the distinguished guests. 
+Then we are shown the facade to the castle, which is a composite of pieces of art from all over the world. We enter through a doorway into the assembly room, which is a massive old world space with sofa chairs, massive murals on the walls, walnut paneling on the ceiling, wrap around choir seating. This is where Hearst used to entertain guests in the evening. Astronomer Edwin Hubble who discovered that the universe is expanding, was one of the distinguished guests. 
 
 Then we are led to a dining room which allegedly inspired Hogwarts dining hall in the Harry Potter movie. Hearst sat in the middle so that he could be closer to more guests and have conversations. From here to a billiards room, then a breakfast room, then the Roman pool, an indoor pool with gilded tiles underneath. This marks the end of the tour. We board the bus to return to the visitor center. 
 
