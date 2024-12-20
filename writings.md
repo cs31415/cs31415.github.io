@@ -52,8 +52,8 @@ Ramu and Somu scheme against a tyrant teacher during the Shivratri festival
 Ramu and Somu expose corruption in a government office
 <br/>
 <br/>
-### [Ramu Somu and the Ganpati fiasco](\writings\Ramu%20Somu%20and%20the%20Ganpati%20fiasco)
-Ramu and Somu tackle the routine disturbance of public peace during Ganpati festival
+### [Ramu Somu and the Ganesha fiasco](\writings\Ramu%20Somu%20and%20the%20Ganesha%20fiasco)
+Ramu and Somu tackle the routine disturbance of public peace during the Ganesha festival
 <br/>
 <br/>
 ### [Ramu Somu and the Lok Sabha Elections](\writings\Ramu%20Somu%20and%20the%20Lok%20Sabha%20Elections)
