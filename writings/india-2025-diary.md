@@ -640,5 +640,6 @@ Scientific discovery is a process of simultaneously zooming in and zooming out, 
 
 "Arrival meal" is lemon and basil ravioli with cream sauce, spinach and marinated tomatoes served with a fruit salad. Middling fare. Not as tasty as the previous meal. 
 
-Land on time. Pavan arrives to pick up after being held up in traffic. Office traffic on the way back. Some talk about US politics, immigrants, parents and their health issues, throwaway predictions by soothsayers about how lot of people will die in the coming decade, weather patterns, etc. He is kind enough to get us home cooked food by Sireesha after dropping us off and then makes another trip to get us basic groceries. All on a working day. Blessed to have such friends. 
+Land on time. Pavan arrives to pick up after being held up in traffic. Office traffic on the way back. Some talk about US politics, immigrants, parents and their health issues, throwaway predictions by soothsayers about how lot of people will die in the coming decade, weather patterns, etc. He is kind enough to get us home cooked food by Sireesha after dropping us off and then makes another trip to get us basic groceries. All on a working day. Blessed to have such friends.
 
+Drip irrigation has flopped. Tulsi is fully dried and kadipatta barely hanging on. Shonu and Aunty water. We all take bath, have food brought by Pavan, call India and call it a night.
