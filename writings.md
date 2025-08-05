@@ -99,4 +99,6 @@ A journey back in time to Karachi, 1947
 ### [Frazier Park Diary](\writings\frazier-park-diary)
 ### [Cambria Diary](\writings\cambria-diary)
 ### [London Diary](\writings\london-diary)
+### [Riya Arangetram Diary](\writings\riya-arangetram-diary)
+### [India 2025 Diary](\writings\india-2025-diary)
 
