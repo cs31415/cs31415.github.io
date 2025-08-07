@@ -65,7 +65,7 @@ Head to gate around 8:30. On the way stop at a Pret and buy a hummus wrap and ch
 
 Aircraft is older and not as nice as the last one. Me and Shonu are seated together in the middle in row number 12. Aunty has the window throne next to us. 
 
-Finish watching Kaagaz 2 movie. It has finally revealed itself as a plea against blocking roads and public nuisance caused by political rallies and demonstrations. Anupam Kher as a lawyer fighting pro bono cases for public causes and the late Satish Kaishik as the suffering common man are excellent. Kiran Kumar as the judge also appears very distinguished. The rest of the cast is passable. 
+Finish watching Kaagaz 2 movie. It has finally revealed itself as a plea against blocking roads and public nuisance caused by political rallies and demonstrations. Anupam Kher as a lawyer fighting pro bono cases for public causes and the late Satish Kaushik as the suffering common man are excellent. Kiran Kumar as the judge also appears very distinguished. The rest of the cast is passable. 
 
 Buy WiFi to check ingredients on the bag of chips we bought at Pret. The food is disappointing. The two course meal is slow and overkill. It takes a long time for the second course to come and when it does come, it is bland. This time it's some paneer curry and avial with rice, a curious combination. Shonu and aunty get palak paneer and baingan bharta. Not terribly appetizing. 
 
