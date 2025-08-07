@@ -81,7 +81,7 @@ Appa looks Ok. He is walking without a stick and in good spirits. Keeps asking u
 
 Wake up at 6. Appa makes coffee. 
 
-Shonu has dosa for breakfast. We have sabudana khichdi. 
+Nisha comes at 9. Shonu has dosa for breakfast. We have sabudana khichdi. 
 
 Aloo gobi and dal for lunch. 
 
