@@ -555,7 +555,7 @@ Watch match where India has been bowled out for 330 odd and England openers are 
 
 #### July 25, 2025
 
-Upma for breakfast. 
+Upma with chutney for breakfast. It is very tasty.
 
 Raining cats and dogs. 
 
@@ -573,7 +573,7 @@ Cricket is depressing. England are piling up a mountain of runs.
 
 Wake up at 8:30. Appa makes coffee for me. Dosa for breakfast. Finish Special Ops season 2. 
 
-Chola puri and shrikhand for lunch. 
+Nisha has made a special treat for us: chola puri and shrikhand for lunch. It is quite tasty. 
 
 Me and Shonu go to Crossword after lunch. Aunty has forbidden more than 4 books. The AC is not working in Crossword. Shonu has found 3-4 books. I point out a book on Shahrukh Khan which has to be taken. A book on Tamil stories would also not be available there so is added. End up with 6 books for Rs4400 or $50. 
 
@@ -598,7 +598,7 @@ Have Appa check sugar after hunting around for his kit. Aunty finds it. Sugar is
 
 Go down to get strips for meter, lancets, and Eno. Also drop off  photo print for framing at little framing shop on the other side of the street in front of the bank. Guy named Raju. Initially says it will take a day, then agrees for same day. Rs 350. Will call me. 
 
-Lunch is dal and beans curry with coconut. The dal has no salt but otherwise it is all good. 
+Lunch is dal and beans curry with coconut. The dal is lacking salt but otherwise it is good. 
 
 Nap till 3. Framing guy calls. Caller id shows his name as Mohammad Sayeed. Go down and pick up frame. He has done a good job. Appa likes it. Put it on his table. 
 
