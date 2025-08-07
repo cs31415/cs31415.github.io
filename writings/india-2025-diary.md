@@ -102,7 +102,7 @@ Veg sandwich for breakfast. Sambar, rasam, avial made by Kamini for lunch. Payas
 ![Taj Palace](../../../img/taj-hotel.jpg)
 <span class="credit">Taj Palace Hotel</span>
 
-Breakfast of dosa made by Kamini. Brunch of aloo beetroot paratha without salt and spice. 
+Breakfast of dosa made by Kamini. Brunch of aloo beetroot paratha which is somewhat bland. 
 
 Leave for Taj at 1 reach by 2:30. Rooms 326 and 335. Uncomfortable with the fawning attention of the staff. Feel like we still haven't let go traditional servile attitudes. Have to shed all this to be a modern self-assured nation. 
 
