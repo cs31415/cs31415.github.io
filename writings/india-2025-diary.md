@@ -139,7 +139,7 @@ Watched cricket match. India winning against England. Had good day biscuits and 
 
 Take Taj hotel tour by Percy who worked for 42 years in Taj airports division. Jamsetji Tata built the hotel because there was a sign outside Watson hotel – "dogs and Indians not allowed". He wanted to build a hotel where all were welcome. It opened in 1903. Designed by Indian architects. Alternate entrance, grand staircase which is cantilevered, great dome made with same steel used in Eiffel Tower, six smaller domes, 2 wings, swimming pool, jharoka balconies with carved woodwork below, tower built by acquiring nearby hotel and road, ballrooms with gilded columns and crystal chandeliers, Sea Lounge restaurant which was originally outdoors and along the sea. Original room rent was 6 rupees. Presidential suite on 6th floor with 2 bedrooms, vast living room and pantry where heads of state stay, ballroom where instruments of transfer of power signed, inner architecture based on Maratha wadas. 5th and 6th floor were added later within the dome, burnt and destroyed by 26/11 terror attacks. Tower lobby is a later addition. There is a 26/11 memorial at the back of the tower lobby. 32 people died of which 20 were hotel staff including security dog Lucy. The terrorists entered from lobby entrance and side entrance near patisserie we visited earlier. 
 
-Checkout at 12. Replicas of 1 paisa coins as mementos. Take Uber back and reach at 1:30. Struck by the trash every road is littered with. Mumbai the crown jewel of India. Indian art and culture is like a beautiful lily happily blooming in a pond full of scum. 
+Checkout at 12. Replicas of 1 paisa coins as mementos. Take Uber back and reach at 1:30. Mumbai for being the crown jewel of India could do a better job of trash collection, especially during the monsoon. Shortage of funds cannot be the excuse here. Indian art and culture is like a beautiful lily blooming in a pond of scum. 
 
 Prakash comes at 7. Aunty has made podlangai and carrot curry, aloo mattar. Order paratha and pineapple sheera from zomato app. 
 
@@ -150,7 +150,7 @@ Office work starts from tonight.
 ![Samrudhi Expressway](../../../img/samrudhi.jpg)
 <span class="credit">Samrudhi Expressway</span>
 
-Leave at 10 in Uber XL Intercity for Nashik. Driver is soft spoken Maharashtrian named Krushna. Hit traffic right off the bat. Winding through Lokhandwala and Oshiwara where Metro construction is in progress. Oshiwara is an ISO certified dump. Trash mixed with earth piled up endlessly on the sides of the road punctuated with festering rain puddles. An anarchic place with no government it seems. In the midst of it all, stunted people on the margins of society eking out a subhuman existence. 
+Leave at 10 in Uber XL Intercity for Nashik. Driver is soft spoken Maharashtrian named Krushna. Hit traffic right off the bat. Winding through Lokhandwala and Oshiwara where Metro construction is in progress. Oshiwara is an ISO certified dump. Trash mixed with earth piled up endlessly on the sides of the road punctuated with festering rain puddles. An anarchic place with no functioning government it seems. In the midst of it all, stunted people on the margins of society eking out a subhuman existence. 
 
 Powai is much cleaner and scenic with the lake. But still there is room for improvement. Lots of high rise apartments. Some have Roman columns and arches for inscrutable reasons. Most of them are spartan in design. Some ravaged by the tropical climate are sorely in need of paint. 
 
@@ -341,7 +341,7 @@ Train starts at 5 sharp. It is a smooth ride with occasional stops at signals an
 
 We go past Malad and halt in Borivli. We could have boarded here. It would have been slightly quicker to reach than Mumbai central. Oh well. 
 
-We go past shabby apartments in Vasai-Virar and Nala Sopara (reminds us of Sapna from Kapil Sharma Show) with wide open trash filled drains in front of them. These are not natural ditches. Someone consciously designed this atrocity. Why is impossible to fathom. It is constructed to be a breeding ground for diseases besides looking and smelling disgusting. Why people living here willingly accept this abomination is a mystery. Is this the culmination of a philosophy that prioritizes inner versus external growth, or merely a civic administration sorely lacking in training and funds allied with a citizenry made apathetic by their own impotence, or the tolerant and non-organizing nature of Hinduism that leads to people not caring about the world immediately outside their doorstep? Then again this is a nation of slogans. *Swachh Bharat, garibi hatao, mera desh mahaan, saare jahan se achha, athithi devo bhavah*. Putting in the thought and the work required to make the slogans a reality is harder. How can one bestow divinity upon guests while inviting them into such unsanitary conditions?
+We go past shabby apartments in Vasai-Virar and Nala Sopara (reminds us of Sapna from Kapil Sharma Show) with wide open trash filled drains in front of them. These are not natural ditches. Someone consciously designed this atrocity. Why is impossible to fathom. It is constructed to be a breeding ground for diseases besides looking and smelling disgusting. Why people living here willingly accept this abomination is a mystery. Is this the culmination of a philosophy that prioritizes inner versus external growth, or merely a civic administration sorely lacking in training and funds allied with a citizenry made apathetic by their own impotence, or the tolerant and non-organizing nature of Indians that leads to people not caring about the world immediately outside their doorstep? Then again this is a nation of slogans. *Swachh Bharat, garibi hatao, mera desh mahaan, saare jahan se achha, athithi devo bhavah*. Putting in the thought and the work required to make the slogans a reality is harder. If the guest is God, then one must not invite them unless the house is cleaned. 
 
 The countryside is incredibly scenic especially in the monsoon. Small rivers are crossed. Many of these bridges were probably built by my grandfather, who was a civil engineer with the railways. As we speed past Vapi, the buildings turn even shabbier. We wonder what people living near smaller stations do for a living. Factory workers, local businesses, farm hands, retirees?
 
@@ -373,7 +373,7 @@ We reach the home before the auto. Greeted by Amma and Appa. The auto arrives sh
 
 #### July 17, 2025
 
-Wake up just before 9 after good night's rest. Aunty is already up but Shonu is sleeping. Amma makes chai with homemade chai masala which wakes us up. She has made butte ka khis and puran poli for breakfast. Ratlami sev is sprinkled on the upma. 
+Wake up just before 9 after good night's rest. Aunty is already up but Shonu is sleeping. Amma makes chai with homemade chai masala which wakes us up. She has made butte ka khis and puran poli for breakfast. Ratlami sev is sprinkled on the upma. Tasty fare. 
 
 Shonu wakes up a little later. 
 
@@ -383,15 +383,15 @@ Shonu meets Gurwinder who has grown into a giant. He is still very courteous and
 
 We inspect Thatha and Meenu's considerable book collection with interest. Shonu picks out an Agatha Christie book to read. 
 
-After a bucket bath, we sit for lunch. Beans curry, sambhar, paruppu podi, sev and potato chips. Mui bien. 
+After a bucket bath, we sit for lunch. Special menu. Beans curry, sambhar, paruppu podi, sev and potato chips. Wah wah. A delicious smorgasboard to welcome us. 
 
-Nap till 5:30. Make chai. Akshay and Vishal stop by. After some chit chat about movies, Akshay takes me on his scooter for shopping. Have to buy pedal dustbins and cleaning supplies. Have chai at a farm fresh "startup". It is served in tiny cups and is incredibly tasty with elaichi. The milk feels fresh - like it was just extracted. He is interested in American politics and geopolitics and its impact on the global economy. He is going to Dubai for an FMCG expo. He wants to start a garment business with a cousin. 
+Nap till 5:30. Make chai. Akshay and Vishal stop by. After some chit chat about movies, Akshay takes me on his scooter for shopping. Have to buy pedal dustbins and cleaning supplies. We pass through some open drains and garbage mounds on the way. Why don't people demand more of their elected officials? Have chai at a farm fresh "startup". It is served in tiny cups and is incredibly tasty with elaichi. The milk feels fresh - like it was just extracted. He is interested in American politics and geopolitics and its impact on the global economy. He is going to Dubai for an FMCG expo. He wants to start a garment business with a cousin.  
 
 Next he takes me to Sarvanand but it is closed on Thursday. He tries Reliance mall. It is brand new and spotless. Modeled on Target or Walmart. 
 
 Everything on my list is there except pedal dustbins. For that we have to go to another shop and yet another for trash bags. The lady running the shop looks at the dustbin to estimate the size but it turns out to be not big enough to avoid slipping into the bin. None of my credit cards (including Appa's) work here. Akshay pays using Paytm and I promise to reimburse him. I ask him about his sev business. He says it is going well but he wants to expand and rebrand and increase shelf life to 6 months. But that will require substantial investment and growing the business first to offset the investment expenses. 
 
-Back at the house, idli for dinner. Having connectivity issues from my laptop. Can't get internet from Jio on laptop and phone hotspot is also very slow. As luck has it, there are many outstanding questions I have to research. 
+Back at the house, savory masala idli for dinner. Boondi ladoo for dessert. The gastronomic pampering continues. Having connectivity issues from my laptop. Can't get internet from Jio on laptop and phone hotspot is also very slow. As luck has it, there are many outstanding questions I have to research. 
 
 Appa calls and chat with him for some time. 
 
@@ -399,9 +399,9 @@ Able to get better signal in living room. Work till 2am.
 
 #### July 18, 2025
 
-Wake up at 8:30. Bread roll for breakfast. Very good. 
+Wake up at 8:30. Bread roll for breakfast. Superb.   
 
-Palak paneer and kundru for lunch. 
+Tasty Palak paneer and kundru for lunch.  
 
 Jio guy is here to install WiFi. Wants Aadhar card and photo against white background. The app won't accept Amma's photo but takes Appa's. Probably because she wasn't still while posing for the photo. This Aadhar requirement for SIM, WiFi etc is not tourist friendly since passports won't be accepted in lieu of aadhar. 
 
@@ -409,11 +409,11 @@ Nap while Jio guy is doing his thing. After nap WiFi is available and speeds are
 
 Carrom game after tea. Aunty and Shonu are cheating openly. 
 
-Achari and plain parathas made by Kamini and Meenu for dinner with kundru and palak paneer. Achari paratha is very good.
+Delicious achari and plain parathas made by Kamini and Meenu for dinner with kundru and palak paneer.
 
 Talk to Appa after dinner. Shonu and Aunty also chat. 
 
-Piece of balushahi for dessert. Get office work done by 11. Most of the day was spent in setting up system locally. Turns out to be Postgres query syntax error. 
+Piece of balushahi for dessert. Because one sweet dish is never enough. Get office work done by 11. Most of the day was spent in setting up system locally. Turns out to be Postgres query syntax error. 
 
 #### July 19, 2025
 
@@ -422,7 +422,7 @@ Piece of balushahi for dessert. Get office work done by 11. Most of the day was 
 
 Wake up at 7. Have coffee. Poha breakfast. 
 
-Paratha, gobi aloo, green chana, bharwa mirchi, paruppu podi rice for lunch. 
+Paratha, gobi aloo, green chana, bharwa mirchi, paruppu podi rice for lunch. I am a fan of the paruppu podi. Bharwa mirchi is icing on the cake.
 
 Nap till 5. 
 
@@ -430,18 +430,18 @@ Meenu and Aunty make social visits to Raju and Shashi didi. Raju is not well and
 
 The mother and father and grandmother chat with us about Punjabis in America, California fires, Texas floods, hockey, cakes made to order by the mother, her instagram account, job market in India (bad according to the father), coming of AI, career choices – Gurwinder is still unsure but is going to Pune to study commerce/CA with his brother Amarinder who has studied computer science and is working as a SAP consultant, the father who is a mechanical engineer, how engineering trains for general problem solving and engineers can fit into other fields with the reverse not being true, etc. A snack of spicy corn and plum cake is served. Shonu has just cake which is egg free and has elaichi, nutmeg and clove/pepper. A photo of Shonu and Gurwinder is taken before we leave. They barely fit in the same frame. Om Prakash is here to take us to Chabbra ji's 999 dukaan. He worked in Ambi Mama's factory. We are offered hot coffee. I select 3 collared t-shirts after making them take out 40-50 shirts. 
 
-Pizza with cheese and corn for lunch. Shonu can't have because of corn. She has paratha and cauliflower curry. 
+Pizza with cheese and corn for lunch. Unfortunately, Shonu can't have because of corn. She has paratha and cauliflower curry. 
 
 #### July 20, 2025
 
 
-Relaxing Sunday. Good decoction coffee in morning made by Amma. Mini masala idli for breakfast. 
+Relaxing Sunday. Rich decoction coffee in morning made by Amma. Mini masala idli for breakfast. 
 
-Lunch is gilki and dal. 
+Gilki and dal for lunch. Getting to taste a wide variety of the local produce. 
 
 One Soni aunty (Madhuri) comes by in evening as carrom game is in progress. She is a neighbor who sings bhajans with a group. Shonu made to sing baje muraliya and bolava vithala. Aunty sings bhajan – Ram ka gungaan keejiye. The mami also reluctantly sings with the disclaimer that she isn't a trained singer. It is rough but not harsh on the ear. 
 
-Mina Jain and Rudrakshi come in evening bringing aloo wada which is delicious. Eat 3.5. Parvati brings dal baati at 9. Jumbo baatis. Eat 1/2 and feel full. Very tasty. 
+Mina Jain and Rudrakshi come in evening bringing aloo wada which is delicious. Eat 3-4. Parvati brings dal baati at 9. Jumbo baatis. Eat 1/2 and feel full. Very tasty though a touch spicy. 
 
 #### July 21, 2025
 
@@ -462,9 +462,9 @@ We are hot and sweaty after the uphill walk back to the car. Drive with windows 
 
 We are told to watch out for a beehive as we enter. A little Hanuman temple on the way to the tall and ornate wooden gate through which we enter the garden. Lots of cactuses of various sizes. One has a white flower. Another has several weeping white flowers. There are aloe and pineapple shaped cactuses, giant cactuses with arms folded in prayer to the heavens. It is a small garden and we soon exit to the side or back of the palace fronted by another fountain. There are some ornate *chabutaras* (shrines) without any deities. This is a common Rajasthani motif. We are too tired to visit the museum also in the palace. We hear some peacocks as we make our way to the car, which Om Prakash has managed to park in the original shaded spot. We are back home in 40 minutes after detouring into a side street for photos of an ornate tower. There are stork like birds, many of them, in the trees nearby. 
 
-Dal bati for lunch with leftover gilki with sev tamatar. Me and Shonu take a nap in AC. Aunty has gone with Amma for shopping. Shonu and Aunty do more shopping in evening. Get dresses for concert. 
+Dal bati from yesterday for lunch with leftover gilki with sev tamatar. Me and Shonu take a nap in AC. Aunty has gone with Amma for shopping. Shonu and Aunty do more shopping in evening. Get dresses for concert. 
 
-White mac n cheese pasta for dinner. 
+Mac n cheese pasta with white sauce for dinner. A nice change to mix things up.
 
 Office work in evening. Aunty has headache or indigestion and goes to bed early. I stay up till 12:30. 
 
@@ -482,7 +482,7 @@ Next we enter the main building through a side gate. On the lower level, there a
 
 A large atrium with another staircase. A music room, a martial arts room, a dance room, a counseling room. Everything looks amazing, but a little too spotless. We haven't seen any kids so far in these extracurricular rooms. Back on the ground level, we give our impressions with Vyas ji and compliment the principal. Take a photo and then our leave. 
 
-Have lunch – paneer masala, mix veg curry and dal – followed by nap. 
+Special fare for Mandsaur visitors - paneer masala, mix veg curry and dal for lunch.  It is simple but enjoyable. Followed by the inevitable food coma and nap.
 
 By the time we wake up, Mandsaur folks are here. Vinod ji, Lokesh (a relative or friend) and Kamakshi are in the front room. Rama bhabhi and Meenu are having a nap in the middle room. 
 
