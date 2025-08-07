@@ -104,7 +104,7 @@ Veg sandwich for breakfast. Sambar, rasam, avial made by Kamini for lunch. Payas
 
 Breakfast of dosa made by Kamini. Brunch of aloo beetroot paratha which is somewhat bland. 
 
-Leave for Taj at 1 reach by 2:30. Rooms 326 and 335. Uncomfortable with the fawning attention of the staff. Feel like we still haven't let go traditional servile attitudes. Have to shed all this to be a modern self-assured nation. 
+Leave for Taj at 1 reach by 2:30, passing over Sealink, Coastal Road and a long undersea tunnel, which the driver informs us is newly built. Rooms 326 and 335. Uncomfortable with the fawning attention of the staff. Feel like we still haven't let go traditional servile attitudes. Have to shed all this to be a modern self-assured nation. I am reminded also of an episode when I tried to enter the hotel with a couple of college friends during my engineering days, and was denied entry due to not being guests. Life has come full circle.
 
 Went to Gateway of India across the road but it was bursting at the seams, a river of humanity in spate. Appa had a tough time with getting up and down from the footpath and the asphyxiating human traffic. 
 
