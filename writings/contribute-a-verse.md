@@ -1,12 +1,12 @@
 ---
 layout: default
-title: What is the Point of Progress
-description: Is progress worth it?  
+title: Contribute a Verse
+description: What is the point of progress?  
 image: manhattan.jpg
 
 ---
 
-### What is the Point of Progress?
+### Contribute a Verse
 
 ![Manhattan](../../../img/manhattan.jpg)
 Photo by <a href="https://unsplash.com/@jacobybrandon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brandon Jacoby</a> on <a href="https://unsplash.com/photos/aerial-photography-of-buildings-near-sea-Ab-W3gen18Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

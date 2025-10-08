@@ -27,7 +27,7 @@ title: Writings
 
 ## Non-fiction
 
-### [What is the Point of Progress?](\writings\point-of-progress)
+### [Contribute a Verse](\writings\contribute-a-verse)
 
 ## Travelogs
 
