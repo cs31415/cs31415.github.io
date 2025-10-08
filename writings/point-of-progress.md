@@ -25,6 +25,14 @@ There is another reason though that progress cannot stop. The indomitable human 
 
 If our ancestors had thought like this, we would still be living in caves. If we were lucky enough to be born in the first place. Cave dwellers could never have scaled nor sustained a population of 8 billion even in their wildest dreams. 
 
-Ultimately, it is all a fruitless exercise in venting and wishful thinking. We should all instead be grateful for the modern, abundant, technological civilization full of marvels that we are lucky enough to find ourselves in. Yes it has problems. But we are the solution. Provided we all recognize how lucky we are to have won the lottery of life, stay humble and true to our stewardship of this unique jewel of a planet and cooperate and pull in the same direction. We all have a part to play. Each and every one of us whether we realize it or not. In the poetic words of [Walt Whitman](https://en.wikipedia.org/wiki/Walt_Whitman) as quoted by [Robin Williams](https://en.wikipedia.org/wiki/Robin_Williams) in the [Apple iPad commercial](https://www.youtube.com/watch?v=Ep2_0WHogRQ&feature=youtu.be):
+Ultimately, it is all a fruitless exercise in venting and wishful thinking. We should all instead be grateful for the modern, abundant, technological civilization full of marvels that we are lucky enough to find ourselves in. Yes it has problems. But we are the solution. Provided we all recognize how lucky we are to have won the lottery of life, stay humble and true to our stewardship of this unique jewel of a planet and cooperate and pull in the same direction. We all have a part to play. Each and every one of us. 
 
-> O me! O life! of the questions of these recurring, of the endless trains of the faithless, of cities filled with the foolish, what good amid these, O me, O life? Answer that you are here - that life exists, and identity; that the powerful play goes on, and you may **contribute a verse**.
+> O me! O life! of the questions of these recurring,  
+of the endless trains of the faithless,  
+of cities filled with the foolish. 
+...  
+what good amid these, O me, O life?  
+*Answer.*  
+That you are here — that life exists, and identity,  
+that the powerful play goes on, and you may **contribute a verse**.  
+— [Walt Whitman](https://www.poetryfoundation.org/poems/51568/o-me-o-life)
