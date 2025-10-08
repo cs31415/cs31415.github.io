@@ -1,6 +1,9 @@
 ---
 layout: default
 title: What is the Point of Progress
+description: Is progress worth it?  
+image: manhattan.jpg
+
 ---
 
 ### What is the Point of Progress?
