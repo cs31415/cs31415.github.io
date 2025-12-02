@@ -29,7 +29,7 @@ Filled gas at circle K and headed for Chiricahua National Monument roughly midwa
 
 It was a further 30-40 minutes to the visitor center through a vast wilderness. There was nothing for miles on all sides. Some of the landscape reminded us of Joshua Tree and some of Zion and Bryce. 
 
-Turns out that the park was free. Drove up long winding road to Massai point. Along the way, there were pinnacles on both side of the road, finger like formations in red rock with some precariously balanced ones on top. Apparently, there was a magma chamber nearby which erupted 27 million years ago depositing a layer of ash and molten rock which slowly compressed, fused together amd cooled to form rock known as rhyolite. Erosion stripped away the softer layers to expose the pinnacles and digit like formations and the hanging rocks. 
+Turns out that the park was free. Drove up long winding road to Massai point. Along the way, there were pinnacles on both sides of the road, finger like formations in red rock with some precariously balanced ones on top. Apparently, there was a magma chamber nearby which erupted 27 million years ago depositing a layer of ash and molten rock which slowly compressed, fused together and cooled to form rock known as rhyolite. Erosion stripped away the softer layers to expose the pinnacles and digit like formations and the hanging rocks. 
 
 It started raining as soon as we got out of the car at the top. Went back to wear shoes and get winter caps. 
 
