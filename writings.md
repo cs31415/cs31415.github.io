@@ -47,4 +47,5 @@ title: Writings
 ### [London Diary](\writings\london-diary)
 ### [Riya Arangetram Diary](\writings\riya-arangetram-diary)
 ### [India 2025 Diary](\writings\india-2025-diary)
+### [Arizona New Mexico Diary](\writings\arizona-new-mexico-diary)
 
