@@ -1,0 +1,441 @@
+/* Chandra Sivaraman blog — final theme
+   Drop into your Jekyll project's /assets/css/ (or wherever your layout
+   links a stylesheet) and adjust selectors to match your actual HTML
+   classes/ids if they differ. */
+
+/* Fonts are self-hosted from /css/fonts rather than fetched from Google. A
+   third-party @import or <link> means the browser can't even discover the font
+   files until that remote stylesheet has been fetched and parsed, so the
+   fallback shows on every load. Served from this origin — and preloaded in
+   _layouts/default.html — the files come out of disk cache before first paint
+   on repeat visits, so there is nothing to swap. */
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/css/fonts/cabin-sketch-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/css/fonts/cabin-sketch-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/css/fonts/libre-baskerville-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/css/fonts/libre-baskerville-400-italic.woff2') format('woff2');
+}
+/* One file serves both weights — Google ships the same woff2 for 400 and 600. */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/css/fonts/source-code-pro.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/css/fonts/source-code-pro.woff2') format('woff2');
+}
+
+:root {
+  --paper:     #ffffff;
+  --paper-2:   #ece5d6;
+  --card:      #fffdf7;
+  --ink:       #2a2620;
+  --ink-2:     #564e42;
+  --muted:     #8b8273;
+  --faint:     #b6ad9c;
+  --line:      #e2d9c6;
+  --line-2:    #d3c8b1;
+  --rust:      #9c5b34;
+  --rust-deep: #7e4626;
+  --cream:     #fffdf7;
+  --terminal:  #1e1b17;
+  --terminal-accent: #c2774a;
+
+  /* No `cursive` fallback: it resolves to a script/italic face (Snell
+     Roundhand, Apple Chancery) that flashes before Cabin Sketch loads. */
+  --font-display: "Cabin Sketch", "Trebuchet MS", "Segoe UI", Verdana, sans-serif;
+  --font-body:    "Cabin Sketch", "Trebuchet MS", "Segoe UI", Verdana, sans-serif;
+  --font-mono:    ui-monospace, "SF Mono", Menlo, monospace;
+  --font-serif:   "Libre Baskerville", Georgia, serif;
+  --font-code:    "Source Code Pro", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--rust); text-decoration: none; }
+a:hover { color: var(--rust-deep); }
+
+/* ---------- header / nav ---------- */
+header, .site-header {
+  background: var(--rust);
+  padding: 22px 40px 28px;
+}
+.site-header .wrap, header .wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* The theme's `>_` text mark is now the site icon (/img/icon.svg). */
+.site-logo {
+  width: 32px;
+  height: 32px;
+  flex: none;
+  display: block;
+  border-radius: 8px;
+}
+.site-brand { display: flex; align-items: center; gap: 10px; }
+.site-title, header h1 a,
+.site-title a {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--cream);
+}
+.site-nav, header nav {
+  display: flex;
+  gap: 22px;
+}
+.site-nav a, header nav a {
+  color: rgba(255,253,247,.82);
+  font-size: 14px;
+  font-weight: 500;
+}
+.site-nav a.active, .site-nav a[aria-current="page"], header nav a.active {
+  color: var(--cream);
+  border-bottom: 2px solid var(--cream);
+  padding-bottom: 2px;
+}
+
+.site-search {
+  margin: 20px auto 0;
+  max-width: 420px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--cream);
+  border-radius: 999px;
+  padding: 10px 18px;
+}
+.site-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--font-display);
+  font-size: 15px;
+  color: var(--ink);
+}
+.site-search input::placeholder { color: var(--faint); }
+
+/* ---------- post list (home) ---------- */
+main.wrap, .home-wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 34px 40px 60px;
+}
+.post-list { display: flex; flex-direction: column; }
+.post-list-item, .post-list a {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+.post-date {
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--muted);
+  width: 84px;
+  flex: none;
+}
+.post-title, .post-list h2, .post-list h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 19px;
+  margin: 0;
+}
+
+/* ---------- single post ---------- */
+.post h1, article h1 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.15;
+}
+.post .post-meta, article .post-meta {
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.post img, article img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+.post h2, article h2 { font-family: var(--font-display); font-size: 24px; margin: 32px 0 12px; }
+.post h3, article h3 { font-family: var(--font-display); font-size: 20px; margin: 26px 0 10px; }
+.post h4, article h4 { font-family: var(--font-display); font-size: 17px; margin: 22px 0 10px; }
+.post p, article p {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 0 0 16px;
+}
+.post pre, article pre {
+  background: #2a2620;
+  color: #f4efe4;
+  border-radius: 8px;
+  padding: 18px 20px;
+  overflow-x: auto;
+  font-family: var(--font-code);
+  font-size: 14px;
+  line-height: 1.6;
+}
+.post code, article code {
+  font-family: var(--font-code);
+  background: var(--paper-2);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: .9em;
+}
+.post pre code, article pre code { background: none; padding: 0; }
+.post a, article a { border-bottom: 1px solid var(--line-2); }
+.post a:hover, article a:hover { border-color: var(--rust-deep); }
+
+/* series/further-reading + prev/next */
+.further-reading, .series-nav {
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.further-reading h3, .series-nav h3 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.post-pager {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--line);
+  padding: 20px 0;
+  font-size: 13.5px;
+}
+.post-pager .part-count { color: var(--muted); }
+
+/* ---------- footer ---------- */
+footer, .site-footer {
+  border-top: 1px solid var(--line);
+  padding: 26px 40px;
+}
+footer .wrap, .site-footer .wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  header, .site-header { padding: 18px 20px 22px; }
+  main.wrap, .home-wrap { padding: 26px 20px 48px; }
+  .site-nav, header nav { display: none; }
+}
+
+/* ============================================================
+   Site integration — rules for markup the mockups don't cover.
+   Everything above this line is the theme as designed.
+   ============================================================ */
+
+/* ---------- post list ---------- */
+.post-list-item { color: var(--ink); }
+.post-list-item:hover .post-title { color: var(--rust); }
+.post-title { transition: color .15s ease; }
+
+/* ---------- back link (posts, writings, standalone pages) ---------- */
+.back-link {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-family: var(--font-display);
+  font-size: 14px;
+  color: var(--muted);
+}
+.back-link:hover { color: var(--rust); }
+
+/* ---------- header ---------- */
+.site-title { display: block; line-height: 1.2; }
+.site-tagline {
+  display: block;
+  margin-top: 2px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: .02em;
+  color: rgba(255, 253, 247, .72);
+}
+
+/* ---------- header / footer link colors ----------
+   The global `a { color: var(--rust) }` would tint the chrome. */
+.site-title a:hover { color: var(--cream); }
+.site-footer a, footer .wrap a { color: var(--muted); }
+.site-footer a:hover, footer .wrap a:hover { color: var(--rust); }
+
+/* ---------- code ----------
+   Light blocks so the Visual Studio palette in vs.css stays readable. */
+.post pre, article pre,
+div.highlighter-rouge {
+  background: #faf8f2;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.post pre, article pre {
+  padding: 16px 18px;
+  white-space: pre-wrap;   /* wrap long lines instead of scrolling */
+  word-wrap: break-word;
+}
+div.highlighter-rouge .highlight,
+div.highlighter-rouge pre,
+.post pre.highlight, article pre.highlight { background: none; border: none; }
+div.highlighter-rouge { margin: 20px 0; padding: 2px 4px; }
+.post code, article code { background: var(--paper-2); }
+
+/* Long inline code spans and bare-URL link text must wrap instead of widening
+   the page — without this, narrow screens scroll horizontally. */
+.post, article { overflow-wrap: break-word; }
+.post code, article code,
+.post a, article a { word-break: break-word; overflow-wrap: anywhere; }
+
+/* ---------- article content the theme doesn't style ---------- */
+.post ul, .post ol, article ul, article ol {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  line-height: 1.65;
+  padding-left: 24px;
+  margin: 0 0 16px;
+}
+.post li, article li { margin-bottom: 8px; }
+.post li > ul, .post li > ol,
+article li > ul, article li > ol { margin: 8px 0 0; }
+.post table, article table {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 20px;
+}
+.post th, .post td, article th, article td {
+  border: 1px solid var(--line);
+  padding: 8px 12px;
+  text-align: left;
+}
+.post th, article th { background: var(--paper-2); font-weight: 600; }
+blockquote {
+  border-left: 2px solid var(--rust);
+  margin: 0 0 16px;
+  padding: 5px 18px;
+  color: var(--ink-2);
+  font-family: var(--font-serif);
+  font-size: 14px;
+  line-height: 1.65;
+  word-wrap: break-word;
+}
+hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
+
+/* photo/illustration credit lines under images */
+.credit {
+  display: block;
+  margin: -12px 0 20px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--muted);
+}
+.credit a { color: var(--muted); border-bottom: 1px solid var(--line-2); }
+.credit a:hover { color: var(--rust); }
+
+/* about page bio photo — must escape `article img { width: 100% }` */
+.biophoto { width: 40%; margin: 0 0 16px; }
+.biophoto img { width: 100%; border-radius: 8px; margin: 0 0 6px; }
+
+/* legacy date span still used by some pages */
+.postdate {
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ---------- search ---------- */
+.search-meta {
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+.search-result { flex-wrap: wrap; }
+.search-result .post-date { width: 84px; }
+.search-snippet {
+  flex: 1 1 100%;
+  margin: 6px 0 0;
+  font-family: var(--font-serif);
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+/* Only indent under the date column when the result has one (posts do,
+   writings don't), so the snippet always lines up with the title. */
+.post-date ~ .search-snippet { margin-left: 102px; }
+.search-snippet mark { background: none; color: var(--rust); font-weight: 600; }
+.search-empty { font-family: var(--font-serif); font-size: 14px; color: var(--muted); }
+
+/* ---------- 404 ---------- */
+.error-page { text-align: center; padding: 60px 0; }
+.error-page h1 { font-family: var(--font-display); font-size: 72px; margin: 0 0 12px; }
+.error-page p { font-family: var(--font-serif); color: var(--ink-2); }
+
+@media (max-width: 640px) {
+  .biophoto { width: 65%; }
+  .search-snippet, .post-date ~ .search-snippet { margin-left: 0; }
+
+  /* The theme hides the nav on small screens, which leaves phone visitors with
+     no way to reach the other sections. Keep it, wrapped under the title. */
+  .site-header .wrap { flex-wrap: wrap; gap: 10px; }
+  .site-nav, header nav { display: flex; gap: 18px; }
+  .post-date { width: 74px; font-size: 12px; }
+  .post-title { font-size: 17px; }
+}

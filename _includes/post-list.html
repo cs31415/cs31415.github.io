@@ -1,0 +1,14 @@
+<p class="search-meta" id="search-meta" hidden></p>
+
+<div class="post-list" id="search-list">
+{% assign sortedPosts = site.posts | sort: 'date' %}
+{% assign postsByYear = sortedPosts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in postsByYear reversed %}
+  {% for post in year.items reversed %}
+    <a class="post-list-item" href="{{ post.url }}">
+      <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
+      <span class="post-title">{{ post.title }}</span>
+    </a>
+  {% endfor %}
+{% endfor %}
+</div>

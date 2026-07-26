@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8" />
 		<meta name="HandheldFriendly" content="true" />
-		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="/img/icon.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="/img/icon-180.png">
+		<meta name="theme-color" content="#9c5b34">
+		<!-- self-hosted fonts (see @font-face in theme.css); preloaded so they are
+		     requested with the HTML instead of after the stylesheet parses -->
+		<link rel="preload" href="/css/fonts/cabin-sketch-700.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/css/fonts/cabin-sketch-400.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="/css/fonts/libre-baskerville-400.woff2" as="font" type="font/woff2" crossorigin>
+		{% if content contains 'highlighter-rouge' %}<link rel="preload" href="/css/fonts/source-code-pro.woff2" as="font" type="font/woff2" crossorigin>{% endif %}
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">		
+		<link rel="stylesheet" type="text/css" href="/css/theme.css">
 		<link href="/css/vs.css" rel="stylesheet">
 		<title>{{ page.title }}</title>
 		<meta content="{{ site.title }}" property="og:site_name">
@@ -37,52 +47,198 @@
 		<meta name="twitter:card" content="summary_large_image">
 	</head>
 	<body>
-		<div class="top">
-			<span class="header"><a href="/">{{ site.title }}</a><br/><b>{{ site.description }}</b></span>
-			
-			<nav class="my-nav">
-				<ul>
-					<li class="nav-item"><a href="/">Blog</a></li>
-					<li class="nav-item"><a href="/tools">Tools</a></li>
-					<li class="nav-item"><a href="/about">About</a></li>
-				</ul>
-			</nav>
-		</div>
+		{% assign nav_blog = false %}
+		{% assign nav_about = false %}
+		{% if page.category == 'blog' or page.url == '/' %}{% assign nav_blog = true %}
+		{% elsif page.url contains '/about' %}{% assign nav_about = true %}
+		{% endif %}
 
-		<div class="container">
-		{{ content }}
-		</div><!-- /.container -->
+		<header class="site-header">
+			<div class="wrap">
+				<div class="site-brand">
+					<img class="site-logo" src="/img/icon.svg" width="32" height="32" alt="">
+					<div>
+						<span class="site-title"><a href="/">{{ site.title }}</a></span>
+						<span class="site-tagline">{{ site.description }}</span>
+					</div>
+				</div>
+				<nav class="site-nav">
+					<a href="/"{% if nav_blog %} class="active" aria-current="page"{% endif %}>Blog</a>
+					<a href="/about"{% if nav_about %} class="active" aria-current="page"{% endif %}>About</a>
+				</nav>
+			</div>
+			{% comment %}Search only appears on pages that have a list to filter; the
+			scope decides which index it filters against.{% endcomment %}
+			{% if page.search_scope == 'writings' %}
+			<form class="site-search" action="/writings/" method="get" role="search" data-index="/writings.json">
+				<input type="text" name="q" id="site-search-input" placeholder="Search writings…" aria-label="Search writings" autocomplete="off">
+			</form>
+			{% elsif page.search_scope %}
+			<form class="site-search" action="/search/" method="get" role="search" data-index="/search.json">
+				<input type="text" name="q" id="site-search-input" placeholder="Search posts…" aria-label="Search posts" autocomplete="off">
+			</form>
+			{% endif %}
+		</header>
 
-		<div class="bottom">		
-		<footer>
-			<ul>
-				<li><span class="copyright">{{ site.copyright }}</span></li>
-				<li><a href="mailto:cs31415@gmail.com">email</a></li>
-				<li><a href="https://github.com/cs31415">github</a></li>
-			</ul>
+		<main class="home-wrap">
+		{% if page.plain %}
+			{{ content }}
+		{% else %}
+			{% if page.url contains '/writings/' and page.url != '/writings/' %}{% assign back_url = '/writings/' %}
+			{% else %}{% assign back_url = '/' %}
+			{% endif %}
+			<a class="back-link" href="{{ back_url }}" data-back>&lt; Back</a>
+			{% if page.search_scope %}<p class="search-meta" id="search-meta" hidden></p>{% endif %}
+			<article class="post"{% if page.search_scope %} id="search-list"{% endif %}>
+			{{ content }}
+			</article>
+		{% endif %}
+		</main>
+
+		<footer class="site-footer">
+			<div class="wrap">
+				<span>{{ site.copyright }}</span>
+				<a href="mailto:cs31415@gmail.com">email</a>
+				<a href="https://github.com/cs31415">github</a>
+			</div>
 		</footer>
-		</div>
-
-		<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-				integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-				crossorigin="anonymous">
-		</script>
 
 		<script type="text/javascript">
-			$(document).ready(function () {
-				const title = $("title").text();
-				const url = window.location.pathname;
-				const dir = url.split('/')[1];
-				console.log(`title = ${title}, dir = ${dir}`);
-				$( ".nav-item a" ).each(function( index ) {
-					if (title.toLowerCase() === $(this).text().toLowerCase() || 
-						dir == $(this).text().toLowerCase())
-					{
-						$(this).addClass("active");	
-					}
-				});
+		// The back link points at the section index, but if the reader arrived from
+		// somewhere on this site (search results, a list mid-scroll), returning them
+		// to that exact spot is better. Falls back to the href without JS.
+		(function () {
+			var link = document.querySelector('.back-link[data-back]');
+			if (!link || !document.referrer) return;
+			var sameSite;
+			try { sameSite = new URL(document.referrer).origin === window.location.origin; }
+			catch (e) { return; }
+			if (!sameSite || history.length <= 1) return;
+			link.addEventListener('click', function (e) {
+				e.preventDefault();
+				history.back();
 			});
-		</script>
+		})();
 
+		// Live search. The box only exists on pages that render a list to filter —
+		// posts on home and /search/, writings on /writings/ — and the form's
+		// data-index says which index to search. An empty query restores the list.
+		(function () {
+			var SNIPPET_RADIUS = 90;
+
+			var input = document.getElementById('site-search-input');
+			var list = document.getElementById('search-list');
+			var meta = document.getElementById('search-meta');
+			if (!input || !list) return;
+
+			var INDEX_URL = input.form.getAttribute('data-index');
+			var fullList = list.innerHTML;
+			var docs = null;
+			var pending = null;
+
+			function escapeHtml(s) {
+				return s.replace(/&/g, '&amp;').replace(/</g, '&lt;')
+						.replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+			}
+
+			function snippet(body, q) {
+				var at = body.toLowerCase().indexOf(q);
+				if (at < 0) return '';
+				var start = Math.max(0, at - SNIPPET_RADIUS);
+				var end = Math.min(body.length, at + q.length + SNIPPET_RADIUS);
+				return (start > 0 ? '…' : '') +
+					escapeHtml(body.slice(start, at)) +
+					'<mark>' + escapeHtml(body.slice(at, at + q.length)) + '</mark>' +
+					escapeHtml(body.slice(at + q.length, end)) +
+					(end < body.length ? '…' : '');
+			}
+
+			function showAll() {
+				list.innerHTML = fullList;
+				if (meta) { meta.hidden = true; meta.textContent = ''; }
+			}
+
+			function render(q) {
+				var hits = [];
+				for (var i = 0; i < docs.length; i++) {
+					var d = docs[i];
+					var inTitle = d.title.toLowerCase().indexOf(q) >= 0;
+					if (inTitle || d.body.toLowerCase().indexOf(q) >= 0) {
+						hits.push({ doc: d, rank: inTitle ? 0 : 1 });
+					}
+				}
+				hits.sort(function (a, b) { return a.rank - b.rank; });
+
+				if (meta) {
+					meta.hidden = false;
+					meta.textContent = hits.length +
+						(hits.length === 1 ? ' result for “' : ' results for “') + q + '”';
+				}
+
+				if (!hits.length) {
+					list.innerHTML = '<p class="search-empty">Nothing found. Try a different term.</p>';
+					return;
+				}
+
+				var html = '';
+				for (var j = 0; j < hits.length; j++) {
+					var d = hits[j].doc;
+					var snip = snippet(d.body, q);
+					html += '<a class="post-list-item search-result" href="' + d.url + '">' +
+						(d.date ? '<span class="post-date">' + escapeHtml(d.date) + '</span>' : '') +
+						'<span class="post-title">' + escapeHtml(d.title) + '</span>' +
+						(snip ? '<span class="search-snippet">' + snip + '</span>' : '') +
+						'</a>';
+				}
+				// Wrapped so results lay out the same whether the container is the post
+				// list itself (home) or the article holding the writings index.
+				list.innerHTML = '<div class="post-list">' + html + '</div>';
+			}
+
+			function search(raw) {
+				var q = raw.trim().toLowerCase();
+				if (!q) return showAll();
+				if (docs) return render(q);
+				pending = q;
+				loadIndex();
+			}
+
+			var loading = false;
+			function loadIndex() {
+				if (loading) return;
+				loading = true;
+				var request = new XMLHttpRequest();
+				request.open('GET', INDEX_URL, true);
+				request.onload = function () {
+					if (request.status < 200 || request.status >= 400) return fail();
+					try {
+						docs = JSON.parse(request.responseText).docs;
+					} catch (e) { return fail(); }
+					if (pending) { render(pending); pending = null; }
+				};
+				request.onerror = fail;
+				request.send();
+			}
+
+			function fail() {
+				if (meta) { meta.hidden = false; meta.textContent = 'Search is unavailable.'; }
+			}
+
+			input.addEventListener('input', function () { search(input.value); });
+			input.addEventListener('focus', loadIndex);
+			input.form.addEventListener('submit', function (e) {
+				e.preventDefault();       // already filtering in place
+				search(input.value);
+			});
+
+			// Arriving from another page's search box: /search/?q=…
+			var m = /[?&]q=([^&]*)/.exec(window.location.search);
+			if (m) {
+				input.value = decodeURIComponent(m[1].replace(/\+/g, ' '));
+				input.focus();
+				search(input.value);
+			}
+		})();
+		</script>
 	</body>
 </html>

@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /writings.json
+---
+{% assign writings = site.pages | where_exp: "p", "p.path contains 'writings/'" %}
+{
+  "docs": [
+    {% for w in writings %}
+    {
+      "title": {{ w.title | strip | jsonify }},
+      "url": {{ w.url | jsonify }},
+      "date": "",
+      "body": {{ w.content | strip_html | normalize_whitespace | strip | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

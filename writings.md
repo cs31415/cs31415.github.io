@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Writings
+search_scope: writings
 ---
 ## Fiction
 

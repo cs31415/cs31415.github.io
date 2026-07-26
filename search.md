@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Blog
+title: Search
+permalink: /search/
 plain: true
 search_scope: posts
 ---

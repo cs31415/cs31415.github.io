@@ -7,3 +7,6 @@ markdown: kramdown
 highlighter: rouge 
 kramdown:
   input: GFM
+exclude:
+  - redesign
+  - build.sh
