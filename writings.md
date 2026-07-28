@@ -49,4 +49,5 @@ search_scope: writings
 ### [Riya Arangetram Diary](\writings\riya-arangetram-diary)
 ### [India 2025 Diary](\writings\india-2025-diary)
 ### [Arizona New Mexico Diary](\writings\arizona-new-mexico-diary)
+### [Europe 2026 Diary](\writings\europe-2026-diary)
 
