@@ -157,7 +157,14 @@ main.wrap, .home-wrap {
 .post-date {
   font-family: var(--font-display);
   color: var(--muted);
-  width: 84px;
+  /* "04 Sep 2024" measures 5.77em in Cabin Sketch, so 6em holds every date
+     on one line and keeps the column aligned. In em rather than px because
+     the date's font size changes per device — a fixed 84px column wrapped
+     as soon as the type scale grew. min-width, not width, so a fallback
+     face (Verdana needs 7.22em) pushes the column wider instead of
+     spilling into the title. */
+  min-width: 6em;
+  white-space: nowrap;
   flex: none;
 }
 .post-title, .post-list h2, .post-list h3 {
@@ -382,7 +389,6 @@ hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
   margin: 0 0 8px;
 }
 .search-result { flex-wrap: wrap; }
-.search-result .post-date { width: 84px; }
 .search-snippet {
   flex: 1 1 100%;
   margin: 6px 0 0;
@@ -391,8 +397,9 @@ hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
   color: var(--ink-2);
 }
 /* Only indent under the date column when the result has one (posts do,
-   writings don't), so the snippet always lines up with the title. */
-.post-date ~ .search-snippet { margin-left: 102px; }
+   writings don't), so the snippet always lines up with the title. Tracks
+   the 6em date column plus the 18px flex gap. */
+.post-date ~ .search-snippet { margin-left: calc(6em + 18px); }
 .search-snippet mark { background: none; color: var(--rust); font-weight: 600; }
 .search-empty { font-family: var(--font-serif); color: var(--muted); }
 
@@ -578,7 +585,10 @@ footer .wrap, .site-footer .wrap { font-size: 14.5px; }
   .site-nav, header nav { display: flex; gap: 18px; }
 
   /* The list row has to share a line with the date column on a ~390px
-     viewport, so these two run smaller than the phone scale above. */
-  .post-date { width: 74px; font-size: 14px; }
+     viewport, so these two run smaller than the phone scale above. The
+     column width comes from the 6em min-width, which at 14px is 84px —
+     narrower than the old fixed 74px would have been once dates stopped
+     wrapping. */
+  .post-date { font-size: 14px; }
   .post-title, .post-list h2, .post-list h3 { font-size: 21px; }
 }
