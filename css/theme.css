@@ -541,37 +541,37 @@ footer .wrap, .site-footer .wrap { font-size: 14.5px; }
    held sideways. Both read at the same scale, 2px above desktop. */
 @media (max-width: 640px),
        (max-width: 1024px) and (max-height: 500px) {
-  body { font-size: 20px; }
-  .site-title, header h1 a, .site-title a { font-size: 32px; }
-  .site-tagline { font-size: 17px; }
-  .site-nav a, header nav a { font-size: 20px; }
-  .site-search input { font-size: 19px; }
+  body { font-size: 19px; }
+  .site-title, header h1 a, .site-title a { font-size: 31px; }
+  .site-tagline { font-size: 16px; }
+  .site-nav a, header nav a { font-size: 19px; }
+  .site-search input { font-size: 18px; }
 
   /* Landscape has room for the full-size list row; portrait doesn't,
      and shrinks these two further in the layout block below. */
-  .post-date { font-size: 17px; }
-  .post-title, .post-list h2, .post-list h3 { font-size: 23px; }
+  .post-date { font-size: 16px; }
+  .post-title, .post-list h2, .post-list h3 { font-size: 22px; }
 
-  .post h1, article h1 { font-size: 28px; }
-  .post h2, article h2 { font-size: 28px; }
-  .post h3, article h3 { font-size: 24px; }
-  .post h4, article h4 { font-size: 21px; }
-  .post .post-meta, article .post-meta { font-size: 17px; }
+  .post h1, article h1 { font-size: 27px; }
+  .post h2, article h2 { font-size: 27px; }
+  .post h3, article h3 { font-size: 23px; }
+  .post h4, article h4 { font-size: 20px; }
+  .post .post-meta, article .post-meta { font-size: 16px; }
 
   .post p, article p,
   .post ul, .post ol, article ul, article ol,
   .post table, article table,
-  blockquote { font-size: 22px; }
-  .post pre, article pre { font-size: 18px; }
+  blockquote { font-size: 21px; }
+  .post pre, article pre { font-size: 17px; }
 
-  .back-link { font-size: 20px; }
-  .credit, .postdate { font-size: 17px; }
-  .further-reading h3, .series-nav h3 { font-size: 19px; }
-  .post-pager { font-size: 17.5px; }
-  footer .wrap, .site-footer .wrap { font-size: 16.5px; }
-  .search-meta { font-size: 17px; }
-  .search-snippet { font-size: 17.5px; }
-  .search-empty { font-size: 18px; }
+  .back-link { font-size: 19px; }
+  .credit, .postdate { font-size: 16px; }
+  .further-reading h3, .series-nav h3 { font-size: 18px; }
+  .post-pager { font-size: 16.5px; }
+  footer .wrap, .site-footer .wrap { font-size: 15.5px; }
+  .search-meta { font-size: 16px; }
+  .search-snippet { font-size: 16.5px; }
+  .search-empty { font-size: 17px; }
 }
 
 /* ---------- phone portrait: layout ---------- */
@@ -589,6 +589,6 @@ footer .wrap, .site-footer .wrap { font-size: 14.5px; }
      column width comes from the 6em min-width, which at 14px is 84px —
      narrower than the old fixed 74px would have been once dates stopped
      wrapping. */
-  .post-date { font-size: 14px; }
-  .post-title, .post-list h2, .post-list h3 { font-size: 21px; }
+  .post-date { font-size: 13px; }
+  .post-title, .post-list h2, .post-list h3 { font-size: 20px; }
 }
