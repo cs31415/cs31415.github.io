@@ -23,19 +23,21 @@
   font-display: swap;
   src: url('/css/fonts/cabin-sketch-700.woff2') format('woff2');
 }
+/* Newsreader ships as a variable font (optical size 6–72), so one roman file
+   covers every weight the theme asks for. */
 @font-face {
-  font-family: 'Libre Baskerville';
+  font-family: 'Newsreader';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400 600;
   font-display: swap;
-  src: url('/css/fonts/libre-baskerville-400.woff2') format('woff2');
+  src: url('/css/fonts/newsreader-400.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'Libre Baskerville';
+  font-family: 'Newsreader';
   font-style: italic;
-  font-weight: 400;
+  font-weight: 400 600;
   font-display: swap;
-  src: url('/css/fonts/libre-baskerville-400-italic.woff2') format('woff2');
+  src: url('/css/fonts/newsreader-400-italic.woff2') format('woff2');
 }
 /* One file serves both weights — Google ships the same woff2 for 400 and 600. */
 @font-face {
@@ -71,10 +73,10 @@
 
   /* No `cursive` fallback: it resolves to a script/italic face (Snell
      Roundhand, Apple Chancery) that flashes before Cabin Sketch loads. */
-  --font-display: "Cabin Sketch", "Trebuchet MS", "Segoe UI", Verdana, sans-serif;
-  --font-body:    "Cabin Sketch", "Trebuchet MS", "Segoe UI", Verdana, sans-serif;
+  --font-display: "Cabin Sketch", "Segoe UI", Verdana, sans-serif;
+  --font-body:    "Cabin Sketch", "Segoe UI", Verdana, sans-serif;
   --font-mono:    ui-monospace, "SF Mono", Menlo, monospace;
-  --font-serif:   "Libre Baskerville", Georgia, serif;
+  --font-serif:   Baskerville, Times, "Times New Roman", Georgia, serif;
   --font-code:    "Source Code Pro", ui-monospace, "SF Mono", Menlo, monospace;
 }
 
@@ -84,7 +86,6 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
-  font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -117,7 +118,6 @@ header, .site-header {
 .site-title a {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 24px;
   color: var(--cream);
 }
 .site-nav, header nav {
@@ -126,7 +126,6 @@ header, .site-header {
 }
 .site-nav a, header nav a {
   color: rgba(255,253,247,.82);
-  font-size: 16px;
   font-weight: 500;
 }
 .site-nav a.active, .site-nav a[aria-current="page"], header nav a.active {
@@ -151,7 +150,6 @@ header, .site-header {
   outline: none;
   background: transparent;
   font-family: var(--font-display);
-  font-size: 15px;
   color: var(--ink);
 }
 .site-search input::placeholder { color: var(--faint); }
@@ -172,7 +170,6 @@ main.wrap, .home-wrap {
 }
 .post-date {
   font-family: var(--font-display);
-  font-size: 13px;
   color: var(--muted);
   width: 84px;
   flex: none;
@@ -180,21 +177,18 @@ main.wrap, .home-wrap {
 .post-title, .post-list h2, .post-list h3 {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 19px;
   margin: 0;
 }
 
 /* ---------- single post ---------- */
 .post h1, article h1 {
   font-family: var(--font-display);
-  font-size: 24px;   /* matches .site-title */
   font-weight: 700;
   margin: 0 0 8px;
   line-height: 1.15;
 }
 .post .post-meta, article .post-meta {
   font-family: var(--font-display);
-  font-size: 13px;
   letter-spacing: .04em;
   text-transform: uppercase;
   color: var(--muted);
@@ -205,12 +199,11 @@ main.wrap, .home-wrap {
   border-radius: 8px;
   margin: 20px 0;
 }
-.post h2, article h2 { font-family: var(--font-display); font-size: 24px; margin: 32px 0 12px; }
-.post h3, article h3 { font-family: var(--font-display); font-size: 20px; margin: 26px 0 10px; }
-.post h4, article h4 { font-family: var(--font-display); font-size: 17px; margin: 22px 0 10px; }
+.post h2, article h2 { font-family: var(--font-display); margin: 32px 0 12px; }
+.post h3, article h3 { font-family: var(--font-display); margin: 26px 0 10px; }
+.post h4, article h4 { font-family: var(--font-display); margin: 22px 0 10px; }
 .post p, article p {
   font-family: var(--font-serif);
-  font-size: 14px;
   line-height: 1.65;
   margin: 0 0 16px;
 }
@@ -221,7 +214,6 @@ main.wrap, .home-wrap {
   padding: 18px 20px;
   overflow-x: auto;
   font-family: var(--font-code);
-  font-size: 14px;
   line-height: 1.6;
 }
 .post code, article code {
@@ -229,9 +221,15 @@ main.wrap, .home-wrap {
   background: var(--paper-2);
   padding: 1px 6px;
   border-radius: 4px;
-  font-size: .9em;
+  /* Kept relative so it stays proportional wherever inline code lands —
+     prose, headings, lists, table cells. .8 is 16px against the 20px
+     desktop prose; on the larger device scales it works out slightly
+     over 1px smaller, which is the point of a ratio. */
+  font-size: .8em;
 }
-.post pre code, article pre code { background: none; padding: 0; }
+/* Hold block code at its own ratio — the rule above would otherwise shrink
+   code inside <pre> along with inline code. */
+.post pre code, article pre code { background: none; padding: 0; font-size: .9em; }
 .post a, article a { border-bottom: 1px solid var(--line-2); }
 .post a:hover, article a:hover { border-color: var(--rust-deep); }
 
@@ -243,7 +241,6 @@ main.wrap, .home-wrap {
 }
 .further-reading h3, .series-nav h3 {
   font-family: var(--font-display);
-  font-size: 15px;
   letter-spacing: .04em;
   text-transform: uppercase;
   color: var(--muted);
@@ -254,7 +251,6 @@ main.wrap, .home-wrap {
   justify-content: space-between;
   border-top: 1px solid var(--line);
   padding: 20px 0;
-  font-size: 13.5px;
 }
 .post-pager .part-count { color: var(--muted); }
 
@@ -268,7 +264,6 @@ footer .wrap, .site-footer .wrap {
   margin: 0 auto;
   display: flex;
   gap: 16px;
-  font-size: 12.5px;
   color: var(--muted);
 }
 
@@ -293,7 +288,6 @@ footer .wrap, .site-footer .wrap {
   display: inline-block;
   margin-bottom: 18px;
   font-family: var(--font-display);
-  font-size: 16px;
   color: var(--muted);
 }
 .back-link:hover { color: var(--rust); }
@@ -304,7 +298,6 @@ footer .wrap, .site-footer .wrap {
   display: block;
   margin-top: 2px;
   font-family: var(--font-display);
-  font-size: 13px;
   letter-spacing: .02em;
   color: rgba(255, 253, 247, .72);
 }
@@ -344,7 +337,6 @@ div.highlighter-rouge { margin: 20px 0; padding: 2px 4px; }
 /* ---------- article content the theme doesn't style ---------- */
 .post ul, .post ol, article ul, article ol {
   font-family: var(--font-serif);
-  font-size: 14px;
   line-height: 1.65;
   padding-left: 24px;
   margin: 0 0 16px;
@@ -354,7 +346,6 @@ div.highlighter-rouge { margin: 20px 0; padding: 2px 4px; }
 article li > ul, article li > ol { margin: 8px 0 0; }
 .post table, article table {
   font-family: var(--font-serif);
-  font-size: 14px;
   border-collapse: collapse;
   width: 100%;
   margin: 0 0 20px;
@@ -371,7 +362,6 @@ blockquote {
   padding: 5px 18px;
   color: var(--ink-2);
   font-family: var(--font-serif);
-  font-size: 14px;
   line-height: 1.65;
   word-wrap: break-word;
 }
@@ -382,7 +372,6 @@ hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
   display: block;
   margin: -12px 0 20px;
   font-family: var(--font-display);
-  font-size: 13px;
   color: var(--muted);
 }
 .credit a { color: var(--muted); border-bottom: 1px solid var(--line-2); }
@@ -395,14 +384,12 @@ hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
 /* legacy date span still used by some pages */
 .postdate {
   font-family: var(--font-display);
-  font-size: 13px;
   color: var(--muted);
 }
 
 /* ---------- search ---------- */
 .search-meta {
   font-family: var(--font-display);
-  font-size: 13px;
   letter-spacing: .04em;
   text-transform: uppercase;
   color: var(--muted);
@@ -414,7 +401,6 @@ hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
   flex: 1 1 100%;
   margin: 6px 0 0;
   font-family: var(--font-serif);
-  font-size: 13.5px;
   line-height: 1.6;
   color: var(--ink-2);
 }
@@ -422,13 +408,180 @@ hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
    writings don't), so the snippet always lines up with the title. */
 .post-date ~ .search-snippet { margin-left: 102px; }
 .search-snippet mark { background: none; color: var(--rust); font-weight: 600; }
-.search-empty { font-family: var(--font-serif); font-size: 14px; color: var(--muted); }
+.search-empty { font-family: var(--font-serif); color: var(--muted); }
 
 /* ---------- 404 ---------- */
 .error-page { text-align: center; padding: 60px 0; }
-.error-page h1 { font-family: var(--font-display); font-size: 72px; margin: 0 0 12px; }
+.error-page h1 { font-family: var(--font-display); margin: 0 0 12px; }
 .error-page p { font-family: var(--font-serif); color: var(--ink-2); }
 
+/* ============================================================
+   TYPE SCALE
+
+   Every px font size in this theme lives below, one block per
+   device class: desktop, then iPad, then phone. Nothing above
+   this line sets a px font size, so retuning a device means
+   editing one block and no other.
+
+   Each block lists the same selectors in the same order, so the
+   three are diffable against each other. The only sizes that
+   stay outside are the two <code> ratios, which are em-based on
+   purpose — they track whatever text they sit inside.
+   ============================================================ */
+
+/* ---------- desktop (the default scale) ---------- */
+body { font-size: 18px; }
+.site-title, header h1 a, .site-title a { font-size: 30px; }
+.site-tagline { font-size: 15px; }
+.site-nav a, header nav a { font-size: 18px; }
+.site-search input { font-size: 17px; }
+
+.post-date { font-size: 15px; }
+.post-title, .post-list h2, .post-list h3 { font-size: 21px; }
+
+.post h1, article h1 { font-size: 26px; }   /* matches .site-title */
+.post h2, article h2 { font-size: 26px; }
+.post h3, article h3 { font-size: 22px; }
+.post h4, article h4 { font-size: 19px; }
+.post .post-meta, article .post-meta { font-size: 15px; }
+
+.post p, article p,
+.post ul, .post ol, article ul, article ol,
+.post table, article table,
+blockquote { font-size: 20px; }
+.post pre, article pre { font-size: 16px; }
+
+.back-link { font-size: 18px; }
+.credit, .postdate { font-size: 15px; }
+.further-reading h3, .series-nav h3 { font-size: 17px; }
+.post-pager { font-size: 15.5px; }
+footer .wrap, .site-footer .wrap { font-size: 14.5px; }
+.search-meta { font-size: 15px; }
+.search-snippet { font-size: 15.5px; }
+.search-empty { font-size: 16px; }
+.error-page h1 { font-size: 74px; }
+
+/* ---------- iPad ----------
+   641–1024px covers portrait (810–834), landscape (1024), and the
+   ~980px viewport Safari reports under its default "Request Desktop
+   Website". The min-height guard keeps phones out: a phone in
+   landscape is 667–932px wide and so lands in this width range, but
+   it is under 500px tall and should read at the phone scale. */
+@media (min-width: 641px) and (max-width: 1024px) and (min-height: 501px) {
+  body { font-size: 22px; }
+  .site-title, header h1 a, .site-title a { font-size: 34px; }
+  .site-tagline { font-size: 19px; }
+  .site-nav a, header nav a { font-size: 22px; }
+  .site-search input { font-size: 21px; }
+
+  .post-date { font-size: 19px; }
+  .post-title, .post-list h2, .post-list h3 { font-size: 25px; }
+
+  .post h1, article h1 { font-size: 30px; }
+  .post h2, article h2 { font-size: 30px; }
+  .post h3, article h3 { font-size: 26px; }
+  .post h4, article h4 { font-size: 23px; }
+  .post .post-meta, article .post-meta { font-size: 19px; }
+
+  .post p, article p,
+  .post ul, .post ol, article ul, article ol,
+  .post table, article table,
+  blockquote { font-size: 24px; }
+  .post pre, article pre { font-size: 20px; }
+
+  .back-link { font-size: 22px; }
+  .credit, .postdate { font-size: 19px; }
+  .further-reading h3, .series-nav h3 { font-size: 21px; }
+  .post-pager { font-size: 19.5px; }
+  footer .wrap, .site-footer .wrap { font-size: 18.5px; }
+  .search-meta { font-size: 19px; }
+  .search-snippet { font-size: 19.5px; }
+  .search-empty { font-size: 20px; }
+}
+
+/* ---------- iPad, landscape ----------
+   2px above the portrait tablet scale. Overrides the block above on a
+   1024px iPad, and is the only tablet block a wider iPad matches — an
+   11" is 1194px in landscape and a 12.9" is 1366px, both past the
+   1024px ceiling above, so before this block they fell through to the
+   desktop scale.
+
+   `hover: none` + `pointer: coarse` is what keeps laptops out: a 1280px
+   notebook satisfies the width and orientation, but reports a fine
+   pointer and real hover. The min-height guard again excludes phones
+   held sideways. */
+@media (orientation: landscape) and (min-height: 501px)
+       and (max-width: 1366px) and (hover: none) and (pointer: coarse) {
+  body { font-size: 24px; }
+  .site-title, header h1 a, .site-title a { font-size: 36px; }
+  .site-tagline { font-size: 21px; }
+  .site-nav a, header nav a { font-size: 24px; }
+  .site-search input { font-size: 23px; }
+
+  .post-date { font-size: 21px; }
+  .post-title, .post-list h2, .post-list h3 { font-size: 27px; }
+
+  .post h1, article h1 { font-size: 32px; }
+  .post h2, article h2 { font-size: 32px; }
+  .post h3, article h3 { font-size: 28px; }
+  .post h4, article h4 { font-size: 25px; }
+  .post .post-meta, article .post-meta { font-size: 21px; }
+
+  .post p, article p,
+  .post ul, .post ol, article ul, article ol,
+  .post table, article table,
+  blockquote { font-size: 26px; }
+  .post pre, article pre { font-size: 22px; }
+
+  .back-link { font-size: 24px; }
+  .credit, .postdate { font-size: 21px; }
+  .further-reading h3, .series-nav h3 { font-size: 23px; }
+  .post-pager { font-size: 21.5px; }
+  footer .wrap, .site-footer .wrap { font-size: 20.5px; }
+  .search-meta { font-size: 21px; }
+  .search-snippet { font-size: 21.5px; }
+  .search-empty { font-size: 22px; }
+}
+
+/* ---------- phone ----------
+   Narrow portrait, or a short-and-wide viewport, which is a phone
+   held sideways. Both read at the same scale, 2px above desktop. */
+@media (max-width: 640px),
+       (max-width: 1024px) and (max-height: 500px) {
+  body { font-size: 20px; }
+  .site-title, header h1 a, .site-title a { font-size: 32px; }
+  .site-tagline { font-size: 17px; }
+  .site-nav a, header nav a { font-size: 20px; }
+  .site-search input { font-size: 19px; }
+
+  /* Landscape has room for the full-size list row; portrait doesn't,
+     and shrinks these two further in the layout block below. */
+  .post-date { font-size: 17px; }
+  .post-title, .post-list h2, .post-list h3 { font-size: 23px; }
+
+  .post h1, article h1 { font-size: 28px; }
+  .post h2, article h2 { font-size: 28px; }
+  .post h3, article h3 { font-size: 24px; }
+  .post h4, article h4 { font-size: 21px; }
+  .post .post-meta, article .post-meta { font-size: 17px; }
+
+  .post p, article p,
+  .post ul, .post ol, article ul, article ol,
+  .post table, article table,
+  blockquote { font-size: 22px; }
+  .post pre, article pre { font-size: 18px; }
+
+  .back-link { font-size: 20px; }
+  .credit, .postdate { font-size: 17px; }
+  .further-reading h3, .series-nav h3 { font-size: 19px; }
+  .post-pager { font-size: 17.5px; }
+  footer .wrap, .site-footer .wrap { font-size: 16.5px; }
+  .search-meta { font-size: 17px; }
+  .search-snippet { font-size: 17.5px; }
+  .search-empty { font-size: 18px; }
+}
+
+/* ---------- phone portrait: layout ---------- */
 @media (max-width: 640px) {
   .biophoto { width: 65%; }
   .search-snippet, .post-date ~ .search-snippet { margin-left: 0; }
@@ -437,6 +590,9 @@ hr { border: none; border-top: 1px solid var(--line); margin: 32px 0; }
      no way to reach the other sections. Keep it, wrapped under the title. */
   .site-header .wrap { flex-wrap: wrap; gap: 10px; }
   .site-nav, header nav { display: flex; gap: 18px; }
-  .post-date { width: 74px; font-size: 12px; }
-  .post-title { font-size: 17px; }
+
+  /* The list row has to share a line with the date column on a ~390px
+     viewport, so these two run smaller than the phone scale above. */
+  .post-date { width: 74px; font-size: 14px; }
+  .post-title, .post-list h2, .post-list h3 { font-size: 21px; }
 }
