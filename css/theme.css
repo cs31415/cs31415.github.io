@@ -23,22 +23,8 @@
   font-display: swap;
   src: url('/css/fonts/cabin-sketch-700.woff2') format('woff2');
 }
-/* Newsreader ships as a variable font (optical size 6–72), so one roman file
-   covers every weight the theme asks for. */
-@font-face {
-  font-family: 'Newsreader';
-  font-style: normal;
-  font-weight: 400 600;
-  font-display: swap;
-  src: url('/css/fonts/newsreader-400.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Newsreader';
-  font-style: italic;
-  font-weight: 400 600;
-  font-display: swap;
-  src: url('/css/fonts/newsreader-400-italic.woff2') format('woff2');
-}
+/* The body copy uses system serifs (Baskerville/Times), so no serif webfont
+   is loaded — that is why only the display and code faces appear here. */
 /* One file serves both weights — Google ships the same woff2 for 400 and 600. */
 @font-face {
   font-family: 'Source Code Pro';
