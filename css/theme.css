@@ -23,8 +23,22 @@
   font-display: swap;
   src: url('/css/fonts/cabin-sketch-700.woff2') format('woff2');
 }
-/* The body copy uses system serifs (Baskerville/Times), so no serif webfont
-   is loaded — that is why only the display and code faces appear here. */
+/* Newsreader ships as a variable font (optical size 6–72), so one roman file
+   covers every weight the theme asks for. */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('/css/fonts/newsreader-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('/css/fonts/newsreader-400-italic.woff2') format('woff2');
+}
 /* One file serves both weights — Google ships the same woff2 for 400 and 600. */
 @font-face {
   font-family: 'Source Code Pro';
@@ -62,7 +76,7 @@
   --font-display: "Cabin Sketch", "Segoe UI", Verdana, sans-serif;
   --font-body:    "Cabin Sketch", "Segoe UI", Verdana, sans-serif;
   --font-mono:    ui-monospace, "SF Mono", Menlo, monospace;
-  --font-serif:   Baskerville, Times, "Times New Roman", Georgia, serif;
+  --font-serif:   "Newsreader", Baskerville, Times, "Times New Roman", Georgia, serif;
   --font-code:    "Source Code Pro", ui-monospace, "SF Mono", Menlo, monospace;
 }
 
@@ -441,7 +455,7 @@ body { font-size: 18px; }
 .post p, article p,
 .post ul, .post ol, article ul, article ol,
 .post table, article table,
-blockquote { font-size: 20px; }
+blockquote { font-size: 18px; }
 .post pre, article pre { font-size: 16px; }
 
 .back-link { font-size: 18px; }
@@ -479,7 +493,7 @@ footer .wrap, .site-footer .wrap { font-size: 14.5px; }
   .post p, article p,
   .post ul, .post ol, article ul, article ol,
   .post table, article table,
-  blockquote { font-size: 24px; }
+  blockquote { font-size: 22px; }
   .post pre, article pre { font-size: 20px; }
 
   .back-link { font-size: 22px; }
@@ -523,7 +537,7 @@ footer .wrap, .site-footer .wrap { font-size: 14.5px; }
   .post p, article p,
   .post ul, .post ol, article ul, article ol,
   .post table, article table,
-  blockquote { font-size: 26px; }
+  blockquote { font-size: 24px; }
   .post pre, article pre { font-size: 22px; }
 
   .back-link { font-size: 24px; }
@@ -563,7 +577,7 @@ footer .wrap, .site-footer .wrap { font-size: 14.5px; }
   .post p, article p,
   .post ul, .post ol, article ul, article ol,
   .post table, article table,
-  blockquote { font-size: 21px; }
+  blockquote { font-size: 19px; }
   .post pre, article pre { font-size: 17px; }
 
   .back-link { font-size: 19px; }
@@ -599,7 +613,7 @@ footer .wrap, .site-footer .wrap { font-size: 14.5px; }
   .post p, article p,
   .post ul, .post ol, article ul, article ol,
   .post table, article table,
-  blockquote { font-size: 17px; }
+  blockquote { font-size: 15px; }
   .post pre, article pre { font-size: 13px; }
 
   .back-link { font-size: 15px; }
