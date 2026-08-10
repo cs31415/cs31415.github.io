@@ -41,6 +41,7 @@ search_scope: writings
 ### [Las Vegas SLC Diary](\writings\las-vegas-slc-diary)
 ### [Yellowstone Diary](\writings\yellowstone-diary)
 ### [Grand Teton Diary](\writings\grand-teton-diary)
+### [India 2023 Diary](\writings\india-2023-diary)
 ### [Palm Springs Diary](\writings\palm-springs-diary)
 ### [NYC Diary](\writings\nyc-diary)
 ### [Frazier Park Diary](\writings\frazier-park-diary)

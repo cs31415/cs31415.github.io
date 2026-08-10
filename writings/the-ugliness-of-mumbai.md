@@ -1,0 +1,8 @@
+---
+layout: default
+title: The Ugliness of Mumbai
+---
+
+### The Ugliness of Mumbai
+
+Mumbai is a shabby city, especially during monsoon. It has a dystopian air. Full of ugly flyovers and concrete apartment blocks with fading paint, which have steadily gained height, but without an iota of aesthetics or awareness of the environment which they inhabit. It would be undisputed winner of every single award for ugly design. Traffic is a Kafkaesque nightmare. Potholes dare vehicles to avoid them like a video game increasing in intensity as monsoon sweeps through. Vehicle fumes have turned the city into a gas chamber. Garbage is ubiquitous. Mounds of it. It's a garbage festival. Garbage along the roads. Garbage piled up under highway underpasses, garbage in open sewers, garbage right outside the IIT Mumbai campus. What are we training these elite engineers for? Why haven't we figured out something so basic as garbage collection in our thousands of years of existence as a civilization? Where is hygiene in our list of priorities as a nation and as a civilization? Mumbai has a similar climate to Singapore. Yet there is a vast chasm of development separating them. Even in Singapore, the Indian street reverts to filthy mode. Makes one wonder how we sustain such a massive population – even the germs probably can't keep up with our mastery of unsanitary conditions. And we have the chutzpah to claim that Europeans are dirtier than us because they don't bathe everyday!
