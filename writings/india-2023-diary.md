@@ -149,50 +149,50 @@ The road starts climbing near Kasara as we approach the Western Ghats. It is cle
 
 We make one more pit stop before reaching Nashik at 3pm. Nashik itself is mercifully cleaner and exudes small town vibes. 
 
-We arrive at the AirBnB through a poorly maintained road with large rain puddles. This classic corner cutting is characteristic of the country as a whole. Lack of attention to detail is endemic. We manage to haul the luggage up the lift. The host is cleaning the apartment since his bai didn't turn up. 
+We arrive at the AirBnB through a poorly maintained road with large rain puddles. This classic corner cutting is characteristic of the country as a whole. Lack of attention to detail is endemic. We manage to haul the luggage up the lift. The host is cleaning the apartment since his *bai* didn't turn up. 
 
 He seems like a decent chap. He has a construction business and lives nearby. 
 
 The apartment is clean and spacious and has modern decor. There are 2 bedrooms and 2 bathrooms and a kitchen and fridge. 
 
-We have thepla made by Nisha which I heat up. 
+We have *thepla* made by Nisha which I heat up. 
 
 Shonu and me go to Indi-Mart nearby to pick up groceries. It seems decent enough though it doesn't have fresh vegetables and fruits. We take a 10 minute walk to a vegetable market. Poor Shonu helps me carry half the groceries. Thankfully it isn't raining though the road is littered with puddles and wet earth. Why there are unfinished sidewalks in a monsoon climate is a mystery nobody is particularly bothered about. 
 
 At the vegetable market, the sellers are talking in Marathi by default. I am forced to dust off my broken Marathi. To my amazement, they can understand me. We buy bhindi, cauliflower, dhaniya, ginger, onion and potato. None of the sellers have bags so we have to use the bags from Indi-Mart. Actually all the vegetables go into Shonu's bag. We walk back to the apartment. As we get out of the lift, we meet the cook. She is now demanding 1k more than we agreed upon. It is getting on my nerves, this plasticity of honor and keeping one's word. I ask Rohan to talk to her. 
 
-Back home, we order Domino's pizza for dinner *margherita* and *achari do pyaza* regular size which is a personal pizza. It arrives in 30 minutes and we eat it watching *Kabhi Khushi Kabhi Gham*, the glycerine movie according to Shonu. 
+Back home, we order Domino's pizza for dinner—*margherita* and *achari do pyaza* regular size which is a personal pizza. It arrives in 30 minutes and we eat it watching *Kabhi Khushi Kabhi Gham*, the glycerine movie according to Shonu. 
 
 #### July 3, 2023
 
 ![Kalashree](../../../img/kalashree.jpg)
 <span class="credit">Kalashree</span>
 
-Ordered mixed brilliance gerbera bouquet from Ferns N Petals recommended by Rohan to present to Shonu's guru. They home delivered at 3 after I had requested 2pm delivery. It was a lovely bouquet. The price was fair considering the quality Rs 599. I had already bought coconut, kela, paan and peda from vegetable market yesterday. 
+Ordered mixed brilliance gerbera bouquet from Ferns N Petals recommended by Rohan to present to Shonu's guru. They home delivered at 3 after I had requested 2pm delivery. It was a lovely bouquet. The price was fair considering the quality—Rs 599. I had already bought coconut, *kela, paan* and *peda* from vegetable market yesterday. 
 
-Shonu met her guru for 1st time in person today. Initially he called at 10am, then it became 4pm. Indian musician standard time. 
+Shonu met her guru for 1st time in person today. Initially he called at 10am, then it became 4pm. Indian musician standard time. A more extreme form of Indian standard time. 
 
-We took an Uber. It was only 5 minutes away. Initially we went past the place, missing the board outside which said "Kalashree Sangeet Gurukul". As we rounded back, Ashish ji himself arrived on scooter. He recognized Shivali and welcomed her. Shonu gave him the bouquet. He ushered us to the backyard. The building itself was  brick colored. A young girl, a student presumably, led us to a small standalone room with musical instruments and large photos of famous musicians Bhimsen Joshi, Zakir Hussain, Lata Mangeshkar, Ravi Shankar, a singer from Kirana gharana whom we had seen in Tansen samaroh (Venkatesh Kumar), and another one whom we didn't recognize. 
+We took an Uber. It was only 5 minutes away. Initially we went past the place, missing the board outside which said "Kalashree Sangeet Gurukul". As we circled back, Ashish ji himself arrived on scooter. He recognized Shivali and welcomed her. Shonu gave him the bouquet. He ushered us to the backyard. The building itself was  brick colored. A young girl, a student presumably (might have been Durva), led us to a small standalone room with musical instruments and large photos of famous musicians Bhimsen Joshi, Zakir Hussain, Lata Mangeshkar, Ravi Shankar, a singer from Kirana gharana whom we had seen in Tansen samaroh (Venkatesh Kumar), and another one whom we didn't recognize. 
 
-We sat for a few minutes. Other students seemed to be coming and going from a room upstairs in the main building via a metal staircase that looked like a fire escape. Ashish ji came and asked if Shonu wanted to sing for 10 minutes. Before he could start, more students came and said they were ready for the guru Poornima function upstairs. So we went up. The stairs were fairly steep. Tatha Patis would find it difficult. 
+We sat for a few minutes. Other students seemed to be coming and going from a room upstairs in the main building via a metal staircase that looked like a fire escape. Ashish ji came and asked if Shonu wanted to sing for 10 minutes. Before he could start, more students came and said they were ready for the *guru poornima* function upstairs. So we went up. The stairs were fairly steep. Tatha Patis would find it difficult. 
 
-The room upstairs was larger and had a stage like area where they made Ashish ji sit. It was hot and I was sweating tumblers if not buckets. A student nicely explained the protocol to us in English. I told him both of us also speak Hindi. 
+The room upstairs was larger and had a stage like area where they made Ashish ji sit. It was hot and I was sweating tumblers if not buckets. A student (Atharva) nicely explained the protocol to us in English. I told him both of us also speak Hindi. 
 
 Shonu joined the queue of students to apply tilak, give peda and do Aarti of guru ji. She didn't know the procedure and fumbled a bit. I  thought she would have just observed others and copied. She later told me she couldn't see properly because she wasn't wearing glasses. 
 
 After this, we trooped to the downstairs room. Getting down was harder. There, we all sat down on the blankets that covered the floor and guruji started tuning some tanpuras. He had asked for female tanpuras to be brought down. There were about 15 students in all of ages ranging from 10-35, with the median age being 15-16. There were more girls than boys. 
 
-Guru ji started an alaap which sounded like Yaman. His voice resonated and filled the space even though he didn't use a mike. It sounded ethereal, especially with the student chorus repeating after him, Shonu included. The words: *nanadke bachanuva sahi na jaat*. *Socha socha kahina jaata hamaso. Umanga umanga aasoon bana barasata neera.* *Ik tu bairan mori, saasana nandiya. Dauda liya, dekha liya, raina dina. Sab mila hama sana, jiyaara mora darawe.*  
+Guru ji started an alaap which sounded like Yaman. His voice resonated and filled the space even though he didn't use a mike. It sounded ethereal, especially with the student chorus repeating after him, Shonu included. The words: *nanadke bachanava sahi na jaat*. *Socha socha kahina jaata hamaso. Umanga umanga aasoon bana barasata neera.* *Ik tu bairan mori, saasana nandiya. Dauda liya, dekha liya, raina dina. Sab mila hama sana, jiyaara mora darawe.*  
 
-He motioned to a couple of boys for tabla to be brought and proceeded to tune and play it as he commenced the bada khyal. It wasn't the one he had taught Shonu and at this point, I wasn't sure it was yaman anymore. Later I did recognize some Yaman phrases like *ni re ga ma.* 
+He motioned to a couple of boys for tabla to be brought and proceeded to tune and play it as he commenced the bada khyal. It wasn't the one he had taught Shonu and at this point, I wasn't sure it was yaman anymore. Later I did recognize some Yaman phrases like *ni re ga ma.* He remarked that this is a beautiful bandish from Gwalior *gharana*. Nice to see that he is not a *gharana* chauvinist. 
 
 He now started playing the tabla and singing, and did a pretty good job of it. He was taking great pleasure in hitting the *sam* as his exaggerated hand gestures revealed. This sense of enjoyment spread to the group, myself included. He started singing some complex taans and called on the students to repeat after him individually. Some of them did it very well, others stuttered. Shonu aced it. Her voice clarity and pitch were spot on and she was able to repeat with good fidelity. He called on her a couple of times and seemed impressed. He was also hearing her for the first time in person. He later remarked to the students in Marathi that she was an online student but see how her voice is. 
 
 The raaga continued with chota khyal and tarana, which was the same one we had listened to countless times on the way to school. He asked Shonu if she knew the tarana and she replied she had not learnt it but listened to it many times on the way to school. She was able to sing along to this easily. 
 
-At around 6:30, the class was done and he said we could leave and come tomorrow at 12:30. We took our leave, summoned an Uber auto, who asked us to cancel and pay cash. Not wanting to wait for another vehicle, I agreed, but told him I would only pay him the fare Uber suggested. He cribbed along the way that he doesn't get paid by Uber for the time taken to reach the pickup spot and that Uber only pays him a percentage of what it charges the customer. He conveniently ignored the fact that Uber helps him get more rides. It seemed unprofessional and typically jugaadu in a bad way. Especially since I had to now give him directions instead of the Uber app guiding him. 
+At around 6:30, the class was done and he said we could leave and come tomorrow at 12:30. We took our leave, summoned an Uber auto, who asked us to cancel and pay cash. Not wanting to wait for another vehicle, I agreed, but told him I would only pay him the fare Uber suggested. He cribbed along the way that he doesn't get paid by Uber for the time taken to reach the pickup spot and that Uber only pays him a percentage of what it charges the customer. He conveniently ignored the fact that Uber helps him get more rides. It seemed unprofessional and typically *jugaadu* in a bad way. Especially since I had to now give him directions instead of the Uber app guiding him. 
 
-We had the aloo gobi and daal for dinner and watched Fan. 
+We had the aloo gobi and daal for dinner and watched *Fan*. 
 
 #### July 4, 2023
 
@@ -211,13 +211,13 @@ Just about had enough cash to cover the lab tests, doctor fees and meds.
 
 #### July 7, 2023
 
-Shonu is running 101-102 fever. In the evening it hits 102.7. Her mom panics. I call doctor and ask what to do in case temperature doesn't come down at night. He recommends admitting her to hospital which is one floor above the clinic. Shonu is overwhelmed and starts crying on the phone and saying she wants to return home immediately. Kamini decides she has to drop everything and come. Meenu also prepones her visit and will be here tomorrow after a long 10 hour road journey. 
+Shonu is running 101-102 fever. In the evening it hits 102.7. Her mom panics. I call doctor and ask what to do in case temperature doesn't come down at night. He recommends admitting her to hospital which is one floor above the clinic where she can be monitored. Shonu is overwhelmed and starts crying on the phone and saying she wants to return home immediately. Kamini decides she has to drop everything and come. I tell her to not come. Shonu will have already recovered by the time she comes, but she insists on coming. Meenu also prepones her visit and will be here tomorrow after a long 10 hour road journey. 
 
 Shonu's mood improves on hearing this and further by watching *Happy New Year* — Shahrukh Khan therapy. She is cracking up soon at the stupid humor. 
 
 #### July 8, 2023
 
-Meenu arrived at 4:45 pm after grueling 10 hour road journey. Shonu happy. 
+Meenu arrived at 4:45 pm after a grueling 10 hour road journey. Shonu happy. 
 
 Tatha Paati arrived shortly after with Geeta in Hotel Majestic. They drove down later. Made chai for Tatha Patis. Geeta refused. Meenu and Geeta went shopping for gift for Shonu. They got her a Madhubani art set and a teddy in a cup. 
 
@@ -241,10 +241,9 @@ The three of us went for music class at 2. Ashish ji was surprised to see Kamini
 
 He started with *Raag Bhimpalasi* and Shonu repeated after him. She had to sip water periodically but managed to sing. It was a beautiful *bandish* – *Sakhi man lage na, kahu jatan jiya, manat nahi mora, samjhaye rahi hoon.* 
 
-Then he stepped out for a while and asked the fat kid to practice *Raag Yaman*. He did a fair job of leading the other kids, including Shonu, in practice. 
+Then he stepped out for a while and asked the healthy kid to practice *Raag Yaman*. He did a fair job of leading the other kids, including Shonu, in practice. 
 
-Then Ashishji returned and continued with *Raag Yaman* 
-*mora mana baandh*. Shonu and me have been listening to his Yaman on YouTube for so long enroute to school, it felt surreal to listen to a live performance. It was even better and more nuanced than the video. He explained how the tanpura, tabla and vocal *sur* has to be matched and how the tabla helped with developing the *laya* in vocal. According to him, you needed to know tabla and tanpura in order to become a complete musician. A tabla player also had to be a singer first. 
+Then Ashishji returned and continued with *Raag Yaman* — *mora mana baandh*. Shonu and me have been listening to his Yaman on YouTube for so long enroute to school, it felt surreal to listen to a live performance. It was even better and more nuanced than the video. He explained how the tanpura, tabla and vocal *sur* has to be matched and how the tabla helped with developing the *laya* in vocal. According to him, you needed to know tabla and tanpura in order to become a complete musician. A tabla player also had to be a singer first. 
 
 After Yaman, the kids made maggi and offered it to us. It was quite tasty. Shonu of course couldn't have it due to her peanut allergy, but had a bar she brought. The kids gave her a chocolate cake bar with no peanuts. That was sweet of them. 
 
