@@ -23,7 +23,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/css/fonts/cabin-sketch-700.woff2') format('woff2');
+  src: url('/css/fonts/cabin-sketch-400.woff2') format('woff2');
 }
 /* Newsreader is kept declared but unreferenced — --font-serif points at
    Crimson Pro. A face nothing uses is never fetched, so this costs a
