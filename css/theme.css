@@ -9,22 +9,21 @@
    fallback shows on every load. Served from this origin — and preloaded in
    _layouts/default.html — the files come out of disk cache before first paint
    on repeat visits, so there is nothing to swap. */
-/* Fredericka the Great ships one weight only. Bold is mapped to the same
-   file so headings keep the drawn strokes instead of the smeared outline a
-   browser synthesises for a missing 700. Latin subset only. */
+/* Cabin Sketch in its two weights, so bold headings use the real 700 file
+   instead of a synthesised one. Latin subset only. */
 @font-face {
-  font-family: 'Fredericka the Great';
+  font-family: 'Cabin Sketch';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/css/fonts/fredericka-the-great.woff2') format('woff2');
+  src: url('/css/fonts/cabin-sketch-400.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'Fredericka the Great';
+  font-family: 'Cabin Sketch';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/css/fonts/fredericka-the-great.woff2') format('woff2');
+  src: url('/css/fonts/cabin-sketch-700.woff2') format('woff2');
 }
 /* Newsreader is kept declared but unreferenced — --font-serif points at
    Crimson Pro. A face nothing uses is never fetched, so this costs a
@@ -93,9 +92,9 @@
   --terminal-accent: #c2774a;
 
   /* No `cursive` fallback: it resolves to a script/italic face (Snell
-     Roundhand, Apple Chancery) that flashes before Fredericka loads. */
-  --font-display: "Fredericka the Great", "Segoe UI", Verdana, sans-serif;
-  --font-body:    "Fredericka the Great", "Segoe UI", Verdana, sans-serif;
+     Roundhand, Apple Chancery) that flashes before Cabin Sketch loads. */
+  --font-display: "Cabin Sketch", "Segoe UI", Verdana, sans-serif;
+  --font-body:    "Cabin Sketch", "Segoe UI", Verdana, sans-serif;
   --font-mono:    ui-monospace, "SF Mono", Menlo, monospace;
   --font-serif:   "Newsreader", Baskerville, Times, "Times New Roman", Georgia, serif;
   --font-code:    "Source Code Pro", ui-monospace, "SF Mono", Menlo, monospace;
@@ -192,7 +191,7 @@ main.wrap, .home-wrap {
 .post-date {
   font-family: var(--font-display);
   color: var(--muted);
-  /* "04 Sep 2024" measures 5.53em in Fredericka the Great, so 6em holds every date
+  /* "04 Sep 2024" measures 5.77em in Cabin Sketch, so 6em holds every date
      on one line and keeps the column aligned. In em rather than px because
      the date's font size changes per device — a fixed 84px column wrapped
      as soon as the type scale grew. min-width, not width, so a fallback
