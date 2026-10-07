@@ -9,6 +9,8 @@
    fallback shows on every load. Served from this origin — and preloaded in
    _layouts/default.html — the files come out of disk cache before first paint
    on repeat visits, so there is nothing to swap. */
+/* Cabin Sketch in its two weights, so bold headings use the real 700 file
+   instead of a synthesised one. Latin subset only. */
 @font-face {
   font-family: 'Cabin Sketch';
   font-style: normal;
@@ -21,7 +23,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/css/fonts/cabin-sketch-700.woff2') format('woff2');
+  src: url('/css/fonts/cabin-sketch-400.woff2') format('woff2');
 }
 /* Newsreader is kept declared but unreferenced — --font-serif points at
    Crimson Pro. A face nothing uses is never fetched, so this costs a
